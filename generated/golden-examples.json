@@ -1,0 +1,47 @@
+{
+  "version": "0.1.0",
+  "generatedAt": "2026-07-31T00:37:18.770Z",
+  "instruction": "Use these examples as the primary reference for EDS imports, prop names, and composition. Retrieve the full record through `eds component <Name>` or MCP get before implementation.",
+  "components": [
+    {
+      "id": "component:Button",
+      "importPath": "@edmunds/eds-core/Button",
+      "examples": [
+        {
+          "name": "Save vehicle",
+          "description": "Primary action on a vehicle card.",
+          "code": "<Button label=\"Save vehicle\" variant=\"primary\" onAction={saveVehicle} />"
+        }
+      ]
+    },
+    {
+      "id": "component:TextField",
+      "importPath": "@edmunds/eds-core/TextField",
+      "examples": [
+        {
+          "name": "ZIP code",
+          "description": "Location input used in inventory search.",
+          "code": "<TextField label=\"ZIP code\" inputMode=\"numeric\" maxLength={5} />"
+        }
+      ]
+    },
+    {
+      "id": "component:VehicleCard",
+      "importPath": "@edmunds/eds-patterns/VehicleCard",
+      "examples": [
+        {
+          "name": "Used SUV result",
+          "description": "Search result with deal rating and payment estimate.",
+          "code": "<VehicleCard year={2023} make=\"Honda\" model=\"CR-V\" trim=\"EX-L AWD\" price={28990} mileage={18420} dealLabel=\"Great price\" />"
+        }
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "id": "template:inventory-results",
+      "skeleton": "InventoryResultsPage\n├── page heading + saved-search action\n├── InventoryFilterBar\n├── optional status Alert\n└── results grid\n    └── VehicleCard × n",
+      "sourcePath": "packages/templates/source/InventoryResultsPage.tsx"
+    }
+  ]
+}

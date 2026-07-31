@@ -1,0 +1,13 @@
+{
+  "name": "@edmunds/eds-example-react",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@edmunds/eds-core": "workspace:*",
+    "@edmunds/eds-patterns": "workspace:*",
+    "@edmunds/eds-theme-edmunds": "workspace:*",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  }
+}

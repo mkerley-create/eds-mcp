@@ -1,0 +1,11 @@
+{
+  "name": "@edmunds/eds-templates",
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "@edmunds/eds-docs-schema": "workspace:*"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}

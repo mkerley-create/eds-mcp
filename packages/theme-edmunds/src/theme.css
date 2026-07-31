@@ -1,0 +1,33 @@
+@import "@edmunds/eds-tokens/tokens.css";
+
+@layer eds-foundations {
+  [data-eds-theme="edmunds"],
+  :root {
+    color-scheme: light;
+    font-family: var(--eds-font-family-body);
+  }
+
+  [data-eds-theme="edmunds"][data-mode="dark"] {
+    color-scheme: dark;
+    --eds-surface-page: #111c24;
+    --eds-surface-raised: #1a2934;
+    --eds-text-primary: #f7fafb;
+    --eds-text-secondary: #bdc9d0;
+    --eds-border-default: #354754;
+    --eds-border-strong: #61727d;
+    --eds-action-primary: #4bb4e8;
+    --eds-action-primary-hover: #79c9ef;
+  }
+
+  [data-eds-theme="edmunds"][data-mode="high-contrast"] {
+    --eds-action-primary: #004d8f;
+    --eds-action-focus: #ffbf00;
+    --eds-border-default: #17232d;
+    --eds-border-strong: #17232d;
+  }
+
+  body {
+    background: var(--eds-surface-page);
+    color: var(--eds-text-primary);
+  }
+}

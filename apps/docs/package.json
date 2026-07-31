@@ -1,0 +1,24 @@
+{
+  "name": "@edmunds/eds-docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@edmunds/eds-core": "workspace:*",
+    "@edmunds/eds-docs-schema": "workspace:*",
+    "@edmunds/eds-patterns": "workspace:*",
+    "@edmunds/eds-theme-edmunds": "workspace:*",
+    "@edmunds/eds-tokens": "workspace:*",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "8.1.3"
+  }
+}

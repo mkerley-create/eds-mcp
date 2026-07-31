@@ -1,0 +1,12 @@
+{
+  "name": "@edmunds/eds-docs-schema",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./reference-docs": "./src/reference-docs.ts"
+  },
+  "dependencies": {
+    "zod": "catalog:"
+  }
+}

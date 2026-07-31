@@ -1,0 +1,23 @@
+[
+  {
+    "component": "Button",
+    "importPath": "@edmunds/eds-core/Button",
+    "componentKey": "pending:Button",
+    "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
+    "status": "pending"
+  },
+  {
+    "component": "TextField",
+    "importPath": "@edmunds/eds-core/TextField",
+    "componentKey": "pending:TextField",
+    "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
+    "status": "pending"
+  },
+  {
+    "component": "VehicleCard",
+    "importPath": "@edmunds/eds-patterns/VehicleCard",
+    "componentKey": "pending:VehicleCard",
+    "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
+    "status": "pending"
+  }
+]

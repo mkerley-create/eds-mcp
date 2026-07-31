@@ -1,0 +1,37 @@
+import {defineComponentDoc} from '@edmunds/eds-docs-schema';
+
+export const textFieldDoc = defineComponentDoc({
+  kind: 'component',
+  id: 'component:TextField',
+  name: 'TextField',
+  displayName: 'Text field',
+  package: '@edmunds/eds-core',
+  importPath: '@edmunds/eds-core/TextField',
+  version: '0.1.0',
+  maturity: 'beta',
+  category: 'Inputs',
+  keywords: ['input', 'field', 'form', 'text', 'validation'],
+  description: 'TextField collects a short, free-form value with persistent labeling and validation.',
+  whenNotToUse: 'Use Select when users must choose from a fixed set of valid values.',
+  props: [
+    {name: 'label', type: 'string', required: true, description: 'Persistent accessible label.'},
+    {name: 'description', type: 'string', description: 'Help text announced with the field.'},
+    {name: 'errorMessage', type: 'string', description: 'Validation message and invalid state.'},
+    {name: 'isLabelHidden', type: 'boolean', default: 'false', description: 'Visually hides but preserves the label.'},
+    {name: 'size', type: "'sm' | 'md' | 'lg'", default: "'md'", description: 'Control density.'},
+  ],
+  anatomy: ['Label', 'Description', 'Control', 'Start content', 'End content', 'Error message'],
+  accessibility: ['Always renders a programmatically associated label.', 'Error and help text use aria-describedby.'],
+  keyboard: ['Standard single-line text input behavior.'],
+  bestPractices: [
+    {type: 'do', description: 'Use a concise noun phrase for the label.'},
+    {type: 'do', description: 'Explain how to resolve a validation error.'},
+    {type: 'dont', description: 'Use placeholder text as the only label.'},
+  ],
+  examples: [{name: 'ZIP code', description: 'Location input used in inventory search.', code: '<TextField label="ZIP code" inputMode="numeric" maxLength={5} />'}],
+  responsive: 'Expands to the width of its containing form region.',
+  theming: {className: 'eds-field', tokens: ['--eds-border-default', '--eds-action-focus', '--eds-radius-control']},
+  related: ['SearchInput', 'Select'],
+  figma: {componentKey: 'pending:TextField', nodeUrl: 'https://www.figma.com/file/EDS/Edmunds-Design-System', status: 'pending'},
+  dense: 'TextField labeled text input. import @edmunds/eds-core/TextField. label required; description and errorMessage wire aria-describedby.',
+});

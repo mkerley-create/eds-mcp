@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "declaration": true,
+    "declarationMap": true,
+    "ignoreDeprecations": "6.0",
+    "types": ["node", "react", "react-dom", "vite/client"],
+    "baseUrl": ".",
+    "paths": {
+      "@edmunds/eds-docs-schema": ["packages/docs-schema/src/index.ts"],
+      "@edmunds/eds-tokens": ["packages/tokens/src/index.ts"],
+      "@edmunds/eds-core": ["packages/core/src/index.ts"],
+      "@edmunds/eds-core/*": ["packages/core/src/*/index.ts"],
+      "@edmunds/eds-patterns": ["packages/patterns/src/index.ts"],
+      "@edmunds/eds-templates": ["packages/templates/src/index.ts"],
+      "@edmunds/eds-mcp": ["packages/mcp/src/index.ts"]
+    }
+  },
+  "include": ["apps", "packages", "internal", "scripts", "vitest.setup.ts", "global.d.ts"]
+}

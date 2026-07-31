@@ -1,0 +1,11 @@
+{
+  "name": "@edmunds/eds-mcp-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@edmunds/eds-mcp": "workspace:*",
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "express": "^5.1.0"
+  }
+}

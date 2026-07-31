@@ -1,0 +1,521 @@
+{
+  "name": "Edmunds Design System",
+  "version": "0.1.0",
+  "generatedAt": "2026-07-31T00:37:18.770Z",
+  "items": [
+    {
+      "kind": "doc",
+      "id": "doc:getting-started",
+      "title": "Getting started",
+      "category": "guide",
+      "description": "Add EDS to a React, Bootstrap, or Venom project and give agents the same reference.",
+      "sections": [
+        {
+          "title": "Quick start with AI",
+          "body": "Paste this into your coding agent. It installs EDS and writes version-matched project guidance without replacing your instructions.",
+          "code": "Install @edmunds/eds-core, @edmunds/eds-theme-edmunds, @edmunds/eds-bootstrap-adapter, and @edmunds/eds-cli. Run `eds init`, then read the managed EDS block in AGENTS.md."
+        },
+        {
+          "title": "Install",
+          "body": "Install the component package, Edmunds theme, Bootstrap compatibility layer, and CLI.",
+          "code": "pnpm add @edmunds/eds-core @edmunds/eds-theme-edmunds @edmunds/eds-bootstrap-adapter bootstrap\npnpm add -D @edmunds/eds-cli"
+        },
+        {
+          "title": "Add CSS in contract order",
+          "body": "The bridge imports Bootstrap and EDS into explicit cascade layers. App utilities and overrides remain above the system.",
+          "code": "@layer reset, bootstrap, eds-foundations, eds-components, app-utilities, app-overrides;\n@import \"@edmunds/eds-bootstrap-adapter/bootstrap-bridge.css\";"
+        },
+        {
+          "title": "Add your first component",
+          "body": "Use per-component entry points so imports remain predictable for people, bundlers, and agents.",
+          "code": "import {Button} from \"@edmunds/eds-core/Button\";\n\n<Button label=\"Save vehicle\" variant=\"primary\" />"
+        },
+        {
+          "title": "Explore",
+          "body": "Use the CLI before authoring a screen: inspect a related template, then retrieve each component contract.",
+          "code": "eds template --list\neds template inventory-results --skeleton\neds component VehicleCard --dense\neds golden VehicleCard\neds docs tokens"
+        },
+        {
+          "title": "Open the living artifacts",
+          "body": "design-system.html is the portable visual contract and embeds the current registry. scratchpad.html is a throwaway interactive surface for resolving ambiguous design decisions before product integration.",
+          "code": "open apps/docs/public/design-system.html\nopen apps/docs/public/scratchpad.html"
+        }
+      ],
+      "dense": "Install core/theme/bootstrap-adapter/cli; run eds init; import bridge CSS; use per-component imports; inspect templates then component docs."
+    },
+    {
+      "kind": "doc",
+      "id": "doc:principles",
+      "title": "Principles",
+      "category": "guide",
+      "description": "The product promises that guide EDS decisions.",
+      "sections": [
+        {
+          "title": "Comparable by default",
+          "body": "Vehicle identity, price, mileage, and dealer facts occupy consistent positions so shoppers can compare without relearning the interface."
+        },
+        {
+          "title": "Guidance over lock-in",
+          "body": "EDS owns accessible behavior and semantic APIs. Teams retain controlled composition and documented CSS escape hatches."
+        },
+        {
+          "title": "One reference",
+          "body": "The website, Figma mapping, CLI, agent files, and MCP are generated from the installed component and token contracts."
+        },
+        {
+          "title": "Earned by use",
+          "body": "A component becomes stable only after real product use, accessibility review, and human plus agent evaluation."
+        }
+      ],
+      "dense": "Principles: comparable by default; guidance over lock-in; one generated reference; stability earned through use and evaluation."
+    },
+    {
+      "kind": "doc",
+      "id": "doc:tokens",
+      "title": "Design tokens",
+      "category": "foundation",
+      "description": "DTCG primitives and semantic roles shared by code and Figma.",
+      "sections": [
+        {
+          "title": "Use semantic roles",
+          "body": "Build product UI with surface, text, action, status, price, and border roles. Primitive ramps are inputs to the theme rather than app-level choices."
+        },
+        {
+          "title": "Generated outputs",
+          "body": "One token source produces CSS custom properties, TypeScript, Bootstrap Sass variables, registry data, and Figma Variables."
+        },
+        {
+          "title": "Modes",
+          "body": "Light is the default. Dark and high-contrast modes override semantic roles without changing component source."
+        }
+      ],
+      "dense": "DTCG tokens generate CSS/TS/Sass/Figma. Apps use semantic --eds-* roles, not primitive colors. Modes override semantics."
+    },
+    {
+      "kind": "doc",
+      "id": "doc:accessibility",
+      "title": "Accessibility",
+      "category": "guide",
+      "description": "WCAG 2.2 AA behavior is part of every stable component contract.",
+      "sections": [
+        {
+          "title": "Native first",
+          "body": "Prefer native controls and landmarks. Custom behavior must preserve semantics, accessible names, focus order, and keyboard operation."
+        },
+        {
+          "title": "State is communicated",
+          "body": "Loading, error, selected, expanded, and saved states are exposed programmatically and never rely on color alone."
+        },
+        {
+          "title": "Release gate",
+          "body": "Stable components require automated axe coverage, keyboard scenarios, zoom and reduced-motion review, and manual assistive-technology checks."
+        }
+      ],
+      "dense": "WCAG 2.2 AA: native first; expose all states; stable requires axe, keyboard, zoom, reduced motion, and manual AT review."
+    },
+    {
+      "kind": "doc",
+      "id": "doc:working-with-ai",
+      "title": "Working with AI",
+      "category": "guide",
+      "description": "Make agents retrieve installed EDS contracts before generating UI.",
+      "sections": [
+        {
+          "title": "Required workflow",
+          "body": "Search templates, inspect the closest skeleton, then retrieve documentation for every component used."
+        },
+        {
+          "title": "Dense output",
+          "body": "All read commands accept --dense for a compact, version-specific contract that fits agent context windows."
+        },
+        {
+          "title": "Golden examples",
+          "body": "Use `eds golden <Name>` as the primary composition reference after retrieving the component contract. Golden examples are generated from the same typed documentation."
+        },
+        {
+          "title": "Interactive uncertainty",
+          "body": "When product intent is ambiguous, build the smallest option in scratchpad.html, state the decision being tested, and wait for approval before integrating it."
+        },
+        {
+          "title": "Fail fast",
+          "body": "Run `pnpm lint:eds` before type checking. It rejects hardcoded colors, inline style objects, and direct React-Bootstrap or Bootstrap behavior imports in product and template source."
+        },
+        {
+          "title": "MCP",
+          "body": "The authenticated MCP provides search and get over the same registry as the CLI and documentation portal."
+        }
+      ],
+      "dense": "Agents: template --list; template NAME --skeleton; component NAME --dense; golden NAME. Ambiguity goes to scratchpad.html. Run lint:eds. MCP search/get serves the same registry."
+    },
+    {
+      "kind": "doc",
+      "id": "doc:migration",
+      "title": "Venom and Bootstrap migration",
+      "category": "guide",
+      "description": "Introduce EDS one route at a time without changing product behavior.",
+      "sections": [
+        {
+          "title": "Layer first",
+          "body": "Load Bootstrap and EDS in explicit layers before replacing controls. Verify a smoke page with Button, TextField, Card, and VehicleCard."
+        },
+        {
+          "title": "Migrate in product slices",
+          "body": "Apply tokens and shell, then replace shared controls and automotive compositions, then complete routes."
+        },
+        {
+          "title": "Keep behavior intact",
+          "body": "Do not mix the visual migration with changes to routing, data fetching, analytics, SEO, or business rules."
+        }
+      ],
+      "dense": "Venom migration: establish layers; smoke-test foundations; migrate shell then controls/patterns then routes; preserve business behavior."
+    },
+    {
+      "kind": "component",
+      "id": "component:Button",
+      "name": "Button",
+      "displayName": "Button",
+      "package": "@edmunds/eds-core",
+      "importPath": "@edmunds/eds-core/Button",
+      "version": "0.1.0",
+      "maturity": "beta",
+      "category": "Actions",
+      "keywords": [
+        "button",
+        "action",
+        "submit",
+        "cta",
+        "loading"
+      ],
+      "description": "Button starts an immediate action such as saving a vehicle, applying a filter, or submitting a lead.",
+      "whenNotToUse": "Use Link when the interaction only navigates to another location.",
+      "props": [
+        {
+          "name": "label",
+          "type": "string",
+          "description": "Visible text and accessible name.",
+          "required": true
+        },
+        {
+          "name": "variant",
+          "type": "'primary' | 'secondary' | 'tertiary' | 'destructive'",
+          "description": "Semantic action emphasis.",
+          "default": "'secondary'"
+        },
+        {
+          "name": "size",
+          "type": "'sm' | 'md' | 'lg'",
+          "description": "Control density.",
+          "default": "'md'"
+        },
+        {
+          "name": "isLoading",
+          "type": "boolean",
+          "description": "Shows progress and prevents duplicate activation.",
+          "default": "false"
+        },
+        {
+          "name": "isDisabled",
+          "type": "boolean",
+          "description": "Prevents interaction.",
+          "default": "false"
+        },
+        {
+          "name": "onAction",
+          "type": "(event) => void | Promise<void>",
+          "description": "Action callback with automatic async progress."
+        }
+      ],
+      "anatomy": [
+        "Container",
+        "Start icon",
+        "Action label",
+        "End icon",
+        "Progress indicator"
+      ],
+      "accessibility": [
+        "Uses a native button and defaults type to button.",
+        "Async actions expose aria-busy and a polite loading announcement."
+      ],
+      "keyboard": [
+        "Enter or Space activates the button."
+      ],
+      "bestPractices": [
+        {
+          "type": "do",
+          "description": "Use one primary action per decision area."
+        },
+        {
+          "type": "do",
+          "description": "Use a verb that names the result, such as Save vehicle."
+        },
+        {
+          "type": "dont",
+          "description": "Use destructive styling for reversible actions."
+        }
+      ],
+      "examples": [
+        {
+          "name": "Save vehicle",
+          "description": "Primary action on a vehicle card.",
+          "code": "<Button label=\"Save vehicle\" variant=\"primary\" onAction={saveVehicle} />"
+        }
+      ],
+      "responsive": "Labels remain visible. Use the sm size only in space-constrained toolbars.",
+      "theming": {
+        "className": "eds-button",
+        "tokens": [
+          "--eds-action-primary",
+          "--eds-action-primary-hover",
+          "--eds-radius-control"
+        ]
+      },
+      "related": [
+        "IconButton",
+        "Link"
+      ],
+      "figma": {
+        "componentKey": "pending:Button",
+        "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
+        "status": "pending"
+      },
+      "dense": "Button action trigger. import @edmunds/eds-core/Button. label required; variants primary|secondary|tertiary|destructive; async onAction manages loading."
+    },
+    {
+      "kind": "component",
+      "id": "component:TextField",
+      "name": "TextField",
+      "displayName": "Text field",
+      "package": "@edmunds/eds-core",
+      "importPath": "@edmunds/eds-core/TextField",
+      "version": "0.1.0",
+      "maturity": "beta",
+      "category": "Inputs",
+      "keywords": [
+        "input",
+        "field",
+        "form",
+        "text",
+        "validation"
+      ],
+      "description": "TextField collects a short, free-form value with persistent labeling and validation.",
+      "whenNotToUse": "Use Select when users must choose from a fixed set of valid values.",
+      "props": [
+        {
+          "name": "label",
+          "type": "string",
+          "description": "Persistent accessible label.",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "description": "Help text announced with the field."
+        },
+        {
+          "name": "errorMessage",
+          "type": "string",
+          "description": "Validation message and invalid state."
+        },
+        {
+          "name": "isLabelHidden",
+          "type": "boolean",
+          "description": "Visually hides but preserves the label.",
+          "default": "false"
+        },
+        {
+          "name": "size",
+          "type": "'sm' | 'md' | 'lg'",
+          "description": "Control density.",
+          "default": "'md'"
+        }
+      ],
+      "anatomy": [
+        "Label",
+        "Description",
+        "Control",
+        "Start content",
+        "End content",
+        "Error message"
+      ],
+      "accessibility": [
+        "Always renders a programmatically associated label.",
+        "Error and help text use aria-describedby."
+      ],
+      "keyboard": [
+        "Standard single-line text input behavior."
+      ],
+      "bestPractices": [
+        {
+          "type": "do",
+          "description": "Use a concise noun phrase for the label."
+        },
+        {
+          "type": "do",
+          "description": "Explain how to resolve a validation error."
+        },
+        {
+          "type": "dont",
+          "description": "Use placeholder text as the only label."
+        }
+      ],
+      "examples": [
+        {
+          "name": "ZIP code",
+          "description": "Location input used in inventory search.",
+          "code": "<TextField label=\"ZIP code\" inputMode=\"numeric\" maxLength={5} />"
+        }
+      ],
+      "responsive": "Expands to the width of its containing form region.",
+      "theming": {
+        "className": "eds-field",
+        "tokens": [
+          "--eds-border-default",
+          "--eds-action-focus",
+          "--eds-radius-control"
+        ]
+      },
+      "related": [
+        "SearchInput",
+        "Select"
+      ],
+      "figma": {
+        "componentKey": "pending:TextField",
+        "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
+        "status": "pending"
+      },
+      "dense": "TextField labeled text input. import @edmunds/eds-core/TextField. label required; description and errorMessage wire aria-describedby."
+    },
+    {
+      "kind": "component",
+      "id": "component:VehicleCard",
+      "name": "VehicleCard",
+      "displayName": "Vehicle card",
+      "package": "@edmunds/eds-patterns",
+      "importPath": "@edmunds/eds-patterns/VehicleCard",
+      "version": "0.1.0",
+      "maturity": "beta",
+      "category": "Automotive",
+      "keywords": [
+        "vehicle",
+        "inventory",
+        "listing",
+        "price",
+        "save"
+      ],
+      "description": "VehicleCard presents a single inventory result with comparable pricing, mileage, location, and actions.",
+      "whenNotToUse": "Use a data row for dense comparison tables or a media gallery on a vehicle detail page.",
+      "props": [
+        {
+          "name": "year",
+          "type": "number",
+          "description": "Model year.",
+          "required": true
+        },
+        {
+          "name": "make",
+          "type": "string",
+          "description": "Vehicle manufacturer.",
+          "required": true
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": "Vehicle model.",
+          "required": true
+        },
+        {
+          "name": "price",
+          "type": "number",
+          "description": "Advertised price formatted as USD.",
+          "required": true
+        },
+        {
+          "name": "mileage",
+          "type": "number",
+          "description": "Odometer reading formatted in miles."
+        },
+        {
+          "name": "isSaved",
+          "type": "boolean",
+          "description": "Saved state exposed with aria-pressed.",
+          "default": "false"
+        }
+      ],
+      "anatomy": [
+        "Vehicle media",
+        "Deal label",
+        "Save action",
+        "Identity",
+        "Price",
+        "Facts",
+        "Details action"
+      ],
+      "accessibility": [
+        "Save uses a pressed-state button with a vehicle-specific name.",
+        "The heading gives each result an accessible landmark name."
+      ],
+      "keyboard": [
+        "Tab reaches save and details actions in visual order.",
+        "Space toggles save."
+      ],
+      "bestPractices": [
+        {
+          "type": "do",
+          "description": "Keep price, mileage, and location in consistent positions across results."
+        },
+        {
+          "type": "do",
+          "description": "Use the dealer-provided image description when it adds useful context."
+        },
+        {
+          "type": "dont",
+          "description": "Mix financing qualification language into the primary price."
+        }
+      ],
+      "examples": [
+        {
+          "name": "Used SUV result",
+          "description": "Search result with deal rating and payment estimate.",
+          "code": "<VehicleCard year={2023} make=\"Honda\" model=\"CR-V\" trim=\"EX-L AWD\" price={28990} mileage={18420} dealLabel=\"Great price\" />"
+        }
+      ],
+      "responsive": "Media stays above content on narrow cards; search templates control column count.",
+      "theming": {
+        "className": "eds-vehicle-card",
+        "tokens": [
+          "--eds-price-good",
+          "--eds-surface-raised",
+          "--eds-border-default"
+        ]
+      },
+      "related": [
+        "Button",
+        "InventoryFilterBar"
+      ],
+      "figma": {
+        "componentKey": "pending:VehicleCard",
+        "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
+        "status": "pending"
+      },
+      "dense": "VehicleCard inventory result. import @edmunds/eds-patterns/VehicleCard. year/make/model/price required; save is aria-pressed; use in listing grids."
+    },
+    {
+      "kind": "template",
+      "id": "template:inventory-results",
+      "name": "Inventory results",
+      "category": "Vehicle shopping",
+      "description": "Responsive search results with query controls, filters, count, and comparable vehicle cards.",
+      "components": [
+        "InventoryFilterBar",
+        "VehicleCard",
+        "Heading",
+        "Stack",
+        "Alert"
+      ],
+      "sourcePath": "packages/templates/source/InventoryResultsPage.tsx",
+      "skeleton": "InventoryResultsPage\n├── page heading + saved-search action\n├── InventoryFilterBar\n├── optional status Alert\n└── results grid\n    └── VehicleCard × n",
+      "maturity": "beta",
+      "dense": "Inventory results template: heading, filter bar, optional alert, responsive VehicleCard grid."
+    }
+  ]
+}

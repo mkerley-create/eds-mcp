@@ -1,0 +1,12 @@
+{
+  "name": "@edmunds/eds-example-venom",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@edmunds/eds-bootstrap-adapter": "workspace:*",
+    "@edmunds/eds-patterns": "workspace:*",
+    "bootstrap": "^5.3.8",
+    "react": "catalog:"
+  }
+}

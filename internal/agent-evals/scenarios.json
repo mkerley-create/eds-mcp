@@ -1,0 +1,16 @@
+[
+  {
+    "id": "inventory-results",
+    "prompt": "Build a responsive page of used SUVs near 90404 with filters, result count, save actions, loading, empty, and error states.",
+    "requiredImports": ["InventoryFilterBar", "VehicleCard"],
+    "forbiddenPatterns": ["react-bootstrap/Button", "style={{", "#00599C"],
+    "checks": ["typecheck", "axe", "keyboard", "responsive", "visual"]
+  },
+  {
+    "id": "dealer-lead",
+    "prompt": "Build a dealer contact form for a specific vehicle with validation and an async submit action.",
+    "requiredImports": ["TextField", "Button", "Alert"],
+    "forbiddenPatterns": ["placeholder-only-label", "window.alert"],
+    "checks": ["typecheck", "axe", "validation", "loading"]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "@edmunds/eds-tokens",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./tokens.css": "./generated/tokens.css",
+    "./bootstrap.scss": "./generated/bootstrap.scss",
+    "./figma.json": "./generated/figma-variables.json"
+  }
+}

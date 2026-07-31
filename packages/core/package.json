@@ -1,0 +1,27 @@
+{
+  "name": "@edmunds/eds-core",
+  "version": "0.1.0",
+  "type": "module",
+  "sideEffects": ["**/*.css"],
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0",
+    "react-dom": "^18.2.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "@edmunds/eds-docs-schema": "workspace:*"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles.css": "./src/styles.css",
+    "./reset.css": "./src/reset.css",
+    "./Button": "./src/Button/index.ts",
+    "./IconButton": "./src/IconButton/index.ts",
+    "./TextField": "./src/TextField/index.ts",
+    "./SearchInput": "./src/SearchInput/index.ts",
+    "./Card": "./src/Card/index.ts",
+    "./Stack": "./src/Stack/index.ts",
+    "./Typography": "./src/Typography/index.ts",
+    "./Alert": "./src/Alert/index.ts",
+    "./Spinner": "./src/Spinner/index.ts"
+  }
+}

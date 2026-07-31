@@ -1,0 +1,14 @@
+{
+  "name": "@edmunds/eds-bootstrap-adapter",
+  "version": "0.1.0",
+  "type": "module",
+  "sideEffects": ["**/*.css"],
+  "peerDependencies": {
+    "bootstrap": "^5.3.0",
+    "react": "^18.2.0 || ^19.0.0"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./bootstrap-bridge.css": "./src/bootstrap-bridge.css"
+  }
+}

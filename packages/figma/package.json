@@ -1,0 +1,10 @@
+{
+  "name": "@edmunds/eds-figma",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./variables.json": "./generated/figma-variables.json",
+    "./code-connect.json": "./generated/code-connect.json"
+  }
+}

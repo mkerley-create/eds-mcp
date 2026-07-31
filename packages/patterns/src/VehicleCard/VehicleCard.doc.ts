@@ -1,0 +1,38 @@
+import {defineComponentDoc} from '@edmunds/eds-docs-schema';
+
+export const vehicleCardDoc = defineComponentDoc({
+  kind: 'component',
+  id: 'component:VehicleCard',
+  name: 'VehicleCard',
+  displayName: 'Vehicle card',
+  package: '@edmunds/eds-patterns',
+  importPath: '@edmunds/eds-patterns/VehicleCard',
+  version: '0.1.0',
+  maturity: 'beta',
+  category: 'Automotive',
+  keywords: ['vehicle', 'inventory', 'listing', 'price', 'save'],
+  description: 'VehicleCard presents a single inventory result with comparable pricing, mileage, location, and actions.',
+  whenNotToUse: 'Use a data row for dense comparison tables or a media gallery on a vehicle detail page.',
+  props: [
+    {name: 'year', type: 'number', required: true, description: 'Model year.'},
+    {name: 'make', type: 'string', required: true, description: 'Vehicle manufacturer.'},
+    {name: 'model', type: 'string', required: true, description: 'Vehicle model.'},
+    {name: 'price', type: 'number', required: true, description: 'Advertised price formatted as USD.'},
+    {name: 'mileage', type: 'number', description: 'Odometer reading formatted in miles.'},
+    {name: 'isSaved', type: 'boolean', default: 'false', description: 'Saved state exposed with aria-pressed.'},
+  ],
+  anatomy: ['Vehicle media', 'Deal label', 'Save action', 'Identity', 'Price', 'Facts', 'Details action'],
+  accessibility: ['Save uses a pressed-state button with a vehicle-specific name.', 'The heading gives each result an accessible landmark name.'],
+  keyboard: ['Tab reaches save and details actions in visual order.', 'Space toggles save.'],
+  bestPractices: [
+    {type: 'do', description: 'Keep price, mileage, and location in consistent positions across results.'},
+    {type: 'do', description: 'Use the dealer-provided image description when it adds useful context.'},
+    {type: 'dont', description: 'Mix financing qualification language into the primary price.'},
+  ],
+  examples: [{name: 'Used SUV result', description: 'Search result with deal rating and payment estimate.', code: '<VehicleCard year={2023} make="Honda" model="CR-V" trim="EX-L AWD" price={28990} mileage={18420} dealLabel="Great price" />'}],
+  responsive: 'Media stays above content on narrow cards; search templates control column count.',
+  theming: {className: 'eds-vehicle-card', tokens: ['--eds-price-good', '--eds-surface-raised', '--eds-border-default']},
+  related: ['Button', 'InventoryFilterBar'],
+  figma: {componentKey: 'pending:VehicleCard', nodeUrl: 'https://www.figma.com/file/EDS/Edmunds-Design-System', status: 'pending'},
+  dense: 'VehicleCard inventory result. import @edmunds/eds-patterns/VehicleCard. year/make/model/price required; save is aria-pressed; use in listing grids.',
+});

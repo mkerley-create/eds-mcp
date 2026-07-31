@@ -1,0 +1,93 @@
+@layer eds-components {
+  .eds-vehicle-card {
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .eds-vehicle-card__media {
+    aspect-ratio: 16 / 10;
+    background:
+      linear-gradient(150deg, rgb(221 239 253 / 85%), rgb(243 246 248 / 35%)),
+      repeating-linear-gradient(90deg, transparent 0 48px, rgb(0 59 112 / 4%) 48px 49px);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .eds-vehicle-card__media img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .eds-vehicle-card__silhouette {
+    align-items: end;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .eds-vehicle-card__silhouette span {
+    background: var(--eds-blue-700);
+    border-radius: 48% 52% 12% 12% / 65% 68% 18% 18%;
+    box-shadow:
+      -52px 20px 0 -34px var(--eds-ink-900),
+      52px 20px 0 -34px var(--eds-ink-900);
+    display: block;
+    height: 34%;
+    margin-bottom: 18%;
+    opacity: 0.88;
+    transform: skewX(-8deg);
+    width: 68%;
+  }
+
+  .eds-vehicle-card__deal {
+    background: var(--eds-status-success);
+    border-radius: var(--eds-radius-pill);
+    color: var(--eds-text-inverse);
+    font-size: 0.75rem;
+    font-weight: 700;
+    inset: var(--eds-space-3) auto auto var(--eds-space-3);
+    padding: var(--eds-space-1) var(--eds-space-2);
+    position: absolute;
+  }
+
+  .eds-vehicle-card__save {
+    align-items: center;
+    background: rgb(255 255 255 / 92%);
+    border: 0;
+    border-radius: 50%;
+    color: var(--eds-blue-700);
+    cursor: pointer;
+    display: flex;
+    font-size: 1.5rem;
+    height: 44px;
+    inset: var(--eds-space-3) var(--eds-space-3) auto auto;
+    justify-content: center;
+    position: absolute;
+    width: 44px;
+  }
+
+  .eds-vehicle-card__save:focus-visible {
+    outline: 3px solid var(--eds-action-focus);
+    outline-offset: 2px;
+  }
+
+  .eds-vehicle-card__content { padding: var(--eds-space-4); }
+  .eds-vehicle-card__price-row { align-items: baseline; display: flex; gap: var(--eds-space-2); }
+  .eds-vehicle-card__price { color: var(--eds-text-primary); font-family: var(--eds-font-family-data); font-size: 1.35rem; }
+
+  .eds-inventory-filter-bar {
+    align-items: center;
+    background: var(--eds-surface-raised);
+    border-block: 1px solid var(--eds-border-default);
+    display: grid;
+    gap: var(--eds-space-4);
+    grid-template-columns: minmax(220px, 1fr) auto;
+    padding: var(--eds-space-4);
+  }
+
+  @media (max-width: 640px) {
+    .eds-inventory-filter-bar { grid-template-columns: 1fr; }
+  }
+}

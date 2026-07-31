@@ -1,0 +1,9 @@
+{
+  "name": "@edmunds/eds-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {"eds": "./src/index.ts"},
+  "dependencies": {
+    "@edmunds/eds-docs-schema": "workspace:*"
+  }
+}
