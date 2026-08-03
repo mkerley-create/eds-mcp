@@ -2,22 +2,66 @@
   {
     "component": "Button",
     "importPath": "@edmunds/eds-core/Button",
-    "componentKey": "pending:Button",
-    "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
-    "status": "pending"
-  },
-  {
-    "component": "TextField",
-    "importPath": "@edmunds/eds-core/TextField",
-    "componentKey": "pending:TextField",
-    "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
-    "status": "pending"
-  },
-  {
-    "component": "VehicleCard",
-    "importPath": "@edmunds/eds-patterns/VehicleCard",
-    "componentKey": "pending:VehicleCard",
-    "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
-    "status": "pending"
+    "fileKey": "T8rUSiQrbvY1TbW2VSyCj6",
+    "nodeId": "6001:19580",
+    "nodeUrl": "https://www.figma.com/design/T8rUSiQrbvY1TbW2VSyCj6/Buttons?node-id=6001-19580",
+    "status": "adapter-mapped",
+    "target": {
+      "componentName": "EDSButton",
+      "importPath": "@edmunds/eds-venom-adapter/EDSButton",
+      "sourcePath": "packages/venom-adapter/src/EDSButton/EDSButton.tsx",
+      "properties": [
+        {
+          "figmaName": "Type",
+          "propName": "type",
+          "kind": "enum",
+          "mapping": {
+            "Primary 1": "primary-1",
+            "Primary 2": "primary-2",
+            "Secondary 1": "secondary-1",
+            "Secondary 2": "secondary-2"
+          }
+        },
+        {
+          "figmaName": "Size",
+          "propName": "size",
+          "kind": "enum",
+          "mapping": {
+            "Small": "small",
+            "Medium": "medium",
+            "Large": "large"
+          }
+        },
+        {
+          "figmaName": "Style",
+          "propName": "style",
+          "kind": "enum",
+          "mapping": {
+            "Squared": "squared",
+            "Rounded": "rounded",
+            "Circular": "circular"
+          }
+        },
+        {
+          "figmaName": "Fluid",
+          "propName": "isFluid",
+          "kind": "boolean"
+        },
+        {
+          "figmaName": "State",
+          "propName": "isDisabled",
+          "kind": "enum",
+          "mapping": {
+            "Default": false,
+            "Disabled": true
+          }
+        },
+        {
+          "figmaName": "Button Text",
+          "propName": "children",
+          "kind": "string"
+        }
+      ]
+    }
   }
 ]

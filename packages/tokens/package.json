@@ -6,6 +6,7 @@
     ".": "./src/index.ts",
     "./tokens.css": "./generated/tokens.css",
     "./bootstrap.scss": "./generated/bootstrap.scss",
-    "./figma.json": "./generated/figma-variables.json"
+    "./figma.json": "./generated/figma-variables.json",
+    "./contracts.json": "./generated/token-contracts.json"
   }
 }

@@ -18,6 +18,8 @@ export const textFieldDoc = defineComponentDoc({
     {name: 'description', type: 'string', description: 'Help text announced with the field.'},
     {name: 'errorMessage', type: 'string', description: 'Validation message and invalid state.'},
     {name: 'isLabelHidden', type: 'boolean', default: 'false', description: 'Visually hides but preserves the label.'},
+    {name: 'startContent', type: 'ReactNode', description: 'Optional content rendered before the input.'},
+    {name: 'endContent', type: 'ReactNode', description: 'Optional content rendered after the input.'},
     {name: 'size', type: "'sm' | 'md' | 'lg'", default: "'md'", description: 'Control density.'},
   ],
   anatomy: ['Label', 'Description', 'Control', 'Start content', 'End content', 'Error message'],
@@ -32,6 +34,10 @@ export const textFieldDoc = defineComponentDoc({
   responsive: 'Expands to the width of its containing form region.',
   theming: {className: 'eds-field', tokens: ['--eds-border-default', '--eds-action-focus', '--eds-radius-control']},
   related: ['SearchInput', 'Select'],
-  figma: {componentKey: 'pending:TextField', nodeUrl: 'https://www.figma.com/file/EDS/Edmunds-Design-System', status: 'pending'},
+  source: {
+    path: 'packages/core/src/TextField/TextField.tsx',
+    propsType: 'TextFieldProps',
+  },
+  figma: {status: 'pending'},
   dense: 'TextField labeled text input. import @edmunds/eds-core/TextField. label required; description and errorMessage wire aria-describedby.',
 });

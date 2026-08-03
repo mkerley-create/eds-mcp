@@ -23,9 +23,10 @@
       "@edmunds/eds-core": ["packages/core/src/index.ts"],
       "@edmunds/eds-core/*": ["packages/core/src/*/index.ts"],
       "@edmunds/eds-patterns": ["packages/patterns/src/index.ts"],
+      "@edmunds/eds-venom-adapter": ["packages/venom-adapter/src/index.ts"],
       "@edmunds/eds-templates": ["packages/templates/src/index.ts"],
       "@edmunds/eds-mcp": ["packages/mcp/src/index.ts"]
     }
   },
-  "include": ["apps", "packages", "internal", "scripts", "vitest.setup.ts", "global.d.ts"]
+  "include": ["apps", "packages", "scripts", "vitest.setup.ts", "global.d.ts"]
 }

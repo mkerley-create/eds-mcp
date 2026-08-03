@@ -1,0 +1,398 @@
+{
+  "version": "0.1.0",
+  "family": "Helvetica Neue",
+  "styles": [
+    {
+      "id": "typography:display-large",
+      "role": "display",
+      "size": "large",
+      "cssClass": "eds-type-display-large",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-display-large-font-family"
+        },
+        "fontSize": {
+          "value": "3.5rem",
+          "cssVariable": "--eds-typography-display-large-font-size"
+        },
+        "fontWeight": {
+          "value": "700",
+          "cssVariable": "--eds-typography-display-large-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.2",
+          "cssVariable": "--eds-typography-display-large-line-height"
+        },
+        "letterSpacing": {
+          "value": "-0.02em",
+          "cssVariable": "--eds-typography-display-large-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:display-small",
+      "role": "display",
+      "size": "small",
+      "cssClass": "eds-type-display-small",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-display-small-font-family"
+        },
+        "fontSize": {
+          "value": "3rem",
+          "cssVariable": "--eds-typography-display-small-font-size"
+        },
+        "fontWeight": {
+          "value": "700",
+          "cssVariable": "--eds-typography-display-small-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.2",
+          "cssVariable": "--eds-typography-display-small-line-height"
+        },
+        "letterSpacing": {
+          "value": "-0.02em",
+          "cssVariable": "--eds-typography-display-small-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:headline-large",
+      "role": "headline",
+      "size": "large",
+      "cssClass": "eds-type-headline-large",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-headline-large-font-family"
+        },
+        "fontSize": {
+          "value": "2.25rem",
+          "cssVariable": "--eds-typography-headline-large-font-size"
+        },
+        "fontWeight": {
+          "value": "700",
+          "cssVariable": "--eds-typography-headline-large-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.11",
+          "cssVariable": "--eds-typography-headline-large-line-height"
+        },
+        "letterSpacing": {
+          "value": "-0.02em",
+          "cssVariable": "--eds-typography-headline-large-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:headline-medium",
+      "role": "headline",
+      "size": "medium",
+      "cssClass": "eds-type-headline-medium",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-headline-medium-font-family"
+        },
+        "fontSize": {
+          "value": "1.875rem",
+          "cssVariable": "--eds-typography-headline-medium-font-size"
+        },
+        "fontWeight": {
+          "value": "700",
+          "cssVariable": "--eds-typography-headline-medium-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.2",
+          "cssVariable": "--eds-typography-headline-medium-line-height"
+        },
+        "letterSpacing": {
+          "value": "-0.02em",
+          "cssVariable": "--eds-typography-headline-medium-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:headline-small",
+      "role": "headline",
+      "size": "small",
+      "cssClass": "eds-type-headline-small",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-headline-small-font-family"
+        },
+        "fontSize": {
+          "value": "1.5rem",
+          "cssVariable": "--eds-typography-headline-small-font-size"
+        },
+        "fontWeight": {
+          "value": "700",
+          "cssVariable": "--eds-typography-headline-small-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.25",
+          "cssVariable": "--eds-typography-headline-small-line-height"
+        },
+        "letterSpacing": {
+          "value": "-0.02em",
+          "cssVariable": "--eds-typography-headline-small-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:title-large",
+      "role": "title",
+      "size": "large",
+      "cssClass": "eds-type-title-large",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-title-large-font-family"
+        },
+        "fontSize": {
+          "value": "1.25rem",
+          "cssVariable": "--eds-typography-title-large-font-size"
+        },
+        "fontWeight": {
+          "value": "500",
+          "cssVariable": "--eds-typography-title-large-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.2",
+          "cssVariable": "--eds-typography-title-large-line-height"
+        },
+        "letterSpacing": {
+          "value": "0em",
+          "cssVariable": "--eds-typography-title-large-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:title-medium",
+      "role": "title",
+      "size": "medium",
+      "cssClass": "eds-type-title-medium",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-title-medium-font-family"
+        },
+        "fontSize": {
+          "value": "1rem",
+          "cssVariable": "--eds-typography-title-medium-font-size"
+        },
+        "fontWeight": {
+          "value": "500",
+          "cssVariable": "--eds-typography-title-medium-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.375",
+          "cssVariable": "--eds-typography-title-medium-line-height"
+        },
+        "letterSpacing": {
+          "value": "0em",
+          "cssVariable": "--eds-typography-title-medium-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:title-small",
+      "role": "title",
+      "size": "small",
+      "cssClass": "eds-type-title-small",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-title-small-font-family"
+        },
+        "fontSize": {
+          "value": "0.875rem",
+          "cssVariable": "--eds-typography-title-small-font-size"
+        },
+        "fontWeight": {
+          "value": "500",
+          "cssVariable": "--eds-typography-title-small-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.428",
+          "cssVariable": "--eds-typography-title-small-line-height"
+        },
+        "letterSpacing": {
+          "value": "0em",
+          "cssVariable": "--eds-typography-title-small-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:body-large",
+      "role": "body",
+      "size": "large",
+      "cssClass": "eds-type-body-large",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-body-large-font-family"
+        },
+        "fontSize": {
+          "value": "1rem",
+          "cssVariable": "--eds-typography-body-large-font-size"
+        },
+        "fontWeight": {
+          "value": "400",
+          "cssVariable": "--eds-typography-body-large-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.375",
+          "cssVariable": "--eds-typography-body-large-line-height"
+        },
+        "letterSpacing": {
+          "value": "0em",
+          "cssVariable": "--eds-typography-body-large-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:body-medium",
+      "role": "body",
+      "size": "medium",
+      "cssClass": "eds-type-body-medium",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-body-medium-font-family"
+        },
+        "fontSize": {
+          "value": "0.875rem",
+          "cssVariable": "--eds-typography-body-medium-font-size"
+        },
+        "fontWeight": {
+          "value": "400",
+          "cssVariable": "--eds-typography-body-medium-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.428",
+          "cssVariable": "--eds-typography-body-medium-line-height"
+        },
+        "letterSpacing": {
+          "value": "0em",
+          "cssVariable": "--eds-typography-body-medium-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:body-small",
+      "role": "body",
+      "size": "small",
+      "cssClass": "eds-type-body-small",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-body-small-font-family"
+        },
+        "fontSize": {
+          "value": "0.75rem",
+          "cssVariable": "--eds-typography-body-small-font-size"
+        },
+        "fontWeight": {
+          "value": "400",
+          "cssVariable": "--eds-typography-body-small-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.333",
+          "cssVariable": "--eds-typography-body-small-line-height"
+        },
+        "letterSpacing": {
+          "value": "0em",
+          "cssVariable": "--eds-typography-body-small-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:detail-large",
+      "role": "detail",
+      "size": "large",
+      "cssClass": "eds-type-detail-large",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-detail-large-font-family"
+        },
+        "fontSize": {
+          "value": "1rem",
+          "cssVariable": "--eds-typography-detail-large-font-size"
+        },
+        "fontWeight": {
+          "value": "500",
+          "cssVariable": "--eds-typography-detail-large-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.375",
+          "cssVariable": "--eds-typography-detail-large-line-height"
+        },
+        "letterSpacing": {
+          "value": "0.02em",
+          "cssVariable": "--eds-typography-detail-large-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:detail-medium",
+      "role": "detail",
+      "size": "medium",
+      "cssClass": "eds-type-detail-medium",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-detail-medium-font-family"
+        },
+        "fontSize": {
+          "value": "0.75rem",
+          "cssVariable": "--eds-typography-detail-medium-font-size"
+        },
+        "fontWeight": {
+          "value": "500",
+          "cssVariable": "--eds-typography-detail-medium-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.333",
+          "cssVariable": "--eds-typography-detail-medium-line-height"
+        },
+        "letterSpacing": {
+          "value": "0.02em",
+          "cssVariable": "--eds-typography-detail-medium-letter-spacing"
+        }
+      }
+    },
+    {
+      "id": "typography:detail-small",
+      "role": "detail",
+      "size": "small",
+      "cssClass": "eds-type-detail-small",
+      "properties": {
+        "fontFamily": {
+          "value": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "cssVariable": "--eds-typography-detail-small-font-family"
+        },
+        "fontSize": {
+          "value": "0.625rem",
+          "cssVariable": "--eds-typography-detail-small-font-size"
+        },
+        "fontWeight": {
+          "value": "500",
+          "cssVariable": "--eds-typography-detail-small-font-weight"
+        },
+        "lineHeight": {
+          "value": "1.2",
+          "cssVariable": "--eds-typography-detail-small-line-height"
+        },
+        "letterSpacing": {
+          "value": "0.02em",
+          "cssVariable": "--eds-typography-detail-small-letter-spacing"
+        }
+      }
+    }
+  ]
+}

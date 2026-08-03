@@ -1,0 +1,7 @@
+{
+  "codeConnect": {
+    "include": ["packages/figma/generated/code-connect/**/*.figma.js"],
+    "exclude": ["node_modules/**"],
+    "parser": "react"
+  }
+}

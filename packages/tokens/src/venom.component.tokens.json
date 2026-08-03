@@ -1,0 +1,5189 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "comment": "Canonical EDS component token aliases. Foundation values live in eds-design-tokens.json.",
+  "components": {
+    "button": {
+      "eds-comp-shared-btn-spec-space-is-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-btn-spec-space-is-md": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-md"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-btn-spec-space-is-lg": {
+        "value": "$eds-is-4x",
+        "original": {
+          "value": "$eds-is-4x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-lg"
+        ],
+        "alias": "$eds-is-4x"
+      },
+      "eds-comp-shared-btn-spec-space-is-right-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-right-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-right-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-btn-spec-space-is-right-md": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-right-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-right-md"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-btn-spec-space-is-right-lg": {
+        "value": "$eds-is-4x",
+        "original": {
+          "value": "$eds-is-4x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-right-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-right-lg"
+        ],
+        "alias": "$eds-is-4x"
+      },
+      "eds-comp-shared-btn-spec-space-is-right-xlg": {
+        "value": "$eds-is-6x",
+        "original": {
+          "value": "$eds-is-6x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-right-xlg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-right-xlg"
+        ],
+        "alias": "$eds-is-6x"
+      },
+      "eds-comp-shared-btn-spec-space-is-left-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-left-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-left-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-btn-spec-space-is-left-md": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-left-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-left-md"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-btn-spec-space-is-left-lg": {
+        "value": "$eds-is-4x",
+        "original": {
+          "value": "$eds-is-4x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-left-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-left-lg"
+        ],
+        "alias": "$eds-is-4x"
+      },
+      "eds-comp-shared-btn-spec-space-is-left-xlg": {
+        "value": "$eds-is-6x",
+        "original": {
+          "value": "$eds-is-6x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-is-left-xlg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-is-left-xlg"
+        ],
+        "alias": "$eds-is-6x"
+      },
+      "eds-comp-shared-btn-spec-space-st-top-sm": {
+        "value": "0",
+        "original": {
+          "value": "0"
+        },
+        "name": "eds-comp-shared-btn-spec-space-st-top-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-st-top-sm"
+        ]
+      },
+      "eds-comp-shared-btn-spec-space-st-top-md": {
+        "value": "0",
+        "original": {
+          "value": "0"
+        },
+        "name": "eds-comp-shared-btn-spec-space-st-top-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-st-top-md"
+        ]
+      },
+      "eds-comp-shared-btn-spec-space-st-top-lg": {
+        "value": "0",
+        "original": {
+          "value": "0"
+        },
+        "name": "eds-comp-shared-btn-spec-space-st-top-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-st-top-lg"
+        ]
+      },
+      "eds-comp-shared-btn-spec-space-st-bottom-sm": {
+        "value": "0",
+        "original": {
+          "value": "0"
+        },
+        "name": "eds-comp-shared-btn-spec-space-st-bottom-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-st-bottom-sm"
+        ]
+      },
+      "eds-comp-shared-btn-spec-space-st-bottom-md": {
+        "value": "0",
+        "original": {
+          "value": "0"
+        },
+        "name": "eds-comp-shared-btn-spec-space-st-bottom-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-st-bottom-md"
+        ]
+      },
+      "eds-comp-shared-btn-spec-space-st-bottom-lg": {
+        "value": "0",
+        "original": {
+          "value": "0"
+        },
+        "name": "eds-comp-shared-btn-spec-space-st-bottom-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-st-bottom-lg"
+        ]
+      },
+      "eds-comp-shared-btn-spec-space-il-right-none": {
+        "value": "0",
+        "original": {
+          "value": "0"
+        },
+        "name": "eds-comp-shared-btn-spec-space-il-right-none",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-il-right-none"
+        ]
+      },
+      "eds-comp-shared-btn-spec-space-il-right-sm": {
+        "value": "$eds-il-2x",
+        "original": {
+          "value": "$eds-il-2x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-il-right-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-il-right-sm"
+        ],
+        "alias": "$eds-il-2x"
+      },
+      "eds-comp-shared-btn-spec-space-il-left-none": {
+        "value": "0",
+        "original": {
+          "value": "0"
+        },
+        "name": "eds-comp-shared-btn-spec-space-il-left-none",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-il-left-none"
+        ]
+      },
+      "eds-comp-shared-btn-spec-space-il-left-sm": {
+        "value": "$eds-il-2x",
+        "original": {
+          "value": "$eds-il-2x"
+        },
+        "name": "eds-comp-shared-btn-spec-space-il-left-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-space-il-left-sm"
+        ],
+        "alias": "$eds-il-2x"
+      },
+      "eds-comp-shared-btn-spec-height-sm": {
+        "value": "2rem",
+        "original": {
+          "value": "$eds-size-control-sm"
+        },
+        "name": "eds-comp-shared-btn-spec-height-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-height-sm"
+        ],
+        "alias": "$eds-size-control-sm"
+      },
+      "eds-comp-shared-btn-spec-height-md": {
+        "value": "2.5rem",
+        "original": {
+          "value": "$eds-size-control-md"
+        },
+        "name": "eds-comp-shared-btn-spec-height-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-height-md"
+        ],
+        "alias": "$eds-size-control-md"
+      },
+      "eds-comp-shared-btn-spec-height-lg": {
+        "value": "3rem",
+        "original": {
+          "value": "$eds-size-control-lg"
+        },
+        "name": "eds-comp-shared-btn-spec-height-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-spec-height-lg"
+        ],
+        "alias": "$eds-size-control-lg"
+      },
+      "eds-comp-shared-btn-text-weight": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-btn-text-weight",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-text-weight"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-btn-text-size": {
+        "value": "$eds-font-ts-body-lg-size",
+        "original": {
+          "value": "$eds-font-ts-body-lg-size"
+        },
+        "name": "eds-comp-shared-btn-text-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-text-size"
+        ],
+        "alias": "$eds-font-ts-body-lg-size"
+      },
+      "eds-comp-shared-btn-text-line-height": {
+        "value": "1",
+        "original": {
+          "value": "$eds-font-line-height-xx-sm"
+        },
+        "name": "eds-comp-shared-btn-text-line-height",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-text-line-height"
+        ],
+        "alias": "$eds-font-line-height-xx-sm"
+      },
+      "eds-comp-shared-btn-radius-sq": {
+        "value": "0.25rem",
+        "original": {
+          "value": "$eds-size-radius-sq"
+        },
+        "name": "eds-comp-shared-btn-radius-sq",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-radius-sq"
+        ],
+        "alias": "$eds-size-radius-sq"
+      },
+      "eds-comp-shared-btn-radius-rd": {
+        "value": "0.5rem",
+        "original": {
+          "value": "$eds-size-radius-rd"
+        },
+        "name": "eds-comp-shared-btn-radius-rd",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-radius-rd"
+        ],
+        "alias": "$eds-size-radius-rd"
+      },
+      "eds-comp-shared-btn-radius-cir": {
+        "value": "9999px",
+        "original": {
+          "value": "$eds-size-radius-cir"
+        },
+        "name": "eds-comp-shared-btn-radius-cir",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-radius-cir"
+        ],
+        "alias": "$eds-size-radius-cir"
+      },
+      "eds-comp-shared-btn-border-width": {
+        "value": "0.031rem",
+        "original": {
+          "value": "$eds-size-border-width-sm"
+        },
+        "name": "eds-comp-shared-btn-border-width",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-border-width"
+        ],
+        "alias": "$eds-size-border-width-sm"
+      },
+      "eds-comp-shared-btn-border-offset": {
+        "value": "0 0 0 $eds-size-border-width-lg $eds-palette-eve-white,\n  0 0 0 $eds-is-1x $eds-palette-eve-blue-30",
+        "original": {
+          "value": "0 0 0 $eds-size-border-width-lg $eds-palette-eve-white,\n  0 0 0 $eds-is-1x $eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-btn-border-offset",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-border-offset"
+        ]
+      },
+      "eds-comp-shared-btn-color-bg-primary-1-default": {
+        "value": "#2070e8",
+        "original": {
+          "value": "$eds-palette-eve-blue-50"
+        },
+        "name": "eds-comp-shared-btn-color-bg-primary-1-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-primary-1-default"
+        ],
+        "alias": "$eds-palette-eve-blue-50"
+      },
+      "eds-comp-shared-btn-color-bg-primary-1-hover": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-btn-color-bg-primary-1-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-primary-1-hover"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-btn-color-bg-primary-1-active": {
+        "value": "#033e96",
+        "original": {
+          "value": "$eds-palette-eve-blue-10"
+        },
+        "name": "eds-comp-shared-btn-color-bg-primary-1-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-primary-1-active"
+        ],
+        "alias": "$eds-palette-eve-blue-10"
+      },
+      "eds-comp-shared-btn-color-bg-primary-1-focus": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-btn-color-bg-primary-1-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-primary-1-focus"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-btn-color-bg-primary-1-disabled": {
+        "value": "#a3c8ff",
+        "original": {
+          "value": "$eds-palette-eve-blue-80"
+        },
+        "name": "eds-comp-shared-btn-color-bg-primary-1-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-primary-1-disabled"
+        ],
+        "alias": "$eds-palette-eve-blue-80"
+      },
+      "eds-comp-shared-btn-color-bg-primary-2-default": {
+        "value": "#1a854a",
+        "original": {
+          "value": "$eds-palette-eve-green-50"
+        },
+        "name": "eds-comp-shared-btn-color-bg-primary-2-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-primary-2-default"
+        ],
+        "alias": "$eds-palette-eve-green-50"
+      },
+      "eds-comp-shared-btn-color-bg-primary-2-hover": {
+        "value": "#146639",
+        "original": {
+          "value": "$eds-palette-eve-green-30"
+        },
+        "name": "eds-comp-shared-btn-color-bg-primary-2-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-primary-2-hover"
+        ],
+        "alias": "$eds-palette-eve-green-30"
+      },
+      "eds-comp-shared-btn-color-bg-primary-2-active": {
+        "value": "#0e4728",
+        "original": {
+          "value": "$eds-palette-eve-green-10"
+        },
+        "name": "eds-comp-shared-btn-color-bg-primary-2-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-primary-2-active"
+        ],
+        "alias": "$eds-palette-eve-green-10"
+      },
+      "eds-comp-shared-btn-color-bg-primary-2-focus": {
+        "value": "#146639",
+        "original": {
+          "value": "$eds-palette-eve-green-30"
+        },
+        "name": "eds-comp-shared-btn-color-bg-primary-2-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-primary-2-focus"
+        ],
+        "alias": "$eds-palette-eve-green-30"
+      },
+      "eds-comp-shared-btn-color-bg-primary-2-disabled": {
+        "value": "#82cca3",
+        "original": {
+          "value": "$eds-palette-eve-green-80"
+        },
+        "name": "eds-comp-shared-btn-color-bg-primary-2-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-primary-2-disabled"
+        ],
+        "alias": "$eds-palette-eve-green-80"
+      },
+      "eds-comp-shared-btn-color-bg-secondary-1-default": {
+        "value": "rgba(0, 0, 0, 0)",
+        "original": {
+          "value": "$eds-palette-eve-transparent"
+        },
+        "name": "eds-comp-shared-btn-color-bg-secondary-1-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-secondary-1-default"
+        ],
+        "alias": "$eds-palette-eve-transparent"
+      },
+      "eds-comp-shared-btn-color-bg-secondary-1-hover": {
+        "value": "#2070e8",
+        "original": {
+          "value": "$eds-palette-eve-blue-50"
+        },
+        "name": "eds-comp-shared-btn-color-bg-secondary-1-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-secondary-1-hover"
+        ],
+        "alias": "$eds-palette-eve-blue-50"
+      },
+      "eds-comp-shared-btn-color-bg-secondary-1-active": {
+        "value": "#033e96",
+        "original": {
+          "value": "$eds-palette-eve-blue-10"
+        },
+        "name": "eds-comp-shared-btn-color-bg-secondary-1-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-secondary-1-active"
+        ],
+        "alias": "$eds-palette-eve-blue-10"
+      },
+      "eds-comp-shared-btn-color-bg-secondary-1-focus": {
+        "value": "#2070e8",
+        "original": {
+          "value": "$eds-palette-eve-blue-50"
+        },
+        "name": "eds-comp-shared-btn-color-bg-secondary-1-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-secondary-1-focus"
+        ],
+        "alias": "$eds-palette-eve-blue-50"
+      },
+      "eds-comp-shared-btn-color-bg-secondary-1-disabled": {
+        "value": "rgba(0, 0, 0, 0)",
+        "original": {
+          "value": "$eds-palette-eve-transparent"
+        },
+        "name": "eds-comp-shared-btn-color-bg-secondary-1-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-secondary-1-disabled"
+        ],
+        "alias": "$eds-palette-eve-transparent"
+      },
+      "eds-comp-shared-btn-color-bg-secondary-2-default": {
+        "value": "rgba(0, 0, 0, 0)",
+        "original": {
+          "value": "$eds-palette-eve-transparent"
+        },
+        "name": "eds-comp-shared-btn-color-bg-secondary-2-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-secondary-2-default"
+        ],
+        "alias": "$eds-palette-eve-transparent"
+      },
+      "eds-comp-shared-btn-color-bg-secondary-2-hover": {
+        "value": "#1a854a",
+        "original": {
+          "value": "$eds-palette-eve-green-50"
+        },
+        "name": "eds-comp-shared-btn-color-bg-secondary-2-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-secondary-2-hover"
+        ],
+        "alias": "$eds-palette-eve-green-50"
+      },
+      "eds-comp-shared-btn-color-bg-secondary-2-active": {
+        "value": "#0e4728",
+        "original": {
+          "value": "$eds-palette-eve-green-10"
+        },
+        "name": "eds-comp-shared-btn-color-bg-secondary-2-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-secondary-2-active"
+        ],
+        "alias": "$eds-palette-eve-green-10"
+      },
+      "eds-comp-shared-btn-color-bg-secondary-2-focus": {
+        "value": "#1a854a",
+        "original": {
+          "value": "$eds-palette-eve-green-50"
+        },
+        "name": "eds-comp-shared-btn-color-bg-secondary-2-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-secondary-2-focus"
+        ],
+        "alias": "$eds-palette-eve-green-50"
+      },
+      "eds-comp-shared-btn-color-bg-secondary-2-disabled": {
+        "value": "rgba(0, 0, 0, 0)",
+        "original": {
+          "value": "$eds-palette-eve-transparent"
+        },
+        "name": "eds-comp-shared-btn-color-bg-secondary-2-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-bg-secondary-2-disabled"
+        ],
+        "alias": "$eds-palette-eve-transparent"
+      },
+      "eds-comp-shared-btn-color-border-primary-1-default": {
+        "value": "#2070e8",
+        "original": {
+          "value": "$eds-palette-eve-blue-50"
+        },
+        "name": "eds-comp-shared-btn-color-border-primary-1-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-primary-1-default"
+        ],
+        "alias": "$eds-palette-eve-blue-50"
+      },
+      "eds-comp-shared-btn-color-border-primary-1-hover": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-btn-color-border-primary-1-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-primary-1-hover"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-btn-color-border-primary-1-active": {
+        "value": "#033e96",
+        "original": {
+          "value": "$eds-palette-eve-blue-10"
+        },
+        "name": "eds-comp-shared-btn-color-border-primary-1-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-primary-1-active"
+        ],
+        "alias": "$eds-palette-eve-blue-10"
+      },
+      "eds-comp-shared-btn-color-border-primary-1-focus": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-btn-color-border-primary-1-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-primary-1-focus"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-btn-color-border-primary-1-disabled": {
+        "value": "#a3c8ff",
+        "original": {
+          "value": "$eds-palette-eve-blue-80"
+        },
+        "name": "eds-comp-shared-btn-color-border-primary-1-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-primary-1-disabled"
+        ],
+        "alias": "$eds-palette-eve-blue-80"
+      },
+      "eds-comp-shared-btn-color-border-primary-2-default": {
+        "value": "#1a854a",
+        "original": {
+          "value": "$eds-palette-eve-green-50"
+        },
+        "name": "eds-comp-shared-btn-color-border-primary-2-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-primary-2-default"
+        ],
+        "alias": "$eds-palette-eve-green-50"
+      },
+      "eds-comp-shared-btn-color-border-primary-2-hover": {
+        "value": "#146639",
+        "original": {
+          "value": "$eds-palette-eve-green-30"
+        },
+        "name": "eds-comp-shared-btn-color-border-primary-2-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-primary-2-hover"
+        ],
+        "alias": "$eds-palette-eve-green-30"
+      },
+      "eds-comp-shared-btn-color-border-primary-2-active": {
+        "value": "#0e4728",
+        "original": {
+          "value": "$eds-palette-eve-green-10"
+        },
+        "name": "eds-comp-shared-btn-color-border-primary-2-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-primary-2-active"
+        ],
+        "alias": "$eds-palette-eve-green-10"
+      },
+      "eds-comp-shared-btn-color-border-primary-2-focus": {
+        "value": "#146639",
+        "original": {
+          "value": "$eds-palette-eve-green-30"
+        },
+        "name": "eds-comp-shared-btn-color-border-primary-2-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-primary-2-focus"
+        ],
+        "alias": "$eds-palette-eve-green-30"
+      },
+      "eds-comp-shared-btn-color-border-primary-2-disabled": {
+        "value": "#82cca3",
+        "original": {
+          "value": "$eds-palette-eve-green-80"
+        },
+        "name": "eds-comp-shared-btn-color-border-primary-2-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-primary-2-disabled"
+        ],
+        "alias": "$eds-palette-eve-green-80"
+      },
+      "eds-comp-shared-btn-color-border-secondary-1-default": {
+        "value": "#2070e8",
+        "original": {
+          "value": "$eds-palette-eve-blue-50"
+        },
+        "name": "eds-comp-shared-btn-color-border-secondary-1-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-secondary-1-default"
+        ],
+        "alias": "$eds-palette-eve-blue-50"
+      },
+      "eds-comp-shared-btn-color-border-secondary-1-hover": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-btn-color-border-secondary-1-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-secondary-1-hover"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-btn-color-border-secondary-1-active": {
+        "value": "#033e96",
+        "original": {
+          "value": "$eds-palette-eve-blue-10"
+        },
+        "name": "eds-comp-shared-btn-color-border-secondary-1-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-secondary-1-active"
+        ],
+        "alias": "$eds-palette-eve-blue-10"
+      },
+      "eds-comp-shared-btn-color-border-secondary-1-focus": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-btn-color-border-secondary-1-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-secondary-1-focus"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-btn-color-border-secondary-1-disabled": {
+        "value": "#a3c8ff",
+        "original": {
+          "value": "$eds-palette-eve-blue-80"
+        },
+        "name": "eds-comp-shared-btn-color-border-secondary-1-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-secondary-1-disabled"
+        ],
+        "alias": "$eds-palette-eve-blue-80"
+      },
+      "eds-comp-shared-btn-color-border-secondary-2-default": {
+        "value": "#1a854a",
+        "original": {
+          "value": "$eds-palette-eve-green-50"
+        },
+        "name": "eds-comp-shared-btn-color-border-secondary-2-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-secondary-2-default"
+        ],
+        "alias": "$eds-palette-eve-green-50"
+      },
+      "eds-comp-shared-btn-color-border-secondary-2-hover": {
+        "value": "#146639",
+        "original": {
+          "value": "$eds-palette-eve-green-30"
+        },
+        "name": "eds-comp-shared-btn-color-border-secondary-2-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-secondary-2-hover"
+        ],
+        "alias": "$eds-palette-eve-green-30"
+      },
+      "eds-comp-shared-btn-color-border-secondary-2-active": {
+        "value": "#0e4728",
+        "original": {
+          "value": "$eds-palette-eve-green-10"
+        },
+        "name": "eds-comp-shared-btn-color-border-secondary-2-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-secondary-2-active"
+        ],
+        "alias": "$eds-palette-eve-green-10"
+      },
+      "eds-comp-shared-btn-color-border-secondary-2-focus": {
+        "value": "#146639",
+        "original": {
+          "value": "$eds-palette-eve-green-30"
+        },
+        "name": "eds-comp-shared-btn-color-border-secondary-2-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-secondary-2-focus"
+        ],
+        "alias": "$eds-palette-eve-green-30"
+      },
+      "eds-comp-shared-btn-color-border-secondary-2-disabled": {
+        "value": "#82cca3",
+        "original": {
+          "value": "$eds-palette-eve-green-80"
+        },
+        "name": "eds-comp-shared-btn-color-border-secondary-2-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-border-secondary-2-disabled"
+        ],
+        "alias": "$eds-palette-eve-green-80"
+      },
+      "eds-comp-shared-btn-color-text-primary-1-default": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-primary-1-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-primary-1-default"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-primary-1-hover": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-primary-1-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-primary-1-hover"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-primary-1-active": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-primary-1-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-primary-1-active"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-primary-1-focus": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-primary-1-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-primary-1-focus"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-primary-1-disabled": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-primary-1-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-primary-1-disabled"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-primary-2-default": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-primary-2-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-primary-2-default"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-primary-2-hover": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-primary-2-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-primary-2-hover"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-primary-2-active": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-primary-2-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-primary-2-active"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-primary-2-focus": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-primary-2-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-primary-2-focus"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-primary-2-disabled": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-primary-2-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-primary-2-disabled"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-secondary-1-default": {
+        "value": "#2070e8",
+        "original": {
+          "value": "$eds-palette-eve-blue-50"
+        },
+        "name": "eds-comp-shared-btn-color-text-secondary-1-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-secondary-1-default"
+        ],
+        "alias": "$eds-palette-eve-blue-50"
+      },
+      "eds-comp-shared-btn-color-text-secondary-1-hover": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-secondary-1-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-secondary-1-hover"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-secondary-1-active": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-secondary-1-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-secondary-1-active"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-secondary-1-focus": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-secondary-1-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-secondary-1-focus"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-secondary-1-disabled": {
+        "value": "#a3c8ff",
+        "original": {
+          "value": "$eds-palette-eve-blue-80"
+        },
+        "name": "eds-comp-shared-btn-color-text-secondary-1-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-secondary-1-disabled"
+        ],
+        "alias": "$eds-palette-eve-blue-80"
+      },
+      "eds-comp-shared-btn-color-text-secondary-2-default": {
+        "value": "#1a854a",
+        "original": {
+          "value": "$eds-palette-eve-green-50"
+        },
+        "name": "eds-comp-shared-btn-color-text-secondary-2-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-secondary-2-default"
+        ],
+        "alias": "$eds-palette-eve-green-50"
+      },
+      "eds-comp-shared-btn-color-text-secondary-2-hover": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-secondary-2-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-secondary-2-hover"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-secondary-2-active": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-secondary-2-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-secondary-2-active"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-secondary-2-focus": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-btn-color-text-secondary-2-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-secondary-2-focus"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-btn-color-text-secondary-2-disabled": {
+        "value": "#82cca3",
+        "original": {
+          "value": "$eds-palette-eve-green-80"
+        },
+        "name": "eds-comp-shared-btn-color-text-secondary-2-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "button"
+        },
+        "path": [
+          "components",
+          "button",
+          "eds-comp-shared-btn-color-text-secondary-2-disabled"
+        ],
+        "alias": "$eds-palette-eve-green-80"
+      }
+    },
+    "dropdown": {
+      "eds-comp-shared-dropdown-spec-container-size-sm": {
+        "value": "2rem",
+        "original": {
+          "value": "$eds-size-control-sm"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-size-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-size-sm"
+        ],
+        "alias": "$eds-size-control-sm"
+      },
+      "eds-comp-shared-dropdown-spec-container-size-md": {
+        "value": "2.5rem",
+        "original": {
+          "value": "$eds-size-control-md"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-size-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-size-md"
+        ],
+        "alias": "$eds-size-control-md"
+      },
+      "eds-comp-shared-dropdown-spec-container-size-lg": {
+        "value": "3rem",
+        "original": {
+          "value": "$eds-size-control-lg"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-size-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-size-lg"
+        ],
+        "alias": "$eds-size-control-lg"
+      },
+      "eds-comp-shared-dropdown-spec-container-space-is-right-md": {
+        "value": "$eds-is-4x",
+        "original": {
+          "value": "$eds-is-4x"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-space-is-right-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-space-is-right-md"
+        ],
+        "alias": "$eds-is-4x"
+      },
+      "eds-comp-shared-dropdown-spec-container-space-is-left-md": {
+        "value": "$eds-is-4x",
+        "original": {
+          "value": "$eds-is-4x"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-space-is-left-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-space-is-left-md"
+        ],
+        "alias": "$eds-is-4x"
+      },
+      "eds-comp-shared-dropdown-spec-container-space-st-bottom-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-space-st-bottom-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-space-st-bottom-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-dropdown-spec-container-space-il-sm-md": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-space-il-sm-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-space-il-sm-md"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-dropdown-spec-container-nested-size-sm": {
+        "value": "3.75rem",
+        "original": {
+          "value": "$eds-size-control-nested-sm"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-nested-size-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-nested-size-sm"
+        ],
+        "alias": "$eds-size-control-nested-sm"
+      },
+      "eds-comp-shared-dropdown-spec-container-nested-space-st-bottom-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-nested-space-st-bottom-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-nested-space-st-bottom-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-dropdown-spec-container-nested-space-st-top-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-nested-space-st-top-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-nested-space-st-top-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-dropdown-spec-container-nested-space-il-sm-md": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-dropdown-spec-container-nested-space-il-sm-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-container-nested-space-il-sm-md"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-dropdown-spec-support-text-space-st-bottom-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-dropdown-spec-support-text-space-st-bottom-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-spec-support-text-space-st-bottom-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-dropdown-nested-sub-spec-container-space-st-bottom-md": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-dropdown-nested-sub-spec-container-space-st-bottom-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-nested-sub-spec-container-space-st-bottom-md"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-dropdown-nested-sub-spec-container-space-st-top-md": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-dropdown-nested-sub-spec-container-space-st-top-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-nested-sub-spec-container-space-st-top-md"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-dropdown-nested-sub-filled_text-font-weight-default": {
+        "value": "700",
+        "original": {
+          "value": "$eds-font-weight-bold"
+        },
+        "name": "eds-comp-shared-dropdown-nested-sub-filled_text-font-weight-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-nested-sub-filled_text-font-weight-default"
+        ],
+        "alias": "$eds-font-weight-bold"
+      },
+      "eds-comp-shared-dropdown-nested-sub-text-font-size-default": {
+        "value": "$eds-font-ts-body-md-size",
+        "original": {
+          "value": "$eds-font-ts-body-md-size"
+        },
+        "name": "eds-comp-shared-dropdown-nested-sub-text-font-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-nested-sub-text-font-size-default"
+        ],
+        "alias": "$eds-font-ts-body-md-size"
+      },
+      "eds-comp-shared-dropdown-nested-sub-text-font-color-disabled": {
+        "value": "#94a2b8",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-60"
+        },
+        "name": "eds-comp-shared-dropdown-nested-sub-text-font-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-nested-sub-text-font-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-60"
+      },
+      "eds-comp-shared-dropdown-nested-sub-text-font-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-dropdown-nested-sub-text-font-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-nested-sub-text-font-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-dropdown-nested-sub-text-font-weight-default": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-dropdown-nested-sub-text-font-weight-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-nested-sub-text-font-weight-default"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-dropdown-nested-sub-text-font-line-height-default": {
+        "value": "1.428",
+        "original": {
+          "value": "$eds-font-line-height-xx-lg"
+        },
+        "name": "eds-comp-shared-dropdown-nested-sub-text-font-line-height-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-nested-sub-text-font-line-height-default"
+        ],
+        "alias": "$eds-font-line-height-xx-lg"
+      },
+      "eds-comp-shared-dropdown-container-color-bg-default": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-dropdown-container-color-bg-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-color-bg-default"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-dropdown-container-color-bg-disabled": {
+        "value": "#eef1f6",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-80"
+        },
+        "name": "eds-comp-shared-dropdown-container-color-bg-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-color-bg-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-80"
+      },
+      "eds-comp-shared-dropdown-container-border-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-dropdown-container-border-color-hover": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-color-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-color-hover"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-dropdown-container-border-color-active": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-color-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-color-active"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-dropdown-container-border-color-focus": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-color-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-color-focus"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-dropdown-container-border-color-disabled": {
+        "value": "#eef1f6",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-80"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-80"
+      },
+      "eds-comp-shared-dropdown-container-border-color-error": {
+        "value": "#cb303f",
+        "original": {
+          "value": "$eds-palette-eve-red-50"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-color-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-color-error"
+        ],
+        "alias": "$eds-palette-eve-red-50"
+      },
+      "eds-comp-shared-dropdown-container-border-color-warning": {
+        "value": "#f59300",
+        "original": {
+          "value": "$eds-palette-eve-yellow-20"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-color-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-color-warning"
+        ],
+        "alias": "$eds-palette-eve-yellow-20"
+      },
+      "eds-comp-shared-dropdown-container-border-size-default": {
+        "value": "$eds-size-border-width-base",
+        "original": {
+          "value": "$eds-size-border-width-base"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-size-default"
+        ],
+        "alias": "$eds-size-border-width-base"
+      },
+      "eds-comp-shared-dropdown-container-border-size-active": {
+        "value": "$eds-size-border-width-base",
+        "original": {
+          "value": "$eds-size-border-width-base"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-size-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-size-active"
+        ],
+        "alias": "$eds-size-border-width-base"
+      },
+      "eds-comp-shared-dropdown-container-border-size-focus": {
+        "value": "0.125rem",
+        "original": {
+          "value": "$eds-size-border-width-lg"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-size-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-size-focus"
+        ],
+        "alias": "$eds-size-border-width-lg"
+      },
+      "eds-comp-shared-dropdown-container-border-size-disabled": {
+        "value": "$eds-size-border-width-base",
+        "original": {
+          "value": "$eds-size-border-width-base"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-size-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-size-disabled"
+        ],
+        "alias": "$eds-size-border-width-base"
+      },
+      "eds-comp-shared-dropdown-container-border-radius-default-sq": {
+        "value": "0.25rem",
+        "original": {
+          "value": "$eds-size-radius-sq"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-radius-default-sq",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-radius-default-sq"
+        ],
+        "alias": "$eds-size-radius-sq"
+      },
+      "eds-comp-shared-dropdown-container-border-radius-default-rd": {
+        "value": "0.5rem",
+        "original": {
+          "value": "$eds-size-radius-rd"
+        },
+        "name": "eds-comp-shared-dropdown-container-border-radius-default-rd",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-container-border-radius-default-rd"
+        ],
+        "alias": "$eds-size-radius-rd"
+      },
+      "eds-comp-shared-dropdown-prefix-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-dropdown-prefix-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-prefix-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-dropdown-prefix-color-disabled": {
+        "value": "#94a2b8",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-60"
+        },
+        "name": "eds-comp-shared-dropdown-prefix-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-prefix-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-60"
+      },
+      "eds-comp-shared-dropdown-prefix-icon-size-default": {
+        "value": "1rem",
+        "original": {
+          "value": "$eds-size-sq-5"
+        },
+        "name": "eds-comp-shared-dropdown-prefix-icon-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-prefix-icon-size-default"
+        ],
+        "alias": "$eds-size-sq-5"
+      },
+      "eds-comp-shared-dropdown-prefix-font-size-default": {
+        "value": "$eds-font-ts-body-lg-size",
+        "original": {
+          "value": "$eds-font-ts-body-lg-size"
+        },
+        "name": "eds-comp-shared-dropdown-prefix-font-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-prefix-font-size-default"
+        ],
+        "alias": "$eds-font-ts-body-lg-size"
+      },
+      "eds-comp-shared-dropdown-prefix-font-line-height-default": {
+        "value": "1.375",
+        "original": {
+          "value": "$eds-font-line-height-x-lg"
+        },
+        "name": "eds-comp-shared-dropdown-prefix-font-line-height-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-prefix-font-line-height-default"
+        ],
+        "alias": "$eds-font-line-height-x-lg"
+      },
+      "eds-comp-shared-dropdown-prefix-font-weight-default": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-dropdown-prefix-font-weight-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-prefix-font-weight-default"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-dropdown-suffix-color-default": {
+        "value": "#2070e8",
+        "original": {
+          "value": "$eds-palette-eve-blue-50"
+        },
+        "name": "eds-comp-shared-dropdown-suffix-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-suffix-color-default"
+        ],
+        "alias": "$eds-palette-eve-blue-50"
+      },
+      "eds-comp-shared-dropdown-suffix-color-disabled": {
+        "value": "#94a2b8",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-60"
+        },
+        "name": "eds-comp-shared-dropdown-suffix-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-suffix-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-60"
+      },
+      "eds-comp-shared-dropdown-suffix-icon-size-default": {
+        "value": "1rem",
+        "original": {
+          "value": "$eds-size-sq-5"
+        },
+        "name": "eds-comp-shared-dropdown-suffix-icon-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-suffix-icon-size-default"
+        ],
+        "alias": "$eds-size-sq-5"
+      },
+      "eds-comp-shared-dropdown-suffix-font-size": {
+        "value": "$eds-font-ts-body-lg-size",
+        "original": {
+          "value": "$eds-font-ts-body-lg-size"
+        },
+        "name": "eds-comp-shared-dropdown-suffix-font-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-suffix-font-size"
+        ],
+        "alias": "$eds-font-ts-body-lg-size"
+      },
+      "eds-comp-shared-dropdown-suffix-font-line-height-default": {
+        "value": "1.375",
+        "original": {
+          "value": "$eds-font-line-height-x-lg"
+        },
+        "name": "eds-comp-shared-dropdown-suffix-font-line-height-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-suffix-font-line-height-default"
+        ],
+        "alias": "$eds-font-line-height-x-lg"
+      },
+      "eds-comp-shared-dropdown-suffix-font-weight": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-dropdown-suffix-font-weight",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-suffix-font-weight"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-dropdown-filled_text-font-size-default": {
+        "value": "$eds-font-ts-body-lg-size",
+        "original": {
+          "value": "$eds-font-ts-body-lg-size"
+        },
+        "name": "eds-comp-shared-dropdown-filled_text-font-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-filled_text-font-size-default"
+        ],
+        "alias": "$eds-font-ts-body-lg-size"
+      },
+      "eds-comp-shared-dropdown-filled_text-font-line-height-default": {
+        "value": "1.375",
+        "original": {
+          "value": "$eds-font-line-height-x-lg"
+        },
+        "name": "eds-comp-shared-dropdown-filled_text-font-line-height-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-filled_text-font-line-height-default"
+        ],
+        "alias": "$eds-font-line-height-x-lg"
+      },
+      "eds-comp-shared-dropdown-filled_text-font-weight-default": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-dropdown-filled_text-font-weight-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-filled_text-font-weight-default"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-dropdown-filled_text-font-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-dropdown-filled_text-font-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-filled_text-font-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-dropdown-filled_text-font-color-disabled": {
+        "value": "#94a2b8",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-60"
+        },
+        "name": "eds-comp-shared-dropdown-filled_text-font-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-filled_text-font-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-60"
+      },
+      "eds-comp-shared-dropdown-hint_text-font-size-default": {
+        "value": "$eds-font-ts-body-lg-size",
+        "original": {
+          "value": "$eds-font-ts-body-lg-size"
+        },
+        "name": "eds-comp-shared-dropdown-hint_text-font-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-hint_text-font-size-default"
+        ],
+        "alias": "$eds-font-ts-body-lg-size"
+      },
+      "eds-comp-shared-dropdown-hint_text-font-line-height-default": {
+        "value": "1.375",
+        "original": {
+          "value": "$eds-font-line-height-x-lg"
+        },
+        "name": "eds-comp-shared-dropdown-hint_text-font-line-height-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-hint_text-font-line-height-default"
+        ],
+        "alias": "$eds-font-line-height-x-lg"
+      },
+      "eds-comp-shared-dropdown-hint_text-font-weight-default": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-dropdown-hint_text-font-weight-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-hint_text-font-weight-default"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-dropdown-info_text-font-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-dropdown-info_text-font-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-info_text-font-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-dropdown-info_text-font-size-default": {
+        "value": "$eds-font-ts-body-sm-size",
+        "original": {
+          "value": "$eds-font-ts-body-sm-size"
+        },
+        "name": "eds-comp-shared-dropdown-info_text-font-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-info_text-font-size-default"
+        ],
+        "alias": "$eds-font-ts-body-sm-size"
+      },
+      "eds-comp-shared-dropdown-info_text-font-line-height-default": {
+        "value": "1.333",
+        "original": {
+          "value": "$eds-font-line-height-lg"
+        },
+        "name": "eds-comp-shared-dropdown-info_text-font-line-height-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-info_text-font-line-height-default"
+        ],
+        "alias": "$eds-font-line-height-lg"
+      },
+      "eds-comp-shared-dropdown-info_text-font-weight-default": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-dropdown-info_text-font-weight-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-info_text-font-weight-default"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-dropdown-support_text-font-color-error": {
+        "value": "#cb303f",
+        "original": {
+          "value": "$eds-palette-eve-red-50"
+        },
+        "name": "eds-comp-shared-dropdown-support_text-font-color-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-support_text-font-color-error"
+        ],
+        "alias": "$eds-palette-eve-red-50"
+      },
+      "eds-comp-shared-dropdown-support_text-font-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-dropdown-support_text-font-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-support_text-font-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-dropdown-support_text-font-color-warning": {
+        "value": "#f59300",
+        "original": {
+          "value": "$eds-palette-eve-yellow-20"
+        },
+        "name": "eds-comp-shared-dropdown-support_text-font-color-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-support_text-font-color-warning"
+        ],
+        "alias": "$eds-palette-eve-yellow-20"
+      },
+      "eds-comp-shared-dropdown-support_text-font-size-default": {
+        "value": "$eds-font-ts-body-sm-size",
+        "original": {
+          "value": "$eds-font-ts-body-sm-size"
+        },
+        "name": "eds-comp-shared-dropdown-support_text-font-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-support_text-font-size-default"
+        ],
+        "alias": "$eds-font-ts-body-sm-size"
+      },
+      "eds-comp-shared-dropdown-support_text-font-line-height-default": {
+        "value": "1.333",
+        "original": {
+          "value": "$eds-font-line-height-lg"
+        },
+        "name": "eds-comp-shared-dropdown-support_text-font-line-height-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-support_text-font-line-height-default"
+        ],
+        "alias": "$eds-font-line-height-lg"
+      },
+      "eds-comp-shared-dropdown-support_text-font-weight-default": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-dropdown-support_text-font-weight-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-support_text-font-weight-default"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-dropdown-trailing_icon-size-default": {
+        "value": "1rem",
+        "original": {
+          "value": "$eds-size-sq-5"
+        },
+        "name": "eds-comp-shared-dropdown-trailing_icon-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-trailing_icon-size-default"
+        ],
+        "alias": "$eds-size-sq-5"
+      },
+      "eds-comp-shared-dropdown-trailing_icon-color-success": {
+        "value": "#1a854a",
+        "original": {
+          "value": "$eds-palette-eve-green-50"
+        },
+        "name": "eds-comp-shared-dropdown-trailing_icon-color-success",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-trailing_icon-color-success"
+        ],
+        "alias": "$eds-palette-eve-green-50"
+      },
+      "eds-comp-shared-dropdown-trailing_icon-color-error": {
+        "value": "#cb303f",
+        "original": {
+          "value": "$eds-palette-eve-red-50"
+        },
+        "name": "eds-comp-shared-dropdown-trailing_icon-color-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-trailing_icon-color-error"
+        ],
+        "alias": "$eds-palette-eve-red-50"
+      },
+      "eds-comp-shared-dropdown-trailing_icon-color-warning": {
+        "value": "#f59300",
+        "original": {
+          "value": "$eds-palette-eve-yellow-20"
+        },
+        "name": "eds-comp-shared-dropdown-trailing_icon-color-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-trailing_icon-color-warning"
+        ],
+        "alias": "$eds-palette-eve-yellow-20"
+      },
+      "eds-comp-shared-dropdown-trailing_icon-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-dropdown-trailing_icon-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "dropdown"
+        },
+        "path": [
+          "components",
+          "dropdown",
+          "eds-comp-shared-dropdown-trailing_icon-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      }
+    },
+    "label": {
+      "eds-comp-shared-label-spec-base-space-st-bottom-sm": {
+        "value": "$eds-is-1x",
+        "original": {
+          "value": "$eds-is-1x"
+        },
+        "name": "eds-comp-shared-label-spec-base-space-st-bottom-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-base-space-st-bottom-sm"
+        ],
+        "alias": "$eds-is-1x"
+      },
+      "eds-comp-shared-label-spec-base-space-st-bottom-md": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-label-spec-base-space-st-bottom-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-base-space-st-bottom-md"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-label-spec-base-space-st-bottom-lg": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-label-spec-base-space-st-bottom-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-base-space-st-bottom-lg"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-label-spec-base-space-il-sm": {
+        "value": "$eds-is-1x",
+        "original": {
+          "value": "$eds-is-1x"
+        },
+        "name": "eds-comp-shared-label-spec-base-space-il-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-base-space-il-sm"
+        ],
+        "alias": "$eds-is-1x"
+      },
+      "eds-comp-shared-label-spec-base-space-il-md": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-label-spec-base-space-il-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-base-space-il-md"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-label-spec-base-space-il-lg": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-label-spec-base-space-il-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-base-space-il-lg"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-label-spec-lg-space-st-bottom-sm": {
+        "value": "$eds-is-1x",
+        "original": {
+          "value": "$eds-is-1x"
+        },
+        "name": "eds-comp-shared-label-spec-lg-space-st-bottom-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-lg-space-st-bottom-sm"
+        ],
+        "alias": "$eds-is-1x"
+      },
+      "eds-comp-shared-label-spec-lg-space-st-bottom-md": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-label-spec-lg-space-st-bottom-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-lg-space-st-bottom-md"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-label-spec-lg-space-st-bottom-lg": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-label-spec-lg-space-st-bottom-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-lg-space-st-bottom-lg"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-label-spec-lg-space-il-sm": {
+        "value": "$eds-is-1x",
+        "original": {
+          "value": "$eds-is-1x"
+        },
+        "name": "eds-comp-shared-label-spec-lg-space-il-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-lg-space-il-sm"
+        ],
+        "alias": "$eds-is-1x"
+      },
+      "eds-comp-shared-label-spec-lg-space-il-md": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-label-spec-lg-space-il-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-lg-space-il-md"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-label-spec-lg-space-il-lg": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-label-spec-lg-space-il-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-lg-space-il-lg"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-label-spec-nested-space-st-bottom-sm": {
+        "value": "$eds-is-1x",
+        "original": {
+          "value": "$eds-is-1x"
+        },
+        "name": "eds-comp-shared-label-spec-nested-space-st-bottom-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-nested-space-st-bottom-sm"
+        ],
+        "alias": "$eds-is-1x"
+      },
+      "eds-comp-shared-label-spec-nested-space-st-bottom-md": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-label-spec-nested-space-st-bottom-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-nested-space-st-bottom-md"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-label-spec-nested-space-st-bottom-lg": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-label-spec-nested-space-st-bottom-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-nested-space-st-bottom-lg"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-label-spec-nested-space-il-sm": {
+        "value": "$eds-is-1x",
+        "original": {
+          "value": "$eds-is-1x"
+        },
+        "name": "eds-comp-shared-label-spec-nested-space-il-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-nested-space-il-sm"
+        ],
+        "alias": "$eds-is-1x"
+      },
+      "eds-comp-shared-label-spec-nested-space-il-md": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-label-spec-nested-space-il-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-nested-space-il-md"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-label-spec-nested-space-il-lg": {
+        "value": "$eds-is-3x",
+        "original": {
+          "value": "$eds-is-3x"
+        },
+        "name": "eds-comp-shared-label-spec-nested-space-il-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-spec-nested-space-il-lg"
+        ],
+        "alias": "$eds-is-3x"
+      },
+      "eds-comp-shared-label-base-text-weight-reg": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-label-base-text-weight-reg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-base-text-weight-reg"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-label-base-text-size-base": {
+        "value": "$eds-font-ts-body-sm-size",
+        "original": {
+          "value": "$eds-font-ts-body-sm-size"
+        },
+        "name": "eds-comp-shared-label-base-text-size-base",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-base-text-size-base"
+        ],
+        "alias": "$eds-font-ts-body-sm-size"
+      },
+      "eds-comp-shared-label-base-text-color-text-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-base-text-color-text-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-base-text-color-text-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-base-text-line-height-base": {
+        "value": "1.333",
+        "original": {
+          "value": "$eds-font-line-height-lg"
+        },
+        "name": "eds-comp-shared-label-base-text-line-height-base",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-base-text-line-height-base"
+        ],
+        "alias": "$eds-font-line-height-lg"
+      },
+      "eds-comp-shared-label-lg-text-weight-reg": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-label-lg-text-weight-reg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-lg-text-weight-reg"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-label-lg-text-weight-strong": {
+        "value": "700",
+        "original": {
+          "value": "$eds-font-weight-bold"
+        },
+        "name": "eds-comp-shared-label-lg-text-weight-strong",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-lg-text-weight-strong"
+        ],
+        "alias": "$eds-font-weight-bold"
+      },
+      "eds-comp-shared-label-lg-text-size-lg": {
+        "value": "$eds-font-ts-body-lg-size",
+        "original": {
+          "value": "$eds-font-ts-body-lg-size"
+        },
+        "name": "eds-comp-shared-label-lg-text-size-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-lg-text-size-lg"
+        ],
+        "alias": "$eds-font-ts-body-lg-size"
+      },
+      "eds-comp-shared-label-lg-text-color-text-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-lg-text-color-text-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-lg-text-color-text-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-lg-text-line-height-lg": {
+        "value": "1.375",
+        "original": {
+          "value": "$eds-font-line-height-x-lg"
+        },
+        "name": "eds-comp-shared-label-lg-text-line-height-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-lg-text-line-height-lg"
+        ],
+        "alias": "$eds-font-line-height-x-lg"
+      },
+      "eds-comp-shared-label-opt-text-weight": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-label-opt-text-weight",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-opt-text-weight"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-label-opt-text-size": {
+        "value": "$eds-font-ts-body-sm-size",
+        "original": {
+          "value": "$eds-font-ts-body-sm-size"
+        },
+        "name": "eds-comp-shared-label-opt-text-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-opt-text-size"
+        ],
+        "alias": "$eds-font-ts-body-sm-size"
+      },
+      "eds-comp-shared-label-opt-text-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-opt-text-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-opt-text-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-opt-text-line-height": {
+        "value": "1.333",
+        "original": {
+          "value": "$eds-font-line-height-lg"
+        },
+        "name": "eds-comp-shared-label-opt-text-line-height",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-opt-text-line-height"
+        ],
+        "alias": "$eds-font-line-height-lg"
+      },
+      "eds-comp-shared-label-icon-size": {
+        "value": "0.75rem",
+        "original": {
+          "value": "$eds-size-sq-3"
+        },
+        "name": "eds-comp-shared-label-icon-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-icon-size"
+        ],
+        "alias": "$eds-size-sq-3"
+      },
+      "eds-comp-shared-label-icon-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-icon-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-icon-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-text-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-text-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-text-color-hover": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-text-color-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-color-hover"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-text-color-active": {
+        "value": "#64748b",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-50"
+        },
+        "name": "eds-comp-shared-label-nested-text-color-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-color-active"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-50"
+      },
+      "eds-comp-shared-label-nested-text-color-disabled": {
+        "value": "#94a2b8",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-60"
+        },
+        "name": "eds-comp-shared-label-nested-text-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-60"
+      },
+      "eds-comp-shared-label-nested-text-color-focus": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-text-color-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-color-focus"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-text-color-success": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-text-color-success",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-color-success"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-text-color-error": {
+        "value": "#64748b",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-50"
+        },
+        "name": "eds-comp-shared-label-nested-text-color-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-color-error"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-50"
+      },
+      "eds-comp-shared-label-nested-text-color-warning": {
+        "value": "#64748b",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-50"
+        },
+        "name": "eds-comp-shared-label-nested-text-color-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-color-warning"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-50"
+      },
+      "eds-comp-shared-label-nested-text-size": {
+        "value": "$eds-font-ts-body-sm-size",
+        "original": {
+          "value": "$eds-font-ts-body-sm-size"
+        },
+        "name": "eds-comp-shared-label-nested-text-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-size"
+        ],
+        "alias": "$eds-font-ts-body-sm-size"
+      },
+      "eds-comp-shared-label-nested-text-line-height-base": {
+        "value": "1.333",
+        "original": {
+          "value": "$eds-font-line-height-lg"
+        },
+        "name": "eds-comp-shared-label-nested-text-line-height-base",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-line-height-base"
+        ],
+        "alias": "$eds-font-line-height-lg"
+      },
+      "eds-comp-shared-label-nested-text-weight-reg": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-label-nested-text-weight-reg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-text-weight-reg"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-label-nested-opt-text-weight-reg": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-weight-reg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-weight-reg"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-label-nested-opt-text-size": {
+        "value": "$eds-font-ts-body-sm-size",
+        "original": {
+          "value": "$eds-font-ts-body-sm-size"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-size"
+        ],
+        "alias": "$eds-font-ts-body-sm-size"
+      },
+      "eds-comp-shared-label-nested-opt-text-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-opt-text-color-hover": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-color-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-color-hover"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-opt-text-color-active": {
+        "value": "#64748b",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-50"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-color-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-color-active"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-50"
+      },
+      "eds-comp-shared-label-nested-opt-text-color-disabled": {
+        "value": "#94a2b8",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-60"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-60"
+      },
+      "eds-comp-shared-label-nested-opt-text-color-focus": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-color-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-color-focus"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-opt-text-color-success": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-color-success",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-color-success"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-opt-text-color-error": {
+        "value": "#64748b",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-50"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-color-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-color-error"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-50"
+      },
+      "eds-comp-shared-label-nested-opt-text-color-warning": {
+        "value": "#64748b",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-50"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-color-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-color-warning"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-50"
+      },
+      "eds-comp-shared-label-nested-opt-text-line-height": {
+        "value": "1.333",
+        "original": {
+          "value": "$eds-font-line-height-lg"
+        },
+        "name": "eds-comp-shared-label-nested-opt-text-line-height",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-opt-text-line-height"
+        ],
+        "alias": "$eds-font-line-height-lg"
+      },
+      "eds-comp-shared-label-nested-icon-size": {
+        "value": "0.75rem",
+        "original": {
+          "value": "$eds-size-sq-3"
+        },
+        "name": "eds-comp-shared-label-nested-icon-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-icon-size"
+        ],
+        "alias": "$eds-size-sq-3"
+      },
+      "eds-comp-shared-label-nested-icon-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-icon-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-icon-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-icon-color-hover": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-icon-color-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-icon-color-hover"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-icon-color-active": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-icon-color-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-icon-color-active"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-icon-color-disabled": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-icon-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-icon-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-icon-color-focus": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-icon-color-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-icon-color-focus"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-icon-color-success": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-label-nested-icon-color-success",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-icon-color-success"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-label-nested-icon-color-error": {
+        "value": "#64748b",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-50"
+        },
+        "name": "eds-comp-shared-label-nested-icon-color-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-icon-color-error"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-50"
+      },
+      "eds-comp-shared-label-nested-icon-color-warning": {
+        "value": "#64748b",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-50"
+        },
+        "name": "eds-comp-shared-label-nested-icon-color-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "label"
+        },
+        "path": [
+          "components",
+          "label",
+          "eds-comp-shared-label-nested-icon-color-warning"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-50"
+      }
+    },
+    "textInput": {
+      "eds-comp-shared-text-input-spec-container-size-sm": {
+        "value": "2rem",
+        "original": {
+          "value": "$eds-size-control-sm"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-size-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-size-sm"
+        ],
+        "alias": "$eds-size-control-sm"
+      },
+      "eds-comp-shared-text-input-spec-container-size-md": {
+        "value": "2.5rem",
+        "original": {
+          "value": "$eds-size-control-md"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-size-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-size-md"
+        ],
+        "alias": "$eds-size-control-md"
+      },
+      "eds-comp-shared-text-input-spec-container-size-lg": {
+        "value": "3rem",
+        "original": {
+          "value": "$eds-size-control-lg"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-size-lg",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-size-lg"
+        ],
+        "alias": "$eds-size-control-lg"
+      },
+      "eds-comp-shared-text-input-spec-container-space-is-right-md": {
+        "value": "$eds-is-4x",
+        "original": {
+          "value": "$eds-is-4x"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-space-is-right-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-space-is-right-md"
+        ],
+        "alias": "$eds-is-4x"
+      },
+      "eds-comp-shared-text-input-spec-container-space-is-left-md": {
+        "value": "$eds-is-4x",
+        "original": {
+          "value": "$eds-is-4x"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-space-is-left-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-space-is-left-md"
+        ],
+        "alias": "$eds-is-4x"
+      },
+      "eds-comp-shared-text-input-spec-container-space-st-bottom-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-space-st-bottom-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-space-st-bottom-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-text-input-spec-container-space-il-sm-md": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-space-il-sm-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-space-il-sm-md"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-text-input-spec-container-nested-size-sm": {
+        "value": "3.75rem",
+        "original": {
+          "value": "$eds-size-control-nested-sm"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-nested-size-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-nested-size-sm"
+        ],
+        "alias": "$eds-size-control-nested-sm"
+      },
+      "eds-comp-shared-text-input-spec-container-nested-space-st-bottom-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-nested-space-st-bottom-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-nested-space-st-bottom-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-text-input-spec-container-nested-space-st-top-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-nested-space-st-top-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-nested-space-st-top-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-text-input-spec-container-nested-space-il-sm-md": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-text-input-spec-container-nested-space-il-sm-md",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-container-nested-space-il-sm-md"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-text-input-spec-support-text-space-st-bottom-sm": {
+        "value": "$eds-is-2x",
+        "original": {
+          "value": "$eds-is-2x"
+        },
+        "name": "eds-comp-shared-text-input-spec-support-text-space-st-bottom-sm",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-spec-support-text-space-st-bottom-sm"
+        ],
+        "alias": "$eds-is-2x"
+      },
+      "eds-comp-shared-text-input-container-color-bg-default": {
+        "value": "#fff",
+        "original": {
+          "value": "$eds-palette-eve-white"
+        },
+        "name": "eds-comp-shared-text-input-container-color-bg-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-color-bg-default"
+        ],
+        "alias": "$eds-palette-eve-white"
+      },
+      "eds-comp-shared-text-input-container-color-bg-disabled": {
+        "value": "#eef1f6",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-80"
+        },
+        "name": "eds-comp-shared-text-input-container-color-bg-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-color-bg-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-80"
+      },
+      "eds-comp-shared-text-input-container-border-color-default": {
+        "value": "#64748b",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-50"
+        },
+        "name": "eds-comp-shared-text-input-container-border-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-50"
+      },
+      "eds-comp-shared-text-input-container-border-color-hover": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-text-input-container-border-color-hover",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-color-hover"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-text-input-container-border-color-active": {
+        "value": "#1358bf",
+        "original": {
+          "value": "$eds-palette-eve-blue-30"
+        },
+        "name": "eds-comp-shared-text-input-container-border-color-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-color-active"
+        ],
+        "alias": "$eds-palette-eve-blue-30"
+      },
+      "eds-comp-shared-text-input-container-border-color-focus": {
+        "value": "#2070e8",
+        "original": {
+          "value": "$eds-palette-eve-blue-50"
+        },
+        "name": "eds-comp-shared-text-input-container-border-color-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-color-focus"
+        ],
+        "alias": "$eds-palette-eve-blue-50"
+      },
+      "eds-comp-shared-text-input-container-border-color-disabled": {
+        "value": "#eef1f6",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-80"
+        },
+        "name": "eds-comp-shared-text-input-container-border-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-80"
+      },
+      "eds-comp-shared-text-input-container-border-color-error": {
+        "value": "#cb303f",
+        "original": {
+          "value": "$eds-palette-eve-red-50"
+        },
+        "name": "eds-comp-shared-text-input-container-border-color-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-color-error"
+        ],
+        "alias": "$eds-palette-eve-red-50"
+      },
+      "eds-comp-shared-text-input-container-border-color-warning": {
+        "value": "#f59300",
+        "original": {
+          "value": "$eds-palette-eve-yellow-20"
+        },
+        "name": "eds-comp-shared-text-input-container-border-color-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-color-warning"
+        ],
+        "alias": "$eds-palette-eve-yellow-20"
+      },
+      "eds-comp-shared-text-input-container-border-size-default": {
+        "value": "$eds-size-border-width-base",
+        "original": {
+          "value": "$eds-size-border-width-base"
+        },
+        "name": "eds-comp-shared-text-input-container-border-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-size-default"
+        ],
+        "alias": "$eds-size-border-width-base"
+      },
+      "eds-comp-shared-text-input-container-border-size-active": {
+        "value": "$eds-size-border-width-base",
+        "original": {
+          "value": "$eds-size-border-width-base"
+        },
+        "name": "eds-comp-shared-text-input-container-border-size-active",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-size-active"
+        ],
+        "alias": "$eds-size-border-width-base"
+      },
+      "eds-comp-shared-text-input-container-border-size-focus": {
+        "value": "0.125rem",
+        "original": {
+          "value": "$eds-size-border-width-lg"
+        },
+        "name": "eds-comp-shared-text-input-container-border-size-focus",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-size-focus"
+        ],
+        "alias": "$eds-size-border-width-lg"
+      },
+      "eds-comp-shared-text-input-container-border-size-disabled": {
+        "value": "$eds-size-border-width-base",
+        "original": {
+          "value": "$eds-size-border-width-base"
+        },
+        "name": "eds-comp-shared-text-input-container-border-size-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-size-disabled"
+        ],
+        "alias": "$eds-size-border-width-base"
+      },
+      "eds-comp-shared-text-input-container-border-radius-default-sq": {
+        "value": "0.25rem",
+        "original": {
+          "value": "$eds-size-radius-sq"
+        },
+        "name": "eds-comp-shared-text-input-container-border-radius-default-sq",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-radius-default-sq"
+        ],
+        "alias": "$eds-size-radius-sq"
+      },
+      "eds-comp-shared-text-input-container-border-radius-default-rd": {
+        "value": "0.5rem",
+        "original": {
+          "value": "$eds-size-radius-rd"
+        },
+        "name": "eds-comp-shared-text-input-container-border-radius-default-rd",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-container-border-radius-default-rd"
+        ],
+        "alias": "$eds-size-radius-rd"
+      },
+      "eds-comp-shared-text-input-prefix-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-text-input-prefix-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-prefix-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-text-input-prefix-color-disabled": {
+        "value": "#94a2b8",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-60"
+        },
+        "name": "eds-comp-shared-text-input-prefix-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-prefix-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-60"
+      },
+      "eds-comp-shared-text-input-prefix-icon-size": {
+        "value": "1rem",
+        "original": {
+          "value": "$eds-size-sq-5"
+        },
+        "name": "eds-comp-shared-text-input-prefix-icon-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-prefix-icon-size"
+        ],
+        "alias": "$eds-size-sq-5"
+      },
+      "eds-comp-shared-text-input-suffix-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-text-input-suffix-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-suffix-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-text-input-suffix-color-disabled": {
+        "value": "#94a2b8",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-60"
+        },
+        "name": "eds-comp-shared-text-input-suffix-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-suffix-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-60"
+      },
+      "eds-comp-shared-text-input-suffix-icon-size": {
+        "value": "1rem",
+        "original": {
+          "value": "$eds-size-sq-5"
+        },
+        "name": "eds-comp-shared-text-input-suffix-icon-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-suffix-icon-size"
+        ],
+        "alias": "$eds-size-sq-5"
+      },
+      "eds-comp-shared-text-input-suffix-font-size": {
+        "value": "$eds-font-ts-body-lg-size",
+        "original": {
+          "value": "$eds-font-ts-body-lg-size"
+        },
+        "name": "eds-comp-shared-text-input-suffix-font-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-suffix-font-size"
+        ],
+        "alias": "$eds-font-ts-body-lg-size"
+      },
+      "eds-comp-shared-text-input-suffix-font-line-height": {
+        "value": "1.375",
+        "original": {
+          "value": "$eds-font-line-height-x-lg"
+        },
+        "name": "eds-comp-shared-text-input-suffix-font-line-height",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-suffix-font-line-height"
+        ],
+        "alias": "$eds-font-line-height-x-lg"
+      },
+      "eds-comp-shared-text-input-suffix-font-weight": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-text-input-suffix-font-weight",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-suffix-font-weight"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-text-input-filled-text-font-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-text-input-filled-text-font-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-filled-text-font-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-text-input-filled-text-font-color-disabled": {
+        "value": "#94a2b8",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-60"
+        },
+        "name": "eds-comp-shared-text-input-filled-text-font-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-filled-text-font-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-60"
+      },
+      "eds-comp-shared-text-input-filled-text-font-size-default": {
+        "value": "$eds-font-ts-body-lg-size",
+        "original": {
+          "value": "$eds-font-ts-body-lg-size"
+        },
+        "name": "eds-comp-shared-text-input-filled-text-font-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-filled-text-font-size-default"
+        ],
+        "alias": "$eds-font-ts-body-lg-size"
+      },
+      "eds-comp-shared-text-input-filled-text-font-line-height-default": {
+        "value": "1.375",
+        "original": {
+          "value": "$eds-font-line-height-x-lg"
+        },
+        "name": "eds-comp-shared-text-input-filled-text-font-line-height-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-filled-text-font-line-height-default"
+        ],
+        "alias": "$eds-font-line-height-x-lg"
+      },
+      "eds-comp-shared-text-input-filled-text-font-weight-default": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-text-input-filled-text-font-weight-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-filled-text-font-weight-default"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-text-input-hint-text-font-color-default": {
+        "value": "#64748b",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-50"
+        },
+        "name": "eds-comp-shared-text-input-hint-text-font-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-hint-text-font-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-50"
+      },
+      "eds-comp-shared-text-input-hint-text-font-color-disabled": {
+        "value": "#94a2b8",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-60"
+        },
+        "name": "eds-comp-shared-text-input-hint-text-font-color-disabled",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-hint-text-font-color-disabled"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-60"
+      },
+      "eds-comp-shared-text-input-hint-text-font-size-default": {
+        "value": "$eds-font-ts-body-lg-size",
+        "original": {
+          "value": "$eds-font-ts-body-lg-size"
+        },
+        "name": "eds-comp-shared-text-input-hint-text-font-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-hint-text-font-size-default"
+        ],
+        "alias": "$eds-font-ts-body-lg-size"
+      },
+      "eds-comp-shared-text-input-hint-text-font-line-height-default": {
+        "value": "1.375",
+        "original": {
+          "value": "$eds-font-line-height-x-lg"
+        },
+        "name": "eds-comp-shared-text-input-hint-text-font-line-height-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-hint-text-font-line-height-default"
+        ],
+        "alias": "$eds-font-line-height-x-lg"
+      },
+      "eds-comp-shared-text-input-hint-text-font-weight-default": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-text-input-hint-text-font-weight-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-hint-text-font-weight-default"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-text-input-info-text-font-color-default": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-text-input-info-text-font-color-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-info-text-font-color-default"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-text-input-info-text-font-size-default": {
+        "value": "$eds-font-ts-body-sm-size",
+        "original": {
+          "value": "$eds-font-ts-body-sm-size"
+        },
+        "name": "eds-comp-shared-text-input-info-text-font-size-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-info-text-font-size-default"
+        ],
+        "alias": "$eds-font-ts-body-sm-size"
+      },
+      "eds-comp-shared-text-input-info-text-font-line-height-default": {
+        "value": "1.333",
+        "original": {
+          "value": "$eds-font-line-height-lg"
+        },
+        "name": "eds-comp-shared-text-input-info-text-font-line-height-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-info-text-font-line-height-default"
+        ],
+        "alias": "$eds-font-line-height-lg"
+      },
+      "eds-comp-shared-text-input-info-text-font-weight-default": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-text-input-info-text-font-weight-default",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-info-text-font-weight-default"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-text-input-support-text-font-color-error": {
+        "value": "#cb303f",
+        "original": {
+          "value": "$eds-palette-eve-red-50"
+        },
+        "name": "eds-comp-shared-text-input-support-text-font-color-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-support-text-font-color-error"
+        ],
+        "alias": "$eds-palette-eve-red-50"
+      },
+      "eds-comp-shared-text-input-support-text-font-color-warning": {
+        "value": "#2a3546",
+        "original": {
+          "value": "$eds-palette-eve-cool-gray-30"
+        },
+        "name": "eds-comp-shared-text-input-support-text-font-color-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-support-text-font-color-warning"
+        ],
+        "alias": "$eds-palette-eve-cool-gray-30"
+      },
+      "eds-comp-shared-text-input-support-text-font-size-error": {
+        "value": "$eds-font-ts-body-sm-size",
+        "original": {
+          "value": "$eds-font-ts-body-sm-size"
+        },
+        "name": "eds-comp-shared-text-input-support-text-font-size-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-support-text-font-size-error"
+        ],
+        "alias": "$eds-font-ts-body-sm-size"
+      },
+      "eds-comp-shared-text-input-support-text-font-size-warning": {
+        "value": "$eds-font-ts-body-sm-size",
+        "original": {
+          "value": "$eds-font-ts-body-sm-size"
+        },
+        "name": "eds-comp-shared-text-input-support-text-font-size-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-support-text-font-size-warning"
+        ],
+        "alias": "$eds-font-ts-body-sm-size"
+      },
+      "eds-comp-shared-text-input-support-text-font-line-height-error": {
+        "value": "1.333",
+        "original": {
+          "value": "$eds-font-line-height-lg"
+        },
+        "name": "eds-comp-shared-text-input-support-text-font-line-height-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-support-text-font-line-height-error"
+        ],
+        "alias": "$eds-font-line-height-lg"
+      },
+      "eds-comp-shared-text-input-support-text-font-line-height-warning": {
+        "value": "1.333",
+        "original": {
+          "value": "$eds-font-line-height-lg"
+        },
+        "name": "eds-comp-shared-text-input-support-text-font-line-height-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-support-text-font-line-height-warning"
+        ],
+        "alias": "$eds-font-line-height-lg"
+      },
+      "eds-comp-shared-text-input-support-text-font-weight-error": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-text-input-support-text-font-weight-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-support-text-font-weight-error"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-text-input-support-text-font-weight-warning": {
+        "value": "400",
+        "original": {
+          "value": "$eds-font-weight-reg"
+        },
+        "name": "eds-comp-shared-text-input-support-text-font-weight-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-support-text-font-weight-warning"
+        ],
+        "alias": "$eds-font-weight-reg"
+      },
+      "eds-comp-shared-text-input-trailing-icon-color-success": {
+        "value": "#1a854a",
+        "original": {
+          "value": "$eds-palette-eve-green-50"
+        },
+        "name": "eds-comp-shared-text-input-trailing-icon-color-success",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-trailing-icon-color-success"
+        ],
+        "alias": "$eds-palette-eve-green-50"
+      },
+      "eds-comp-shared-text-input-trailing-icon-color-error": {
+        "value": "#cb303f",
+        "original": {
+          "value": "$eds-palette-eve-red-50"
+        },
+        "name": "eds-comp-shared-text-input-trailing-icon-color-error",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-trailing-icon-color-error"
+        ],
+        "alias": "$eds-palette-eve-red-50"
+      },
+      "eds-comp-shared-text-input-trailing-icon-color-warning": {
+        "value": "#f59300",
+        "original": {
+          "value": "$eds-palette-eve-yellow-20"
+        },
+        "name": "eds-comp-shared-text-input-trailing-icon-color-warning",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-trailing-icon-color-warning"
+        ],
+        "alias": "$eds-palette-eve-yellow-20"
+      },
+      "eds-comp-shared-text-input-trailing-icon-size": {
+        "value": "1rem",
+        "original": {
+          "value": "$eds-size-sq-5"
+        },
+        "name": "eds-comp-shared-text-input-trailing-icon-size",
+        "attributes": {
+          "category": "component",
+          "type": "alias",
+          "component": "textInput"
+        },
+        "path": [
+          "components",
+          "textInput",
+          "eds-comp-shared-text-input-trailing-icon-size"
+        ],
+        "alias": "$eds-size-sq-5"
+      }
+    }
+  }
+}

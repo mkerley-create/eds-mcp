@@ -1,0 +1,6715 @@
+{
+  "animation": {
+    "timing": {
+      "1": {
+        "value": "200ms",
+        "comment": "Value equals 200ms",
+        "original": {
+          "value": "200ms",
+          "comment": "Value equals 200ms"
+        },
+        "name": "eds-animation-timing-1",
+        "attributes": {
+          "category": "animation",
+          "type": "timing",
+          "item": "1"
+        },
+        "path": [
+          "animation",
+          "timing",
+          "1"
+        ]
+      },
+      "2": {
+        "value": "400ms",
+        "comment": "Value equals 400ms",
+        "original": {
+          "value": "400ms",
+          "comment": "Value equals 400ms"
+        },
+        "name": "eds-animation-timing-2",
+        "attributes": {
+          "category": "animation",
+          "type": "timing",
+          "item": "2"
+        },
+        "path": [
+          "animation",
+          "timing",
+          "2"
+        ]
+      },
+      "0_5": {
+        "value": "100ms",
+        "comment": "Value equals 100ms",
+        "original": {
+          "value": "100ms",
+          "comment": "Value equals 100ms"
+        },
+        "name": "eds-animation-timing-0-5",
+        "attributes": {
+          "category": "animation",
+          "type": "timing",
+          "item": "0_5"
+        },
+        "path": [
+          "animation",
+          "timing",
+          "0_5"
+        ]
+      },
+      "1_5": {
+        "value": "300ms",
+        "comment": "Value equals 300ms",
+        "original": {
+          "value": "300ms",
+          "comment": "Value equals 300ms"
+        },
+        "name": "eds-animation-timing-1-5",
+        "attributes": {
+          "category": "animation",
+          "type": "timing",
+          "item": "1_5"
+        },
+        "path": [
+          "animation",
+          "timing",
+          "1_5"
+        ]
+      },
+      "2_5": {
+        "value": "500ms",
+        "comment": "Value equals 500ms",
+        "original": {
+          "value": "500ms",
+          "comment": "Value equals 500ms"
+        },
+        "name": "eds-animation-timing-2-5",
+        "attributes": {
+          "category": "animation",
+          "type": "timing",
+          "item": "2_5"
+        },
+        "path": [
+          "animation",
+          "timing",
+          "2_5"
+        ]
+      }
+    },
+    "easing": {
+      "in": {
+        "value": "cubic-bezier(.5,0,1,1)",
+        "comment": "Value equals cubic-bezier(.5,0,1,1)",
+        "original": {
+          "value": "cubic-bezier(.5,0,1,1)",
+          "comment": "Value equals cubic-bezier(.5,0,1,1)"
+        },
+        "name": "eds-animation-easing-in",
+        "attributes": {
+          "category": "animation",
+          "type": "easing",
+          "item": "in"
+        },
+        "path": [
+          "animation",
+          "easing",
+          "in"
+        ]
+      },
+      "out": {
+        "value": "cubic-bezier(0,0,.5,1)",
+        "comment": "Value equals cubic-bezier(0,0,.5,1)",
+        "original": {
+          "value": "cubic-bezier(0,0,.5,1)",
+          "comment": "Value equals cubic-bezier(0,0,.5,1)"
+        },
+        "name": "eds-animation-easing-out",
+        "attributes": {
+          "category": "animation",
+          "type": "easing",
+          "item": "out"
+        },
+        "path": [
+          "animation",
+          "easing",
+          "out"
+        ]
+      },
+      "in-out": {
+        "value": "cubic-bezier(0,0,.5,1)",
+        "comment": "Value equals cubic-bezier(0,0,.5,1)",
+        "original": {
+          "value": "cubic-bezier(0,0,.5,1)",
+          "comment": "Value equals cubic-bezier(0,0,.5,1)"
+        },
+        "name": "eds-animation-easing-in-out",
+        "attributes": {
+          "category": "animation",
+          "type": "easing",
+          "item": "in-out"
+        },
+        "path": [
+          "animation",
+          "easing",
+          "in-out"
+        ]
+      }
+    },
+    "btn": {
+      "hov": {
+        "value": "all 300ms cubic-bezier(0,0,.5,1)",
+        "comment": "Equals all 300ms cubic-bezier(0,0,.5,1)",
+        "original": {
+          "value": "all {animation.timing.1_5.value} {animation.easing.in-out.value}",
+          "comment": "Equals all 300ms cubic-bezier(0,0,.5,1)"
+        },
+        "name": "eds-animation-btn-hov",
+        "attributes": {
+          "category": "animation",
+          "type": "btn",
+          "item": "hov"
+        },
+        "path": [
+          "animation",
+          "btn",
+          "hov"
+        ]
+      }
+    }
+  },
+  "bdr": {
+    "thin": {
+      "value": "solid 1px",
+      "comment": "Equals, solid 1px",
+      "original": {
+        "value": "solid 1px",
+        "comment": "Equals, solid 1px"
+      },
+      "name": "eds-bdr-thin",
+      "attributes": {
+        "category": "bdr",
+        "type": "thin"
+      },
+      "path": [
+        "bdr",
+        "thin"
+      ]
+    },
+    "thick": {
+      "value": "solid 2px",
+      "comment": "Equals, solid 2px",
+      "original": {
+        "value": "solid 2px",
+        "comment": "Equals, solid 2px"
+      },
+      "name": "eds-bdr-thick",
+      "attributes": {
+        "category": "bdr",
+        "type": "thick"
+      },
+      "path": [
+        "bdr",
+        "thick"
+      ]
+    }
+  },
+  "color": {
+    "white": {
+      "value": "#ffffff",
+      "original": {
+        "value": "#FFFFFF"
+      },
+      "name": "eds-color-white",
+      "attributes": {
+        "category": "color",
+        "type": "white"
+      },
+      "path": [
+        "color",
+        "white"
+      ]
+    },
+    "black": {
+      "value": "#000000",
+      "original": {
+        "value": "#000000"
+      },
+      "name": "eds-color-black",
+      "attributes": {
+        "category": "color",
+        "type": "black"
+      },
+      "path": [
+        "color",
+        "black"
+      ]
+    },
+    "gray": {
+      "01": {
+        "value": "#555555",
+        "comment": "#555555",
+        "original": {
+          "value": "{color.neutral.33.value}",
+          "comment": "#555555"
+        },
+        "name": "eds-color-gray-01",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "01"
+        },
+        "path": [
+          "color",
+          "gray",
+          "01"
+        ]
+      },
+      "02": {
+        "value": "#757575",
+        "comment": "#757575",
+        "original": {
+          "value": "{color.neutral.46.value}",
+          "comment": "#757575"
+        },
+        "name": "eds-color-gray-02",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "02"
+        },
+        "path": [
+          "color",
+          "gray",
+          "02"
+        ]
+      },
+      "03": {
+        "value": "#999999",
+        "comment": "#999999",
+        "original": {
+          "value": "{color.neutral.60.value}",
+          "comment": "#999999"
+        },
+        "name": "eds-color-gray-03",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "03"
+        },
+        "path": [
+          "color",
+          "gray",
+          "03"
+        ]
+      },
+      "04": {
+        "value": "#cccccc",
+        "comment": "#cccccc",
+        "original": {
+          "value": "{color.neutral.80.value}",
+          "comment": "#cccccc"
+        },
+        "name": "eds-color-gray-04",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "04"
+        },
+        "path": [
+          "color",
+          "gray",
+          "04"
+        ]
+      },
+      "05": {
+        "value": "#e6e6e6",
+        "comment": "#e6e6e6",
+        "original": {
+          "value": "{color.neutral.90.value}",
+          "comment": "#e6e6e6"
+        },
+        "name": "eds-color-gray-05",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "05"
+        },
+        "path": [
+          "color",
+          "gray",
+          "05"
+        ]
+      },
+      "06": {
+        "value": "#f2f2f2",
+        "comment": "#f2f2f2",
+        "original": {
+          "value": "{color.neutral.95.value}",
+          "comment": "#f2f2f2"
+        },
+        "name": "eds-color-gray-06",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "06"
+        },
+        "path": [
+          "color",
+          "gray",
+          "06"
+        ]
+      },
+      "07": {
+        "value": "#fafafa",
+        "comment": "#fafafa",
+        "original": {
+          "value": "{color.neutral.98.value}",
+          "comment": "#fafafa"
+        },
+        "name": "eds-color-gray-07",
+        "attributes": {
+          "category": "color",
+          "type": "gray",
+          "item": "07"
+        },
+        "path": [
+          "color",
+          "gray",
+          "07"
+        ]
+      }
+    },
+    "blue": {
+      "01": {
+        "value": "#004c8a",
+        "comment": "#004c8a",
+        "original": {
+          "value": "{color.blues.27.value}",
+          "comment": "#004c8a"
+        },
+        "name": "eds-color-blue-01",
+        "attributes": {
+          "category": "color",
+          "type": "blue",
+          "item": "01"
+        },
+        "path": [
+          "color",
+          "blue",
+          "01"
+        ]
+      },
+      "02": {
+        "value": "#005aa3",
+        "comment": "#005aa3",
+        "original": {
+          "value": "{color.blues.32.value}",
+          "comment": "#005aa3"
+        },
+        "name": "eds-color-blue-02",
+        "attributes": {
+          "category": "color",
+          "type": "blue",
+          "item": "02"
+        },
+        "path": [
+          "color",
+          "blue",
+          "02"
+        ]
+      },
+      "03": {
+        "value": "#0069bf",
+        "comment": "#0069bf",
+        "original": {
+          "value": "{color.blues.37.value}",
+          "comment": "#0069bf"
+        },
+        "name": "eds-color-blue-03",
+        "attributes": {
+          "category": "color",
+          "type": "blue",
+          "item": "03"
+        },
+        "path": [
+          "color",
+          "blue",
+          "03"
+        ]
+      },
+      "04": {
+        "value": "#0076d6",
+        "comment": "#0076d6",
+        "original": {
+          "value": "{color.blues.42.value}",
+          "comment": "#0076d6"
+        },
+        "name": "eds-color-blue-04",
+        "attributes": {
+          "category": "color",
+          "type": "blue",
+          "item": "04"
+        },
+        "path": [
+          "color",
+          "blue",
+          "04"
+        ]
+      },
+      "05": {
+        "value": "#007ee5",
+        "comment": "#007ee5",
+        "original": {
+          "value": "{color.blues.45.value}",
+          "comment": "#007ee5"
+        },
+        "name": "eds-color-blue-05",
+        "attributes": {
+          "category": "color",
+          "type": "blue",
+          "item": "05"
+        },
+        "path": [
+          "color",
+          "blue",
+          "05"
+        ]
+      }
+    },
+    "green": {
+      "01": {
+        "value": "#699900",
+        "comment": "#699900",
+        "original": {
+          "value": "{color.greens.30.value}",
+          "comment": "#699900"
+        },
+        "name": "eds-color-green-01",
+        "attributes": {
+          "category": "color",
+          "type": "green",
+          "item": "01"
+        },
+        "path": [
+          "color",
+          "green",
+          "01"
+        ]
+      },
+      "02": {
+        "value": "#7bb300",
+        "comment": "#7bb300",
+        "original": {
+          "value": "{color.greens.35.value}",
+          "comment": "#7bb300"
+        },
+        "name": "eds-color-green-02",
+        "attributes": {
+          "category": "color",
+          "type": "green",
+          "item": "02"
+        },
+        "path": [
+          "color",
+          "green",
+          "02"
+        ]
+      },
+      "03": {
+        "value": "#8ccb00",
+        "comment": "#8ccb00",
+        "original": {
+          "value": "{color.greens.40.value}",
+          "comment": "#8ccb00"
+        },
+        "name": "eds-color-green-03",
+        "attributes": {
+          "category": "color",
+          "type": "green",
+          "item": "03"
+        },
+        "path": [
+          "color",
+          "green",
+          "03"
+        ]
+      },
+      "04": {
+        "value": "#a5ea0b",
+        "comment": "#a5ea0b",
+        "original": {
+          "value": "{color.greens.48.value}",
+          "comment": "#a5ea0b"
+        },
+        "name": "eds-color-green-04",
+        "attributes": {
+          "category": "color",
+          "type": "green",
+          "item": "04"
+        },
+        "path": [
+          "color",
+          "green",
+          "04"
+        ]
+      }
+    },
+    "red": {
+      "01": {
+        "value": "#e5000b",
+        "comment": "#e5000b",
+        "original": {
+          "value": "{color.reds.45.value}",
+          "comment": "#e5000b"
+        },
+        "name": "eds-color-red-01",
+        "attributes": {
+          "category": "color",
+          "type": "red",
+          "item": "01"
+        },
+        "path": [
+          "color",
+          "red",
+          "01"
+        ]
+      }
+    },
+    "orange": {
+      "01": {
+        "value": "#e56700",
+        "comment": "#e56700",
+        "original": {
+          "value": "{color.oranges.45.value}",
+          "comment": "#e56700"
+        },
+        "name": "eds-color-orange-01",
+        "attributes": {
+          "category": "color",
+          "type": "orange",
+          "item": "01"
+        },
+        "path": [
+          "color",
+          "orange",
+          "01"
+        ]
+      }
+    },
+    "bdr": {
+      "btn": {
+        "accent": {
+          "def": {
+            "value": "#8ccb00",
+            "original": {
+              "value": "{color.green.03.value}"
+            },
+            "name": "eds-color-bdr-btn-accent-def",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "def"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "accent",
+              "def"
+            ]
+          },
+          "hov": {
+            "value": "#7bb300",
+            "original": {
+              "value": "{color.green.02.value}"
+            },
+            "name": "eds-color-bdr-btn-accent-hov",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "hov"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "accent",
+              "hov"
+            ]
+          },
+          "act": {
+            "value": "#699900",
+            "original": {
+              "value": "{color.green.01.value}"
+            },
+            "name": "eds-color-bdr-btn-accent-act",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "act"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "accent",
+              "act"
+            ]
+          },
+          "focus": {
+            "value": "#a5ea0b",
+            "original": {
+              "value": "{color.green.04.value}"
+            },
+            "name": "eds-color-bdr-btn-accent-focus",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "focus"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "accent",
+              "focus"
+            ]
+          },
+          "dis": {
+            "value": "#e6e6e6",
+            "original": {
+              "value": "{color.gray.05.value}"
+            },
+            "name": "eds-color-bdr-btn-accent-dis",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "dis"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "accent",
+              "dis"
+            ]
+          }
+        },
+        "primary": {
+          "def": {
+            "value": "#0069bf",
+            "original": {
+              "value": "{color.blue.03.value}"
+            },
+            "name": "eds-color-bdr-btn-primary-def",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "def"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "primary",
+              "def"
+            ]
+          },
+          "hov": {
+            "value": "#005aa3",
+            "original": {
+              "value": "{color.blue.02.value}"
+            },
+            "name": "eds-color-bdr-btn-primary-hov",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "hov"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "primary",
+              "hov"
+            ]
+          },
+          "act": {
+            "value": "#004c8a",
+            "original": {
+              "value": "{color.blue.01.value}"
+            },
+            "name": "eds-color-bdr-btn-primary-act",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "act"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "primary",
+              "act"
+            ]
+          },
+          "focus": {
+            "value": "#0076d6",
+            "original": {
+              "value": "{color.blue.04.value}"
+            },
+            "name": "eds-color-bdr-btn-primary-focus",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "focus"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "primary",
+              "focus"
+            ]
+          },
+          "dis": {
+            "value": "#e6e6e6",
+            "original": {
+              "value": "{color.gray.05.value}"
+            },
+            "name": "eds-color-bdr-btn-primary-dis",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "dis"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "primary",
+              "dis"
+            ]
+          }
+        },
+        "seconary": {
+          "def": {
+            "value": "#0069bf",
+            "original": {
+              "value": "{color.blue.03.value}"
+            },
+            "name": "eds-color-bdr-btn-seconary-def",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "seconary",
+              "state": "def"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "seconary",
+              "def"
+            ]
+          },
+          "hov": {
+            "value": "#0069bf",
+            "original": {
+              "value": "{color.blue.03.value}"
+            },
+            "name": "eds-color-bdr-btn-seconary-hov",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "seconary",
+              "state": "hov"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "seconary",
+              "hov"
+            ]
+          },
+          "act": {
+            "value": "#004c8a",
+            "original": {
+              "value": "{color.blue.01.value}"
+            },
+            "name": "eds-color-bdr-btn-seconary-act",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "seconary",
+              "state": "act"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "seconary",
+              "act"
+            ]
+          },
+          "focus": {
+            "value": "#0076d6",
+            "original": {
+              "value": "{color.blue.04.value}"
+            },
+            "name": "eds-color-bdr-btn-seconary-focus",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "seconary",
+              "state": "focus"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "seconary",
+              "focus"
+            ]
+          },
+          "dis": {
+            "value": "#e6e6e6",
+            "original": {
+              "value": "{color.gray.05.value}"
+            },
+            "name": "eds-color-bdr-btn-seconary-dis",
+            "attributes": {
+              "category": "color",
+              "type": "bdr",
+              "item": "btn",
+              "subitem": "seconary",
+              "state": "dis"
+            },
+            "path": [
+              "color",
+              "bdr",
+              "btn",
+              "seconary",
+              "dis"
+            ]
+          },
+          "on_dark": {
+            "def": {
+              "value": "#ffffff",
+              "original": {
+                "value": "{color.white.value}"
+              },
+              "name": "eds-color-bdr-btn-seconary-on-dark-def",
+              "attributes": {
+                "category": "color",
+                "type": "bdr",
+                "item": "btn",
+                "subitem": "seconary",
+                "state": "on_dark"
+              },
+              "path": [
+                "color",
+                "bdr",
+                "btn",
+                "seconary",
+                "on_dark",
+                "def"
+              ]
+            },
+            "hov": {
+              "value": "#ffffff",
+              "original": {
+                "value": "{color.white.value}"
+              },
+              "name": "eds-color-bdr-btn-seconary-on-dark-hov",
+              "attributes": {
+                "category": "color",
+                "type": "bdr",
+                "item": "btn",
+                "subitem": "seconary",
+                "state": "on_dark"
+              },
+              "path": [
+                "color",
+                "bdr",
+                "btn",
+                "seconary",
+                "on_dark",
+                "hov"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "bg": {
+      "btn": {
+        "accent": {
+          "def": {
+            "value": "#8ccb00",
+            "original": {
+              "value": "{color.green.03.value}"
+            },
+            "name": "eds-color-bg-btn-accent-def",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "def"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "accent",
+              "def"
+            ]
+          },
+          "hov": {
+            "value": "#7bb300",
+            "original": {
+              "value": "{color.green.02.value}"
+            },
+            "name": "eds-color-bg-btn-accent-hov",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "hov"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "accent",
+              "hov"
+            ]
+          },
+          "act": {
+            "value": "#699900",
+            "original": {
+              "value": "{color.green.01.value}"
+            },
+            "name": "eds-color-bg-btn-accent-act",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "act"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "accent",
+              "act"
+            ]
+          },
+          "focus": {
+            "value": "#a5ea0b",
+            "original": {
+              "value": "{color.green.04.value}"
+            },
+            "name": "eds-color-bg-btn-accent-focus",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "focus"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "accent",
+              "focus"
+            ]
+          },
+          "dis": {
+            "value": "#e6e6e6",
+            "original": {
+              "value": "{color.gray.05.value}"
+            },
+            "name": "eds-color-bg-btn-accent-dis",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "dis"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "accent",
+              "dis"
+            ]
+          }
+        },
+        "primary": {
+          "def": {
+            "value": "#0069bf",
+            "original": {
+              "value": "{color.blue.03.value}"
+            },
+            "name": "eds-color-bg-btn-primary-def",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "def"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "primary",
+              "def"
+            ]
+          },
+          "hov": {
+            "value": "#005aa3",
+            "original": {
+              "value": "{color.blue.02.value}"
+            },
+            "name": "eds-color-bg-btn-primary-hov",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "hov"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "primary",
+              "hov"
+            ]
+          },
+          "act": {
+            "value": "#004c8a",
+            "original": {
+              "value": "{color.blue.01.value}"
+            },
+            "name": "eds-color-bg-btn-primary-act",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "act"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "primary",
+              "act"
+            ]
+          },
+          "focus": {
+            "value": "#0076d6",
+            "original": {
+              "value": "{color.blue.04.value}"
+            },
+            "name": "eds-color-bg-btn-primary-focus",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "focus"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "primary",
+              "focus"
+            ]
+          },
+          "dis": {
+            "value": "#e6e6e6",
+            "original": {
+              "value": "{color.gray.05.value}"
+            },
+            "name": "eds-color-bg-btn-primary-dis",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "dis"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "primary",
+              "dis"
+            ]
+          }
+        },
+        "secondary": {
+          "def": {
+            "value": "rgba(0, 0, 0, 0)",
+            "original": {
+              "value": "transparent"
+            },
+            "name": "eds-color-bg-btn-secondary-def",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "secondary",
+              "state": "def"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "secondary",
+              "def"
+            ]
+          },
+          "hov": {
+            "value": "rgba(0, 0, 0, 0)",
+            "original": {
+              "value": "transparent"
+            },
+            "name": "eds-color-bg-btn-secondary-hov",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "secondary",
+              "state": "hov"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "secondary",
+              "hov"
+            ]
+          },
+          "act": {
+            "value": "#004c8a",
+            "original": {
+              "value": "{color.blue.01.value}"
+            },
+            "name": "eds-color-bg-btn-secondary-act",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "secondary",
+              "state": "act"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "secondary",
+              "act"
+            ]
+          },
+          "focus": {
+            "value": "#0076d6",
+            "original": {
+              "value": "{color.blue.04.value}"
+            },
+            "name": "eds-color-bg-btn-secondary-focus",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "secondary",
+              "state": "focus"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "secondary",
+              "focus"
+            ]
+          },
+          "dis": {
+            "value": "#e6e6e6",
+            "original": {
+              "value": "{color.gray.05.value}"
+            },
+            "name": "eds-color-bg-btn-secondary-dis",
+            "attributes": {
+              "category": "color",
+              "type": "bg",
+              "item": "btn",
+              "subitem": "secondary",
+              "state": "dis"
+            },
+            "path": [
+              "color",
+              "bg",
+              "btn",
+              "secondary",
+              "dis"
+            ]
+          },
+          "on_dark": {
+            "def": {
+              "value": "rgba(0, 0, 0, 0)",
+              "original": {
+                "value": "transparent"
+              },
+              "name": "eds-color-bg-btn-secondary-on-dark-def",
+              "attributes": {
+                "category": "color",
+                "type": "bg",
+                "item": "btn",
+                "subitem": "secondary",
+                "state": "on_dark"
+              },
+              "path": [
+                "color",
+                "bg",
+                "btn",
+                "secondary",
+                "on_dark",
+                "def"
+              ]
+            },
+            "hov": {
+              "value": "#ffffff",
+              "original": {
+                "value": "{color.white.value}"
+              },
+              "name": "eds-color-bg-btn-secondary-on-dark-hov",
+              "attributes": {
+                "category": "color",
+                "type": "bg",
+                "item": "btn",
+                "subitem": "secondary",
+                "state": "on_dark"
+              },
+              "path": [
+                "color",
+                "bg",
+                "btn",
+                "secondary",
+                "on_dark",
+                "hov"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "text": {
+      "link": {
+        "primary": {
+          "def": {
+            "value": "#0069bf",
+            "original": {
+              "value": "{color.blue.03.value}"
+            },
+            "name": "eds-color-text-link-primary-def",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "link",
+              "subitem": "primary",
+              "state": "def"
+            },
+            "path": [
+              "color",
+              "text",
+              "link",
+              "primary",
+              "def"
+            ]
+          },
+          "hov": {
+            "value": "#007ee5",
+            "original": {
+              "value": "{color.blue.05.value}"
+            },
+            "name": "eds-color-text-link-primary-hov",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "link",
+              "subitem": "primary",
+              "state": "hov"
+            },
+            "path": [
+              "color",
+              "text",
+              "link",
+              "primary",
+              "hov"
+            ]
+          },
+          "act": {
+            "value": "#004c8a",
+            "original": {
+              "value": "{color.blue.01.value}"
+            },
+            "name": "eds-color-text-link-primary-act",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "link",
+              "subitem": "primary",
+              "state": "act"
+            },
+            "path": [
+              "color",
+              "text",
+              "link",
+              "primary",
+              "act"
+            ]
+          },
+          "focus": {
+            "value": "#0076d6",
+            "original": {
+              "value": "{color.blue.04.value}"
+            },
+            "name": "eds-color-text-link-primary-focus",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "link",
+              "subitem": "primary",
+              "state": "focus"
+            },
+            "path": [
+              "color",
+              "text",
+              "link",
+              "primary",
+              "focus"
+            ]
+          },
+          "dis": {
+            "value": "#cccccc",
+            "original": {
+              "value": "{color.gray.04.value}"
+            },
+            "name": "eds-color-text-link-primary-dis",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "link",
+              "subitem": "primary",
+              "state": "dis"
+            },
+            "path": [
+              "color",
+              "text",
+              "link",
+              "primary",
+              "dis"
+            ]
+          }
+        }
+      },
+      "btn": {
+        "accent": {
+          "def": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-accent-def",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "def"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "accent",
+              "def"
+            ]
+          },
+          "hov": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-accent-hov",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "hov"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "accent",
+              "hov"
+            ]
+          },
+          "act": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-accent-act",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "act"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "accent",
+              "act"
+            ]
+          },
+          "focus": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-accent-focus",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "focus"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "accent",
+              "focus"
+            ]
+          },
+          "dis": {
+            "value": "#cccccc",
+            "original": {
+              "value": "{color.gray.04.value}"
+            },
+            "name": "eds-color-text-btn-accent-dis",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "accent",
+              "state": "dis"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "accent",
+              "dis"
+            ]
+          }
+        },
+        "primary": {
+          "def": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-primary-def",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "def"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "primary",
+              "def"
+            ]
+          },
+          "hov": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-primary-hov",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "hov"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "primary",
+              "hov"
+            ]
+          },
+          "act": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-primary-act",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "act"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "primary",
+              "act"
+            ]
+          },
+          "focus": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-primary-focus",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "focus"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "primary",
+              "focus"
+            ]
+          },
+          "dis": {
+            "value": "#cccccc",
+            "original": {
+              "value": "{color.gray.04.value}"
+            },
+            "name": "eds-color-text-btn-primary-dis",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "primary",
+              "state": "dis"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "primary",
+              "dis"
+            ]
+          }
+        },
+        "secondary": {
+          "def": {
+            "value": "#0069bf",
+            "original": {
+              "value": "{color.blue.03.value}"
+            },
+            "name": "eds-color-text-btn-secondary-def",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "secondary",
+              "state": "def"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "secondary",
+              "def"
+            ]
+          },
+          "hov": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-secondary-hov",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "secondary",
+              "state": "hov"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "secondary",
+              "hov"
+            ]
+          },
+          "act": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-secondary-act",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "secondary",
+              "state": "act"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "secondary",
+              "act"
+            ]
+          },
+          "focus": {
+            "value": "#ffffff",
+            "original": {
+              "value": "{color.white.value}"
+            },
+            "name": "eds-color-text-btn-secondary-focus",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "secondary",
+              "state": "focus"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "secondary",
+              "focus"
+            ]
+          },
+          "dis": {
+            "value": "#cccccc",
+            "original": {
+              "value": "{color.gray.04.value}"
+            },
+            "name": "eds-color-text-btn-secondary-dis",
+            "attributes": {
+              "category": "color",
+              "type": "text",
+              "item": "btn",
+              "subitem": "secondary",
+              "state": "dis"
+            },
+            "path": [
+              "color",
+              "text",
+              "btn",
+              "secondary",
+              "dis"
+            ]
+          },
+          "on_dark": {
+            "def": {
+              "value": "#ffffff",
+              "original": {
+                "value": "{color.white.value}"
+              },
+              "name": "eds-color-text-btn-secondary-on-dark-def",
+              "attributes": {
+                "category": "color",
+                "type": "text",
+                "item": "btn",
+                "subitem": "secondary",
+                "state": "on_dark"
+              },
+              "path": [
+                "color",
+                "text",
+                "btn",
+                "secondary",
+                "on_dark",
+                "def"
+              ]
+            },
+            "hov": {
+              "value": "#0069bf",
+              "original": {
+                "value": "{color.blue.03.value}"
+              },
+              "name": "eds-color-text-btn-secondary-on-dark-hov",
+              "attributes": {
+                "category": "color",
+                "type": "text",
+                "item": "btn",
+                "subitem": "secondary",
+                "state": "on_dark"
+              },
+              "path": [
+                "color",
+                "text",
+                "btn",
+                "secondary",
+                "on_dark",
+                "hov"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "palette": {
+      "eve": {
+        "cool-gray": {
+          "10": {
+            "value": "#0f1a2a",
+            "comment": "EDS Eve cool-gray-10",
+            "original": {
+              "value": "#0f1a2a"
+            },
+            "name": "eds-palette-eve-cool-gray-10",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "cool-gray",
+              "subitem": "10"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "cool-gray",
+              "10"
+            ]
+          },
+          "20": {
+            "value": "#1b2637",
+            "comment": "EDS Eve cool-gray-20",
+            "original": {
+              "value": "#1b2637"
+            },
+            "name": "eds-palette-eve-cool-gray-20",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "cool-gray",
+              "subitem": "20"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "cool-gray",
+              "20"
+            ]
+          },
+          "30": {
+            "value": "#2a3546",
+            "comment": "EDS Eve cool-gray-30",
+            "original": {
+              "value": "#2a3546"
+            },
+            "name": "eds-palette-eve-cool-gray-30",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "cool-gray",
+              "subitem": "30"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "cool-gray",
+              "30"
+            ]
+          },
+          "40": {
+            "value": "#475569",
+            "comment": "EDS Eve cool-gray-40",
+            "original": {
+              "value": "#475569"
+            },
+            "name": "eds-palette-eve-cool-gray-40",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "cool-gray",
+              "subitem": "40"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "cool-gray",
+              "40"
+            ]
+          },
+          "50": {
+            "value": "#64748b",
+            "comment": "EDS Eve cool-gray-50",
+            "original": {
+              "value": "#64748b"
+            },
+            "name": "eds-palette-eve-cool-gray-50",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "cool-gray",
+              "subitem": "50"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "cool-gray",
+              "50"
+            ]
+          },
+          "60": {
+            "value": "#94a2b8",
+            "comment": "EDS Eve cool-gray-60",
+            "original": {
+              "value": "#94a2b8"
+            },
+            "name": "eds-palette-eve-cool-gray-60",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "cool-gray",
+              "subitem": "60"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "cool-gray",
+              "60"
+            ]
+          },
+          "70": {
+            "value": "#cbd4e1",
+            "comment": "EDS Eve cool-gray-70",
+            "original": {
+              "value": "#cbd4e1"
+            },
+            "name": "eds-palette-eve-cool-gray-70",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "cool-gray",
+              "subitem": "70"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "cool-gray",
+              "70"
+            ]
+          },
+          "80": {
+            "value": "#eef1f6",
+            "comment": "EDS Eve cool-gray-80",
+            "original": {
+              "value": "#eef1f6"
+            },
+            "name": "eds-palette-eve-cool-gray-80",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "cool-gray",
+              "subitem": "80"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "cool-gray",
+              "80"
+            ]
+          },
+          "90": {
+            "value": "#f1f4f9",
+            "comment": "EDS Eve cool-gray-90",
+            "original": {
+              "value": "#f1f4f9"
+            },
+            "name": "eds-palette-eve-cool-gray-90",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "cool-gray",
+              "subitem": "90"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "cool-gray",
+              "90"
+            ]
+          },
+          "100": {
+            "value": "#f8fafc",
+            "comment": "EDS Eve cool-gray-100",
+            "original": {
+              "value": "#f8fafc"
+            },
+            "name": "eds-palette-eve-cool-gray-100",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "cool-gray",
+              "subitem": "100"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "cool-gray",
+              "100"
+            ]
+          }
+        },
+        "blue": {
+          "10": {
+            "value": "#033e96",
+            "comment": "EDS Eve blue-10",
+            "original": {
+              "value": "#033e96"
+            },
+            "name": "eds-palette-eve-blue-10",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "10"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "10"
+            ]
+          },
+          "20": {
+            "value": "#0a4aab",
+            "comment": "EDS Eve blue-20",
+            "original": {
+              "value": "#0a4aab"
+            },
+            "name": "eds-palette-eve-blue-20",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "20"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "20"
+            ]
+          },
+          "30": {
+            "value": "#1358bf",
+            "comment": "EDS Eve blue-30",
+            "original": {
+              "value": "#1358bf"
+            },
+            "name": "eds-palette-eve-blue-30",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "30"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "30"
+            ]
+          },
+          "40": {
+            "value": "#1561d4",
+            "comment": "EDS Eve blue-40",
+            "original": {
+              "value": "#1561d4"
+            },
+            "name": "eds-palette-eve-blue-40",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "40"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "40"
+            ]
+          },
+          "50": {
+            "value": "#2070e8",
+            "comment": "EDS Eve blue-50",
+            "original": {
+              "value": "#2070e8"
+            },
+            "name": "eds-palette-eve-blue-50",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "50"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "50"
+            ]
+          },
+          "60": {
+            "value": "#4e91f5",
+            "comment": "EDS Eve blue-60",
+            "original": {
+              "value": "#4e91f5"
+            },
+            "name": "eds-palette-eve-blue-60",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "60"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "60"
+            ]
+          },
+          "70": {
+            "value": "#7aafff",
+            "comment": "EDS Eve blue-70",
+            "original": {
+              "value": "#7aafff"
+            },
+            "name": "eds-palette-eve-blue-70",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "70"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "70"
+            ]
+          },
+          "80": {
+            "value": "#a3c8ff",
+            "comment": "EDS Eve blue-80",
+            "original": {
+              "value": "#a3c8ff"
+            },
+            "name": "eds-palette-eve-blue-80",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "80"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "80"
+            ]
+          },
+          "90": {
+            "value": "#cce0ff",
+            "comment": "EDS Eve blue-90",
+            "original": {
+              "value": "#cce0ff"
+            },
+            "name": "eds-palette-eve-blue-90",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "90"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "90"
+            ]
+          },
+          "100": {
+            "value": "#f0f6ff",
+            "comment": "EDS Eve blue-100",
+            "original": {
+              "value": "#f0f6ff"
+            },
+            "name": "eds-palette-eve-blue-100",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "100"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "100"
+            ]
+          },
+          "05": {
+            "value": "#091a33",
+            "comment": "EDS Eve blue-05",
+            "original": {
+              "value": "#091a33"
+            },
+            "name": "eds-palette-eve-blue-05",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "blue",
+              "subitem": "05"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "blue",
+              "05"
+            ]
+          }
+        },
+        "green": {
+          "10": {
+            "value": "#0e4728",
+            "comment": "EDS Eve green-10",
+            "original": {
+              "value": "#0e4728"
+            },
+            "name": "eds-palette-eve-green-10",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "10"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "10"
+            ]
+          },
+          "20": {
+            "value": "#115730",
+            "comment": "EDS Eve green-20",
+            "original": {
+              "value": "#115730"
+            },
+            "name": "eds-palette-eve-green-20",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "20"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "20"
+            ]
+          },
+          "30": {
+            "value": "#146639",
+            "comment": "EDS Eve green-30",
+            "original": {
+              "value": "#146639"
+            },
+            "name": "eds-palette-eve-green-30",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "30"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "30"
+            ]
+          },
+          "40": {
+            "value": "#177542",
+            "comment": "EDS Eve green-40",
+            "original": {
+              "value": "#177542"
+            },
+            "name": "eds-palette-eve-green-40",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "40"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "40"
+            ]
+          },
+          "50": {
+            "value": "#1a854a",
+            "comment": "EDS Eve green-50",
+            "original": {
+              "value": "#1a854a"
+            },
+            "name": "eds-palette-eve-green-50",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "50"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "50"
+            ]
+          },
+          "60": {
+            "value": "#319960",
+            "comment": "EDS Eve green-60",
+            "original": {
+              "value": "#319960"
+            },
+            "name": "eds-palette-eve-green-60",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "60"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "60"
+            ]
+          },
+          "70": {
+            "value": "#58b883",
+            "comment": "EDS Eve green-70",
+            "original": {
+              "value": "#58b883"
+            },
+            "name": "eds-palette-eve-green-70",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "70"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "70"
+            ]
+          },
+          "80": {
+            "value": "#82cca3",
+            "comment": "EDS Eve green-80",
+            "original": {
+              "value": "#82cca3"
+            },
+            "name": "eds-palette-eve-green-80",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "80"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "80"
+            ]
+          },
+          "90": {
+            "value": "#b8e5cc",
+            "comment": "EDS Eve green-90",
+            "original": {
+              "value": "#b8e5cc"
+            },
+            "name": "eds-palette-eve-green-90",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "90"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "90"
+            ]
+          },
+          "100": {
+            "value": "#f0fff7",
+            "comment": "EDS Eve green-100",
+            "original": {
+              "value": "#f0fff7"
+            },
+            "name": "eds-palette-eve-green-100",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "100"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "100"
+            ]
+          },
+          "05": {
+            "value": "#06140c",
+            "comment": "EDS Eve green-05",
+            "original": {
+              "value": "#06140c"
+            },
+            "name": "eds-palette-eve-green-05",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "green",
+              "subitem": "05"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "green",
+              "05"
+            ]
+          }
+        },
+        "turquoise": {
+          "10": {
+            "value": "#007c8c",
+            "comment": "EDS Eve turquoise-10",
+            "original": {
+              "value": "#007c8c"
+            },
+            "name": "eds-palette-eve-turquoise-10",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "10"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "10"
+            ]
+          },
+          "20": {
+            "value": "#008ea1",
+            "comment": "EDS Eve turquoise-20",
+            "original": {
+              "value": "#008ea1"
+            },
+            "name": "eds-palette-eve-turquoise-20",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "20"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "20"
+            ]
+          },
+          "30": {
+            "value": "#00a0b5",
+            "comment": "EDS Eve turquoise-30",
+            "original": {
+              "value": "#00a0b5"
+            },
+            "name": "eds-palette-eve-turquoise-30",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "30"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "30"
+            ]
+          },
+          "40": {
+            "value": "#00b2c9",
+            "comment": "EDS Eve turquoise-40",
+            "original": {
+              "value": "#00b2c9"
+            },
+            "name": "eds-palette-eve-turquoise-40",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "40"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "40"
+            ]
+          },
+          "50": {
+            "value": "#16c7df",
+            "comment": "EDS Eve turquoise-50",
+            "original": {
+              "value": "#16c7df"
+            },
+            "name": "eds-palette-eve-turquoise-50",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "50"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "50"
+            ]
+          },
+          "60": {
+            "value": "#30d9f0",
+            "comment": "EDS Eve turquoise-60",
+            "original": {
+              "value": "#30d9f0"
+            },
+            "name": "eds-palette-eve-turquoise-60",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "60"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "60"
+            ]
+          },
+          "70": {
+            "value": "#62e3f5",
+            "comment": "EDS Eve turquoise-70",
+            "original": {
+              "value": "#62e3f5"
+            },
+            "name": "eds-palette-eve-turquoise-70",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "70"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "70"
+            ]
+          },
+          "80": {
+            "value": "#89e8f5",
+            "comment": "EDS Eve turquoise-80",
+            "original": {
+              "value": "#89e8f5"
+            },
+            "name": "eds-palette-eve-turquoise-80",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "80"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "80"
+            ]
+          },
+          "90": {
+            "value": "#c2f8ff",
+            "comment": "EDS Eve turquoise-90",
+            "original": {
+              "value": "#c2f8ff"
+            },
+            "name": "eds-palette-eve-turquoise-90",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "90"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "90"
+            ]
+          },
+          "100": {
+            "value": "#f0fdff",
+            "comment": "EDS Eve turquoise-100",
+            "original": {
+              "value": "#f0fdff"
+            },
+            "name": "eds-palette-eve-turquoise-100",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "100"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "100"
+            ]
+          },
+          "05": {
+            "value": "#162e30",
+            "comment": "EDS Eve turquoise-05",
+            "original": {
+              "value": "#162e30"
+            },
+            "name": "eds-palette-eve-turquoise-05",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "turquoise",
+              "subitem": "05"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "turquoise",
+              "05"
+            ]
+          }
+        },
+        "red": {
+          "10": {
+            "value": "#7a0a15",
+            "comment": "EDS Eve red-10",
+            "original": {
+              "value": "#7a0a15"
+            },
+            "name": "eds-palette-eve-red-10",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "10"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "10"
+            ]
+          },
+          "20": {
+            "value": "#8f111c",
+            "comment": "EDS Eve red-20",
+            "original": {
+              "value": "#8f111c"
+            },
+            "name": "eds-palette-eve-red-20",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "20"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "20"
+            ]
+          },
+          "30": {
+            "value": "#a31a27",
+            "comment": "EDS Eve red-30",
+            "original": {
+              "value": "#a31a27"
+            },
+            "name": "eds-palette-eve-red-30",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "30"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "30"
+            ]
+          },
+          "40": {
+            "value": "#b82533",
+            "comment": "EDS Eve red-40",
+            "original": {
+              "value": "#b82533"
+            },
+            "name": "eds-palette-eve-red-40",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "40"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "40"
+            ]
+          },
+          "50": {
+            "value": "#cb303f",
+            "comment": "EDS Eve red-50",
+            "original": {
+              "value": "#cb303f"
+            },
+            "name": "eds-palette-eve-red-50",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "50"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "50"
+            ]
+          },
+          "60": {
+            "value": "#d65662",
+            "comment": "EDS Eve red-60",
+            "original": {
+              "value": "#d65662"
+            },
+            "name": "eds-palette-eve-red-60",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "60"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "60"
+            ]
+          },
+          "70": {
+            "value": "#e0757f",
+            "comment": "EDS Eve red-70",
+            "original": {
+              "value": "#e0757f"
+            },
+            "name": "eds-palette-eve-red-70",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "70"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "70"
+            ]
+          },
+          "80": {
+            "value": "#eb9fa7",
+            "comment": "EDS Eve red-80",
+            "original": {
+              "value": "#eb9fa7"
+            },
+            "name": "eds-palette-eve-red-80",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "80"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "80"
+            ]
+          },
+          "90": {
+            "value": "#f5c4c9",
+            "comment": "EDS Eve red-90",
+            "original": {
+              "value": "#f5c4c9"
+            },
+            "name": "eds-palette-eve-red-90",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "90"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "90"
+            ]
+          },
+          "100": {
+            "value": "#fff0f1",
+            "comment": "EDS Eve red-100",
+            "original": {
+              "value": "#fff0f1"
+            },
+            "name": "eds-palette-eve-red-100",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "100"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "100"
+            ]
+          },
+          "05": {
+            "value": "#1f070a",
+            "comment": "EDS Eve red-05",
+            "original": {
+              "value": "#1f070a"
+            },
+            "name": "eds-palette-eve-red-05",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "red",
+              "subitem": "05"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "red",
+              "05"
+            ]
+          }
+        },
+        "orange": {
+          "10": {
+            "value": "#d62b04",
+            "comment": "EDS Eve orange-10",
+            "original": {
+              "value": "#d62b04"
+            },
+            "name": "eds-palette-eve-orange-10",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "10"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "10"
+            ]
+          },
+          "20": {
+            "value": "#e0420d",
+            "comment": "EDS Eve orange-20",
+            "original": {
+              "value": "#e0420d"
+            },
+            "name": "eds-palette-eve-orange-20",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "20"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "20"
+            ]
+          },
+          "30": {
+            "value": "#eb5a17",
+            "comment": "EDS Eve orange-30",
+            "original": {
+              "value": "#eb5a17"
+            },
+            "name": "eds-palette-eve-orange-30",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "30"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "30"
+            ]
+          },
+          "40": {
+            "value": "#eb6817",
+            "comment": "EDS Eve orange-40",
+            "original": {
+              "value": "#eb6817"
+            },
+            "name": "eds-palette-eve-orange-40",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "40"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "40"
+            ]
+          },
+          "50": {
+            "value": "#f67b19",
+            "comment": "EDS Eve orange-50",
+            "original": {
+              "value": "#f67b19"
+            },
+            "name": "eds-palette-eve-orange-50",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "50"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "50"
+            ]
+          },
+          "60": {
+            "value": "#ff9c4c",
+            "comment": "EDS Eve orange-60",
+            "original": {
+              "value": "#ff9c4c"
+            },
+            "name": "eds-palette-eve-orange-60",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "60"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "60"
+            ]
+          },
+          "70": {
+            "value": "#ffb275",
+            "comment": "EDS Eve orange-70",
+            "original": {
+              "value": "#ffb275"
+            },
+            "name": "eds-palette-eve-orange-70",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "70"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "70"
+            ]
+          },
+          "80": {
+            "value": "#ffca9e",
+            "comment": "EDS Eve orange-80",
+            "original": {
+              "value": "#ffca9e"
+            },
+            "name": "eds-palette-eve-orange-80",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "80"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "80"
+            ]
+          },
+          "90": {
+            "value": "#fedfc6",
+            "comment": "EDS Eve orange-90",
+            "original": {
+              "value": "#fedfc6"
+            },
+            "name": "eds-palette-eve-orange-90",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "90"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "90"
+            ]
+          },
+          "100": {
+            "value": "#fff7f0",
+            "comment": "EDS Eve orange-100",
+            "original": {
+              "value": "#fff7f0"
+            },
+            "name": "eds-palette-eve-orange-100",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "100"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "100"
+            ]
+          },
+          "05": {
+            "value": "#1f0f03",
+            "comment": "EDS Eve orange-05",
+            "original": {
+              "value": "#1f0f03"
+            },
+            "name": "eds-palette-eve-orange-05",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "orange",
+              "subitem": "05"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "orange",
+              "05"
+            ]
+          }
+        },
+        "yellow": {
+          "10": {
+            "value": "#f58200",
+            "comment": "EDS Eve yellow-10",
+            "original": {
+              "value": "#f58200"
+            },
+            "name": "eds-palette-eve-yellow-10",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "10"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "10"
+            ]
+          },
+          "20": {
+            "value": "#f59300",
+            "comment": "EDS Eve yellow-20",
+            "original": {
+              "value": "#f59300"
+            },
+            "name": "eds-palette-eve-yellow-20",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "20"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "20"
+            ]
+          },
+          "30": {
+            "value": "#f5a60a",
+            "comment": "EDS Eve yellow-30",
+            "original": {
+              "value": "#f5a60a"
+            },
+            "name": "eds-palette-eve-yellow-30",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "30"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "30"
+            ]
+          },
+          "40": {
+            "value": "#f5b60a",
+            "comment": "EDS Eve yellow-40",
+            "original": {
+              "value": "#f5b60a"
+            },
+            "name": "eds-palette-eve-yellow-40",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "40"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "40"
+            ]
+          },
+          "50": {
+            "value": "#facc15",
+            "comment": "EDS Eve yellow-50",
+            "original": {
+              "value": "#facc15"
+            },
+            "name": "eds-palette-eve-yellow-50",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "50"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "50"
+            ]
+          },
+          "60": {
+            "value": "#ffda47",
+            "comment": "EDS Eve yellow-60",
+            "original": {
+              "value": "#ffda47"
+            },
+            "name": "eds-palette-eve-yellow-60",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "60"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "60"
+            ]
+          },
+          "70": {
+            "value": "#ffe270",
+            "comment": "EDS Eve yellow-70",
+            "original": {
+              "value": "#ffe270"
+            },
+            "name": "eds-palette-eve-yellow-70",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "70"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "70"
+            ]
+          },
+          "80": {
+            "value": "#feea98",
+            "comment": "EDS Eve yellow-80",
+            "original": {
+              "value": "#feea98"
+            },
+            "name": "eds-palette-eve-yellow-80",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "80"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "80"
+            ]
+          },
+          "90": {
+            "value": "#fef4cb",
+            "comment": "EDS Eve yellow-90",
+            "original": {
+              "value": "#fef4cb"
+            },
+            "name": "eds-palette-eve-yellow-90",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "90"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "90"
+            ]
+          },
+          "100": {
+            "value": "#fffcf0",
+            "comment": "EDS Eve yellow-100",
+            "original": {
+              "value": "#fffcf0"
+            },
+            "name": "eds-palette-eve-yellow-100",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "100"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "100"
+            ]
+          },
+          "05": {
+            "value": "#332a04",
+            "comment": "EDS Eve yellow-05",
+            "original": {
+              "value": "#332a04"
+            },
+            "name": "eds-palette-eve-yellow-05",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "yellow",
+              "subitem": "05"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "yellow",
+              "05"
+            ]
+          }
+        },
+        "purple": {
+          "10": {
+            "value": "#490584",
+            "comment": "EDS Eve purple-10",
+            "original": {
+              "value": "#490584"
+            },
+            "name": "eds-palette-eve-purple-10",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "10"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "10"
+            ]
+          },
+          "20": {
+            "value": "#580f99",
+            "comment": "EDS Eve purple-20",
+            "original": {
+              "value": "#580f99"
+            },
+            "name": "eds-palette-eve-purple-20",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "20"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "20"
+            ]
+          },
+          "30": {
+            "value": "#6d1ab8",
+            "comment": "EDS Eve purple-30",
+            "original": {
+              "value": "#6d1ab8"
+            },
+            "name": "eds-palette-eve-purple-30",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "30"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "30"
+            ]
+          },
+          "40": {
+            "value": "#8a28e0",
+            "comment": "EDS Eve purple-40",
+            "original": {
+              "value": "#8a28e0"
+            },
+            "name": "eds-palette-eve-purple-40",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "40"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "40"
+            ]
+          },
+          "50": {
+            "value": "#a033ff",
+            "comment": "EDS Eve purple-50",
+            "original": {
+              "value": "#a033ff"
+            },
+            "name": "eds-palette-eve-purple-50",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "50"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "50"
+            ]
+          },
+          "60": {
+            "value": "#b35cff",
+            "comment": "EDS Eve purple-60",
+            "original": {
+              "value": "#b35cff"
+            },
+            "name": "eds-palette-eve-purple-60",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "60"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "60"
+            ]
+          },
+          "70": {
+            "value": "#c17aff",
+            "comment": "EDS Eve purple-70",
+            "original": {
+              "value": "#c17aff"
+            },
+            "name": "eds-palette-eve-purple-70",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "70"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "70"
+            ]
+          },
+          "80": {
+            "value": "#d4a2ff",
+            "comment": "EDS Eve purple-80",
+            "original": {
+              "value": "#d4a2ff"
+            },
+            "name": "eds-palette-eve-purple-80",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "80"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "80"
+            ]
+          },
+          "90": {
+            "value": "#e7ccff",
+            "comment": "EDS Eve purple-90",
+            "original": {
+              "value": "#e7ccff"
+            },
+            "name": "eds-palette-eve-purple-90",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "90"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "90"
+            ]
+          },
+          "100": {
+            "value": "#f8f0ff",
+            "comment": "EDS Eve purple-100",
+            "original": {
+              "value": "#f8f0ff"
+            },
+            "name": "eds-palette-eve-purple-100",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "100"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "100"
+            ]
+          },
+          "05": {
+            "value": "#280f3d",
+            "comment": "EDS Eve purple-05",
+            "original": {
+              "value": "#280f3d"
+            },
+            "name": "eds-palette-eve-purple-05",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "purple",
+              "subitem": "05"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "purple",
+              "05"
+            ]
+          }
+        },
+        "magenta": {
+          "10": {
+            "value": "#800d57",
+            "comment": "EDS Eve magenta-10",
+            "original": {
+              "value": "#800d57"
+            },
+            "name": "eds-palette-eve-magenta-10",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "10"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "10"
+            ]
+          },
+          "20": {
+            "value": "#941560",
+            "comment": "EDS Eve magenta-20",
+            "original": {
+              "value": "#941560"
+            },
+            "name": "eds-palette-eve-magenta-20",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "20"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "20"
+            ]
+          },
+          "30": {
+            "value": "#b22e7e",
+            "comment": "EDS Eve magenta-30",
+            "original": {
+              "value": "#b22e7e"
+            },
+            "name": "eds-palette-eve-magenta-30",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "30"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "30"
+            ]
+          },
+          "40": {
+            "value": "#c73c8f",
+            "comment": "EDS Eve magenta-40",
+            "original": {
+              "value": "#c73c8f"
+            },
+            "name": "eds-palette-eve-magenta-40",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "40"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "40"
+            ]
+          },
+          "50": {
+            "value": "#e64ea9",
+            "comment": "EDS Eve magenta-50",
+            "original": {
+              "value": "#e64ea9"
+            },
+            "name": "eds-palette-eve-magenta-50",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "50"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "50"
+            ]
+          },
+          "60": {
+            "value": "#ea5eb1",
+            "comment": "EDS Eve magenta-60",
+            "original": {
+              "value": "#ea5eb1"
+            },
+            "name": "eds-palette-eve-magenta-60",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "60"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "60"
+            ]
+          },
+          "70": {
+            "value": "#eb83c1",
+            "comment": "EDS Eve magenta-70",
+            "original": {
+              "value": "#eb83c1"
+            },
+            "name": "eds-palette-eve-magenta-70",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "70"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "70"
+            ]
+          },
+          "80": {
+            "value": "#f6a7d6",
+            "comment": "EDS Eve magenta-80",
+            "original": {
+              "value": "#f6a7d6"
+            },
+            "name": "eds-palette-eve-magenta-80",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "80"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "80"
+            ]
+          },
+          "90": {
+            "value": "#ffcceb",
+            "comment": "EDS Eve magenta-90",
+            "original": {
+              "value": "#ffcceb"
+            },
+            "name": "eds-palette-eve-magenta-90",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "90"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "90"
+            ]
+          },
+          "100": {
+            "value": "#feeff8",
+            "comment": "EDS Eve magenta-100",
+            "original": {
+              "value": "#feeff8"
+            },
+            "name": "eds-palette-eve-magenta-100",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "100"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "100"
+            ]
+          },
+          "05": {
+            "value": "#2e061e",
+            "comment": "EDS Eve magenta-05",
+            "original": {
+              "value": "#2e061e"
+            },
+            "name": "eds-palette-eve-magenta-05",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "magenta",
+              "subitem": "05"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "magenta",
+              "05"
+            ]
+          }
+        },
+        "": {
+          "white": {
+            "value": "#fff",
+            "comment": "EDS Eve white",
+            "original": {
+              "value": "#fff"
+            },
+            "name": "eds-palette-eve-white",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "",
+              "subitem": "white"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "",
+              "white"
+            ]
+          },
+          "transparent": {
+            "value": "rgba(0, 0, 0, 0)",
+            "comment": "EDS Eve transparent",
+            "original": {
+              "value": "rgba(0, 0, 0, 0)"
+            },
+            "name": "eds-palette-eve-transparent",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "",
+              "subitem": "transparent"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "",
+              "transparent"
+            ]
+          },
+          "black": {
+            "value": "#000",
+            "comment": "EDS Eve black",
+            "original": {
+              "value": "#000"
+            },
+            "name": "eds-palette-eve-black",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "theme": "eve",
+              "item": "",
+              "subitem": "black"
+            },
+            "path": [
+              "color",
+              "palette",
+              "eve",
+              "",
+              "black"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "font": {
+    "fam": {
+      "def": {
+        "value": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "original": {
+          "value": "'Helvetica Neue', Helvetica, Arial, sans-serif"
+        },
+        "name": "eds-font-fam-def",
+        "attributes": {
+          "category": "font",
+          "type": "fam",
+          "item": "def"
+        },
+        "path": [
+          "font",
+          "fam",
+          "def"
+        ]
+      }
+    },
+    "size": {
+      "base": {
+        "value": "16px",
+        "comment": "Used ONLY to set the base pixel size to define the value of 1rem. Do not use to set font size. Used eds token ($eds-font-size-lg), which equal 16px (e.g. 1rem)",
+        "original": {
+          "value": "16px",
+          "comment": "Used ONLY to set the base pixel size to define the value of 1rem. Do not use to set font size. Used eds token ($eds-font-size-lg), which equal 16px (e.g. 1rem)"
+        },
+        "name": "eds-font-size-base",
+        "attributes": {
+          "category": "font",
+          "type": "size",
+          "item": "base"
+        },
+        "path": [
+          "font",
+          "size",
+          "base"
+        ]
+      },
+      "xxs": {
+        "documentation": {
+          "comment": "Use $eds-font-size-xxs for legal copy only"
+        },
+        "value": "0.5rem",
+        "comment": "Font size is equal to 8px",
+        "original": {
+          "documentation": {
+            "comment": "Use $eds-font-size-xxs for legal copy only"
+          },
+          "value": "{font.size.1.value}",
+          "comment": "Font size is equal to 8px"
+        },
+        "name": "eds-font-size-xxs",
+        "attributes": {
+          "category": "font",
+          "type": "size",
+          "item": "xxs"
+        },
+        "path": [
+          "font",
+          "size",
+          "xxs"
+        ]
+      },
+      "xs": {
+        "value": "0.625rem",
+        "comment": "Font size is equal to 10px",
+        "original": {
+          "value": "{font.size.2.value}",
+          "comment": "Font size is equal to 10px"
+        },
+        "name": "eds-font-size-xs",
+        "attributes": {
+          "category": "font",
+          "type": "size",
+          "item": "xs"
+        },
+        "path": [
+          "font",
+          "size",
+          "xs"
+        ]
+      },
+      "sm": {
+        "value": "0.75rem",
+        "comment": "Font size is equal to 12px",
+        "original": {
+          "value": "{font.size.3.value}",
+          "comment": "Font size is equal to 12px"
+        },
+        "name": "eds-font-size-sm",
+        "attributes": {
+          "category": "font",
+          "type": "size",
+          "item": "sm"
+        },
+        "path": [
+          "font",
+          "size",
+          "sm"
+        ]
+      },
+      "md": {
+        "value": "0.875rem",
+        "comment": "Font size is equal to 14px",
+        "original": {
+          "value": "{font.size.4.value}",
+          "comment": "Font size is equal to 14px"
+        },
+        "name": "eds-font-size-md",
+        "attributes": {
+          "category": "font",
+          "type": "size",
+          "item": "md"
+        },
+        "path": [
+          "font",
+          "size",
+          "md"
+        ]
+      },
+      "lg": {
+        "value": "1rem",
+        "comment": "Font size is equal to 16px",
+        "original": {
+          "value": "{font.size.5.value}",
+          "comment": "Font size is equal to 16px"
+        },
+        "name": "eds-font-size-lg",
+        "attributes": {
+          "category": "font",
+          "type": "size",
+          "item": "lg"
+        },
+        "path": [
+          "font",
+          "size",
+          "lg"
+        ]
+      },
+      "xlg": {
+        "value": "1.25rem",
+        "comment": "Font size is equal to 20px",
+        "original": {
+          "value": "{font.size.6.value}",
+          "comment": "Font size is equal to 20px"
+        },
+        "name": "eds-font-size-xlg",
+        "attributes": {
+          "category": "font",
+          "type": "size",
+          "item": "xlg"
+        },
+        "path": [
+          "font",
+          "size",
+          "xlg"
+        ]
+      },
+      "heading": {
+        "level": {
+          "1": {
+            "value": "2.25rem",
+            "comment": "Font size is equal to 36px",
+            "original": {
+              "value": "{font.size.9.value}",
+              "comment": "Font size is equal to 36px"
+            },
+            "name": "eds-font-size-heading-level-1",
+            "attributes": {
+              "category": "font",
+              "type": "size",
+              "item": "heading",
+              "subitem": "level",
+              "state": "1"
+            },
+            "path": [
+              "font",
+              "size",
+              "heading",
+              "level",
+              "1"
+            ]
+          },
+          "2": {
+            "value": "1.875rem",
+            "comment": "Font size is equal to 30px",
+            "original": {
+              "value": "{font.size.8.value}",
+              "comment": "Font size is equal to 30px"
+            },
+            "name": "eds-font-size-heading-level-2",
+            "attributes": {
+              "category": "font",
+              "type": "size",
+              "item": "heading",
+              "subitem": "level",
+              "state": "2"
+            },
+            "path": [
+              "font",
+              "size",
+              "heading",
+              "level",
+              "2"
+            ]
+          },
+          "3": {
+            "value": "1.5rem",
+            "comment": "Font size is equal to 24px",
+            "original": {
+              "value": "{font.size.7.value}",
+              "comment": "Font size is equal to 24px"
+            },
+            "name": "eds-font-size-heading-level-3",
+            "attributes": {
+              "category": "font",
+              "type": "size",
+              "item": "heading",
+              "subitem": "level",
+              "state": "3"
+            },
+            "path": [
+              "font",
+              "size",
+              "heading",
+              "level",
+              "3"
+            ]
+          },
+          "4": {
+            "value": "1.25rem",
+            "comment": "Font size is equal to 20px",
+            "original": {
+              "value": "{font.size.6.value}",
+              "comment": "Font size is equal to 20px"
+            },
+            "name": "eds-font-size-heading-level-4",
+            "attributes": {
+              "category": "font",
+              "type": "size",
+              "item": "heading",
+              "subitem": "level",
+              "state": "4"
+            },
+            "path": [
+              "font",
+              "size",
+              "heading",
+              "level",
+              "4"
+            ]
+          },
+          "5": {
+            "value": "1rem",
+            "comment": "Font size is equal to 16px",
+            "original": {
+              "value": "{font.size.5.value}",
+              "comment": "Font size is equal to 16px"
+            },
+            "name": "eds-font-size-heading-level-5",
+            "attributes": {
+              "category": "font",
+              "type": "size",
+              "item": "heading",
+              "subitem": "level",
+              "state": "5"
+            },
+            "path": [
+              "font",
+              "size",
+              "heading",
+              "level",
+              "5"
+            ]
+          },
+          "6": {
+            "value": "0.875rem",
+            "comment": "Font size is equal to 14px",
+            "original": {
+              "value": "{font.size.4.value}",
+              "comment": "Font size is equal to 14px"
+            },
+            "name": "eds-font-size-heading-level-6",
+            "attributes": {
+              "category": "font",
+              "type": "size",
+              "item": "heading",
+              "subitem": "level",
+              "state": "6"
+            },
+            "path": [
+              "font",
+              "size",
+              "heading",
+              "level",
+              "6"
+            ]
+          }
+        }
+      }
+    },
+    "weight": {
+      "bold": {
+        "value": "700",
+        "original": {
+          "value": "700"
+        },
+        "name": "eds-font-weight-bold",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "bold"
+        },
+        "path": [
+          "font",
+          "weight",
+          "bold"
+        ]
+      },
+      "regular": {
+        "value": "400",
+        "original": {
+          "value": "400"
+        },
+        "name": "eds-font-weight-regular",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "regular"
+        },
+        "path": [
+          "font",
+          "weight",
+          "regular"
+        ]
+      },
+      "medium": {
+        "value": "500",
+        "original": {
+          "value": "500"
+        },
+        "name": "eds-font-weight-medium",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "medium"
+        },
+        "path": [
+          "font",
+          "weight",
+          "medium"
+        ]
+      }
+    },
+    "line-height": {
+      "body": {
+        "value": "1.375",
+        "original": {
+          "value": "1.375"
+        },
+        "name": "eds-font-line-height-body",
+        "attributes": {
+          "category": "font",
+          "type": "line-height",
+          "item": "body"
+        },
+        "path": [
+          "font",
+          "line-height",
+          "body"
+        ]
+      },
+      "heading": {
+        "value": "1.2",
+        "original": {
+          "value": "1.2"
+        },
+        "name": "eds-font-line-height-heading",
+        "attributes": {
+          "category": "font",
+          "type": "line-height",
+          "item": "heading"
+        },
+        "path": [
+          "font",
+          "line-height",
+          "heading"
+        ]
+      },
+      "btn": {
+        "value": "1.375",
+        "documentation": {
+          "comment": "Fixed value specifically for btn (sm, md, lg) for consistent height divisible by 8"
+        },
+        "original": {
+          "value": "{font.line-height.body.value}",
+          "documentation": {
+            "comment": "Fixed value specifically for btn (sm, md, lg) for consistent height divisible by 8"
+          }
+        },
+        "name": "eds-font-line-height-btn",
+        "attributes": {
+          "category": "font",
+          "type": "line-height",
+          "item": "btn"
+        },
+        "path": [
+          "font",
+          "line-height",
+          "btn"
+        ]
+      }
+    },
+    "typescale": [
+      {
+        "name": "eds-font-ts-display-lg-size",
+        "value": "3.5rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-lg-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-lg-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-lg-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-lg-line-height",
+        "value": "1.2",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-md-size",
+        "value": "3.25rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-md-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-md-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-md-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-md-line-height",
+        "value": "1.2",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-sm-size",
+        "value": "3rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-sm-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-sm-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-sm-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-display-sm-line-height",
+        "value": "1.2",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-lg-size",
+        "value": "2.25rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-lg-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-lg-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-lg-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-lg-line-height",
+        "value": "1.11",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-md-size",
+        "value": "1.875rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-md-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-md-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-md-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-md-line-height",
+        "value": "1.2",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-sm-size",
+        "value": "1.5rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-sm-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-sm-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-sm-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-headline-sm-line-height",
+        "value": "1.25",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-lg-size",
+        "value": "1.25rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-lg-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-lg-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-lg-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-lg-line-height",
+        "value": "1.2",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-md-size",
+        "value": "1rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-md-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-md-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-md-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-md-line-height",
+        "value": "1.375",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-sm-size",
+        "value": "0.875rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-sm-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-sm-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-title-sm-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-lg-size",
+        "value": "1rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-lg-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-lg-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-lg-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-lg-line-height",
+        "value": "1.375",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-md-size",
+        "value": "0.875rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-md-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-md-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-md-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-md-line-height",
+        "value": "1.428",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-sm-size",
+        "value": "0.75rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-sm-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-sm-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-sm-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-body-sm-line-height",
+        "value": "1.333",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-lg-size",
+        "value": "1rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-lg-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-lg-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-lg-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-lg-line-height",
+        "value": "1.375",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-md-size",
+        "value": "0.75rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-md-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-md-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-md-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-md-line-height",
+        "value": "1.333",
+        "type": "line-height",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-sm-size",
+        "value": "0.625rem",
+        "type": "size",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-sm-weight-reg",
+        "value": "400",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-sm-weight-md",
+        "value": "500",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-sm-weight-bold",
+        "value": "700",
+        "type": "weight",
+        "category": "font"
+      },
+      {
+        "name": "eds-font-ts-detail-sm-line-height",
+        "value": "1.2",
+        "type": "line-height",
+        "category": "font"
+      }
+    ]
+  },
+  "radius": {
+    "sm": {
+      "value": "0.125rem",
+      "comment": "equals 2px",
+      "original": {
+        "value": "0.125rem",
+        "comment": "equals 2px"
+      },
+      "name": "eds-radius-sm",
+      "attributes": {
+        "category": "radius",
+        "type": "sm"
+      },
+      "path": [
+        "radius",
+        "sm"
+      ]
+    },
+    "md": {
+      "value": "0.25rem",
+      "comment": "equals 4px",
+      "original": {
+        "value": "0.25rem",
+        "comment": "equals 4px"
+      },
+      "name": "eds-radius-md",
+      "attributes": {
+        "category": "radius",
+        "type": "md"
+      },
+      "path": [
+        "radius",
+        "md"
+      ]
+    },
+    "lg": {
+      "value": "0.5rem",
+      "comment": "equals 8px",
+      "original": {
+        "value": "0.5rem",
+        "comment": "equals 8px"
+      },
+      "name": "eds-radius-lg",
+      "attributes": {
+        "category": "radius",
+        "type": "lg"
+      },
+      "path": [
+        "radius",
+        "lg"
+      ]
+    },
+    "circle": {
+      "value": "50%",
+      "comment": "equals 50%",
+      "original": {
+        "value": "50%",
+        "comment": "equals 50%"
+      },
+      "name": "eds-radius-circle",
+      "attributes": {
+        "category": "radius",
+        "type": "circle"
+      },
+      "path": [
+        "radius",
+        "circle"
+      ]
+    }
+  },
+  "size": {
+    "1": {
+      "value": "0.5rem",
+      "comment": "Value equals 8px",
+      "original": {
+        "value": "0.5rem",
+        "comment": "Value equals 8px"
+      },
+      "name": "eds-size-1",
+      "attributes": {
+        "category": "size",
+        "type": "1"
+      },
+      "path": [
+        "size",
+        "1"
+      ]
+    },
+    "2": {
+      "value": "1rem",
+      "comment": "Value equals 16px",
+      "original": {
+        "value": "1rem",
+        "comment": "Value equals 16px"
+      },
+      "name": "eds-size-2",
+      "attributes": {
+        "category": "size",
+        "type": "2"
+      },
+      "path": [
+        "size",
+        "2"
+      ]
+    },
+    "3": {
+      "value": "1.5rem",
+      "comment": "Value equals 24px",
+      "original": {
+        "value": "1.5rem",
+        "comment": "Value equals 24px"
+      },
+      "name": "eds-size-3",
+      "attributes": {
+        "category": "size",
+        "type": "3"
+      },
+      "path": [
+        "size",
+        "3"
+      ]
+    },
+    "4": {
+      "value": "2rem",
+      "comment": "Value equals 32px",
+      "original": {
+        "value": "2rem",
+        "comment": "Value equals 32px"
+      },
+      "name": "eds-size-4",
+      "attributes": {
+        "category": "size",
+        "type": "4"
+      },
+      "path": [
+        "size",
+        "4"
+      ]
+    },
+    "0_5": {
+      "value": "0.25rem",
+      "comment": "Value equals 4px",
+      "original": {
+        "value": "0.25rem",
+        "comment": "Value equals 4px"
+      },
+      "name": "eds-size-0-5",
+      "attributes": {
+        "category": "size",
+        "type": "0_5"
+      },
+      "path": [
+        "size",
+        "0_5"
+      ]
+    },
+    "0_75": {
+      "value": "0.375rem",
+      "comment": "Value equals 6px",
+      "original": {
+        "value": "0.375rem",
+        "comment": "Value equals 6px"
+      },
+      "name": "eds-size-0-75",
+      "attributes": {
+        "category": "size",
+        "type": "0_75"
+      },
+      "path": [
+        "size",
+        "0_75"
+      ]
+    },
+    "1_5": {
+      "value": "0.75rem",
+      "comment": "Value equals 12px",
+      "original": {
+        "value": "0.75rem",
+        "comment": "Value equals 12px"
+      },
+      "name": "eds-size-1-5",
+      "attributes": {
+        "category": "size",
+        "type": "1_5"
+      },
+      "path": [
+        "size",
+        "1_5"
+      ]
+    },
+    "control": {
+      "sm": {
+        "value": "2rem",
+        "comment": "Value equals 32px",
+        "original": {
+          "value": "2rem",
+          "comment": "Value equals 32px"
+        },
+        "name": "eds-size-control-sm",
+        "attributes": {
+          "category": "size",
+          "type": "control",
+          "item": "sm"
+        },
+        "path": [
+          "size",
+          "control",
+          "sm"
+        ]
+      },
+      "md": {
+        "value": "2.5rem",
+        "comment": "Value equals 40px",
+        "original": {
+          "value": "2.5rem",
+          "comment": "Value equals 40px"
+        },
+        "name": "eds-size-control-md",
+        "attributes": {
+          "category": "size",
+          "type": "control",
+          "item": "md"
+        },
+        "path": [
+          "size",
+          "control",
+          "md"
+        ]
+      },
+      "lg": {
+        "value": "3rem",
+        "comment": "Value equals 48px",
+        "original": {
+          "value": "3rem",
+          "comment": "Value equals 48px"
+        },
+        "name": "eds-size-control-lg",
+        "attributes": {
+          "category": "size",
+          "type": "control",
+          "item": "lg"
+        },
+        "path": [
+          "size",
+          "control",
+          "lg"
+        ]
+      },
+      "nested-sm": {
+        "value": "3.75rem",
+        "comment": "Value equals 60px",
+        "original": {
+          "value": "3.75rem",
+          "comment": "Value equals 60px"
+        },
+        "name": "eds-size-control-nested-sm",
+        "attributes": {
+          "category": "size",
+          "type": "control",
+          "item": "nested-sm"
+        },
+        "path": [
+          "size",
+          "control",
+          "nested-sm"
+        ]
+      }
+    },
+    "square": {
+      "icon": {
+        "xs": {
+          "value": "0.5rem",
+          "comment": "Value equals 8px",
+          "original": {
+            "value": "{size.1.value}",
+            "comment": "Value equals 8px"
+          },
+          "name": "eds-size-square-icon-xs",
+          "attributes": {
+            "category": "size",
+            "type": "square",
+            "item": "icon",
+            "subitem": "xs"
+          },
+          "path": [
+            "size",
+            "square",
+            "icon",
+            "xs"
+          ]
+        },
+        "sm": {
+          "value": "0.75rem",
+          "comment": "Value equals 12px",
+          "original": {
+            "value": "{size.1_5.value}",
+            "comment": "Value equals 12px"
+          },
+          "name": "eds-size-square-icon-sm",
+          "attributes": {
+            "category": "size",
+            "type": "square",
+            "item": "icon",
+            "subitem": "sm"
+          },
+          "path": [
+            "size",
+            "square",
+            "icon",
+            "sm"
+          ]
+        },
+        "md": {
+          "value": "1rem",
+          "comment": "Value equals 16px",
+          "original": {
+            "value": "{size.2.value}",
+            "comment": "Value equals 16px"
+          },
+          "name": "eds-size-square-icon-md",
+          "attributes": {
+            "category": "size",
+            "type": "square",
+            "item": "icon",
+            "subitem": "md"
+          },
+          "path": [
+            "size",
+            "square",
+            "icon",
+            "md"
+          ]
+        },
+        "lg": {
+          "value": "1.5rem",
+          "comment": "Value equals 24px",
+          "original": {
+            "value": "{size.3.value}",
+            "comment": "Value equals 24px"
+          },
+          "name": "eds-size-square-icon-lg",
+          "attributes": {
+            "category": "size",
+            "type": "square",
+            "item": "icon",
+            "subitem": "lg"
+          },
+          "path": [
+            "size",
+            "square",
+            "icon",
+            "lg"
+          ]
+        },
+        "xlg": {
+          "value": "2rem",
+          "comment": "Value equals 32px",
+          "original": {
+            "value": "{size.4.value}",
+            "comment": "Value equals 32px"
+          },
+          "name": "eds-size-square-icon-xlg",
+          "attributes": {
+            "category": "size",
+            "type": "square",
+            "item": "icon",
+            "subitem": "xlg"
+          },
+          "path": [
+            "size",
+            "square",
+            "icon",
+            "xlg"
+          ]
+        }
+      }
+    }
+  },
+  "space": {
+    "1": {
+      "value": "0.5rem",
+      "comment": "Value equals 8px",
+      "original": {
+        "value": "0.5rem",
+        "comment": "Value equals 8px"
+      },
+      "name": "eds-space-1",
+      "attributes": {
+        "category": "space",
+        "type": "1"
+      },
+      "path": [
+        "space",
+        "1"
+      ]
+    },
+    "2": {
+      "value": "1rem",
+      "comment": "Value equals 16px",
+      "original": {
+        "value": "1rem",
+        "comment": "Value equals 16px"
+      },
+      "name": "eds-space-2",
+      "attributes": {
+        "category": "space",
+        "type": "2"
+      },
+      "path": [
+        "space",
+        "2"
+      ]
+    },
+    "3": {
+      "value": "1.5rem",
+      "comment": "Value equals 24px",
+      "original": {
+        "value": "1.5rem",
+        "comment": "Value equals 24px"
+      },
+      "name": "eds-space-3",
+      "attributes": {
+        "category": "space",
+        "type": "3"
+      },
+      "path": [
+        "space",
+        "3"
+      ]
+    },
+    "4": {
+      "value": "2rem",
+      "comment": "Value equals 32px",
+      "original": {
+        "value": "2rem",
+        "comment": "Value equals 32px"
+      },
+      "name": "eds-space-4",
+      "attributes": {
+        "category": "space",
+        "type": "4"
+      },
+      "path": [
+        "space",
+        "4"
+      ]
+    },
+    "5": {
+      "value": "2.5rem",
+      "comment": "Value equals 40px",
+      "original": {
+        "value": "2.5rem",
+        "comment": "Value equals 40px"
+      },
+      "name": "eds-space-5",
+      "attributes": {
+        "category": "space",
+        "type": "5"
+      },
+      "path": [
+        "space",
+        "5"
+      ]
+    },
+    "6": {
+      "value": "3rem",
+      "comment": "Value equals 48px",
+      "original": {
+        "value": "3rem",
+        "comment": "Value equals 48px"
+      },
+      "name": "eds-space-6",
+      "attributes": {
+        "category": "space",
+        "type": "6"
+      },
+      "path": [
+        "space",
+        "6"
+      ]
+    },
+    "7": {
+      "value": "3.5rem",
+      "comment": "Value equals 56px",
+      "original": {
+        "value": "3.5rem",
+        "comment": "Value equals 56px"
+      },
+      "name": "eds-space-7",
+      "attributes": {
+        "category": "space",
+        "type": "7"
+      },
+      "path": [
+        "space",
+        "7"
+      ]
+    },
+    "8": {
+      "value": "4rem",
+      "comment": "Value equals 64px",
+      "original": {
+        "value": "4rem",
+        "comment": "Value equals 64px"
+      },
+      "name": "eds-space-8",
+      "attributes": {
+        "category": "space",
+        "type": "8"
+      },
+      "path": [
+        "space",
+        "8"
+      ]
+    },
+    "12": {
+      "value": "6rem",
+      "comment": "Value equals 96px",
+      "original": {
+        "value": "6rem",
+        "comment": "Value equals 96px"
+      },
+      "name": "eds-space-12",
+      "attributes": {
+        "category": "space",
+        "type": "12"
+      },
+      "path": [
+        "space",
+        "12"
+      ]
+    },
+    "0_25": {
+      "value": "0.125rem",
+      "comment": "Value equals 2px",
+      "original": {
+        "value": "0.125rem",
+        "comment": "Value equals 2px"
+      },
+      "name": "eds-space-0-25",
+      "attributes": {
+        "category": "space",
+        "type": "0_25"
+      },
+      "path": [
+        "space",
+        "0_25"
+      ]
+    },
+    "0_5": {
+      "value": "0.25rem",
+      "comment": "Value equals 4px",
+      "original": {
+        "value": "0.25rem",
+        "comment": "Value equals 4px"
+      },
+      "name": "eds-space-0-5",
+      "attributes": {
+        "category": "space",
+        "type": "0_5"
+      },
+      "path": [
+        "space",
+        "0_5"
+      ]
+    },
+    "0_75": {
+      "value": "0.375rem",
+      "comment": "Value equals 6px",
+      "original": {
+        "value": "0.375rem",
+        "comment": "Value equals 6px"
+      },
+      "name": "eds-space-0-75",
+      "attributes": {
+        "category": "space",
+        "type": "0_75"
+      },
+      "path": [
+        "space",
+        "0_75"
+      ]
+    },
+    "1_5": {
+      "value": "0.75rem",
+      "comment": "Value equals 12px",
+      "original": {
+        "value": "0.75rem",
+        "comment": "Value equals 12px"
+      },
+      "name": "eds-space-1-5",
+      "attributes": {
+        "category": "space",
+        "type": "1_5"
+      },
+      "path": [
+        "space",
+        "1_5"
+      ]
+    },
+    "2_5": {
+      "value": "1.25rem",
+      "comment": "Value equals 20px",
+      "original": {
+        "value": "1.25rem",
+        "comment": "Value equals 20px"
+      },
+      "name": "eds-space-2-5",
+      "attributes": {
+        "category": "space",
+        "type": "2_5"
+      },
+      "path": [
+        "space",
+        "2_5"
+      ]
+    },
+    "3_5": {
+      "value": "1.75rem",
+      "comment": "Value equals 28px",
+      "original": {
+        "value": "1.75rem",
+        "comment": "Value equals 28px"
+      },
+      "name": "eds-space-3-5",
+      "attributes": {
+        "category": "space",
+        "type": "3_5"
+      },
+      "path": [
+        "space",
+        "3_5"
+      ]
+    },
+    "fluid": {
+      "value": "100%",
+      "comment": "Value equals 100%",
+      "original": {
+        "value": "100%",
+        "comment": "Value equals 100%"
+      },
+      "name": "eds-space-fluid",
+      "attributes": {
+        "category": "space",
+        "type": "fluid"
+      },
+      "path": [
+        "space",
+        "fluid"
+      ]
+    },
+    "inline": {
+      "right": {
+        "1": {
+          "value": "0 0.5rem 0 0",
+          "comment": "Value equals 0 8px 0 0",
+          "original": {
+            "value": "0 {space.1.value} 0 0",
+            "comment": "Value equals 0 8px 0 0"
+          },
+          "name": "eds-space-inline-right-1",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "right",
+            "subitem": "1"
+          },
+          "path": [
+            "space",
+            "inline",
+            "right",
+            "1"
+          ]
+        },
+        "2": {
+          "value": "0 1rem 0 0",
+          "comment": "Value equals 0 16px 0 0",
+          "original": {
+            "value": "0 {space.2.value} 0 0",
+            "comment": "Value equals 0 16px 0 0"
+          },
+          "name": "eds-space-inline-right-2",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "right",
+            "subitem": "2"
+          },
+          "path": [
+            "space",
+            "inline",
+            "right",
+            "2"
+          ]
+        },
+        "3": {
+          "value": "0 1.5rem 0 0",
+          "comment": "Value equals 0 24px 0 0",
+          "original": {
+            "value": "0 {space.3.value} 0 0",
+            "comment": "Value equals 0 24px 0 0"
+          },
+          "name": "eds-space-inline-right-3",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "right",
+            "subitem": "3"
+          },
+          "path": [
+            "space",
+            "inline",
+            "right",
+            "3"
+          ]
+        },
+        "4": {
+          "value": "0 2rem 0 0",
+          "comment": "Value equals 0 32px 0 0",
+          "original": {
+            "value": "0 {space.4.value} 0 0",
+            "comment": "Value equals 0 32px 0 0"
+          },
+          "name": "eds-space-inline-right-4",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "right",
+            "subitem": "4"
+          },
+          "path": [
+            "space",
+            "inline",
+            "right",
+            "4"
+          ]
+        },
+        "0_25": {
+          "value": "0 0.125rem 0 0",
+          "comment": "Value equals 0 2px 0  0",
+          "original": {
+            "value": "0 {space.0_25.value} 0 0",
+            "comment": "Value equals 0 2px 0  0"
+          },
+          "name": "eds-space-inline-right-0-25",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "right",
+            "subitem": "0_25"
+          },
+          "path": [
+            "space",
+            "inline",
+            "right",
+            "0_25"
+          ]
+        },
+        "0_5": {
+          "value": "0 0.25rem 0 0",
+          "comment": "Value equals 0 4px 0 0",
+          "original": {
+            "value": "0 {space.0_5.value} 0 0",
+            "comment": "Value equals 0 4px 0 0"
+          },
+          "name": "eds-space-inline-right-0-5",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "right",
+            "subitem": "0_5"
+          },
+          "path": [
+            "space",
+            "inline",
+            "right",
+            "0_5"
+          ]
+        },
+        "0_75": {
+          "value": "0 0.375rem 0 0",
+          "comment": "Value equals 0 6px 0 0",
+          "original": {
+            "value": "0 {space.0_75.value} 0 0",
+            "comment": "Value equals 0 6px 0 0"
+          },
+          "name": "eds-space-inline-right-0-75",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "right",
+            "subitem": "0_75"
+          },
+          "path": [
+            "space",
+            "inline",
+            "right",
+            "0_75"
+          ]
+        },
+        "1_5": {
+          "value": "0 0.75rem 0 0",
+          "comment": "Value equals 0 12px 0 0",
+          "original": {
+            "value": "0 {space.1_5.value} 0 0",
+            "comment": "Value equals 0 12px 0 0"
+          },
+          "name": "eds-space-inline-right-1-5",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "right",
+            "subitem": "1_5"
+          },
+          "path": [
+            "space",
+            "inline",
+            "right",
+            "1_5"
+          ]
+        }
+      },
+      "left": {
+        "1": {
+          "value": "0 0 0 0.5rem",
+          "comment": "Value equals 0 0 0 8px",
+          "original": {
+            "value": "0 0 0 {space.1.value}",
+            "comment": "Value equals 0 0 0 8px"
+          },
+          "name": "eds-space-inline-left-1",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "left",
+            "subitem": "1"
+          },
+          "path": [
+            "space",
+            "inline",
+            "left",
+            "1"
+          ]
+        },
+        "2": {
+          "value": "0 0 0 1rem",
+          "comment": "Value equals 0 0 0 16px",
+          "original": {
+            "value": "0 0 0 {space.2.value}",
+            "comment": "Value equals 0 0 0 16px"
+          },
+          "name": "eds-space-inline-left-2",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "left",
+            "subitem": "2"
+          },
+          "path": [
+            "space",
+            "inline",
+            "left",
+            "2"
+          ]
+        },
+        "3": {
+          "value": "0 0 0 1.5rem",
+          "comment": "Value equals 0 0 0 24px",
+          "original": {
+            "value": "0 0 0 {space.3.value}",
+            "comment": "Value equals 0 0 0 24px"
+          },
+          "name": "eds-space-inline-left-3",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "left",
+            "subitem": "3"
+          },
+          "path": [
+            "space",
+            "inline",
+            "left",
+            "3"
+          ]
+        },
+        "4": {
+          "value": "0 0 0 2rem",
+          "comment": "Value equals 0 0 0 32px",
+          "original": {
+            "value": "0 0 0 {space.4.value}",
+            "comment": "Value equals 0 0 0 32px"
+          },
+          "name": "eds-space-inline-left-4",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "left",
+            "subitem": "4"
+          },
+          "path": [
+            "space",
+            "inline",
+            "left",
+            "4"
+          ]
+        },
+        "0_25": {
+          "value": "0 0 0 0.125rem",
+          "comment": "Value equals 0 0 0 2px",
+          "original": {
+            "value": "0 0 0 {space.0_25.value}",
+            "comment": "Value equals 0 0 0 2px"
+          },
+          "name": "eds-space-inline-left-0-25",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "left",
+            "subitem": "0_25"
+          },
+          "path": [
+            "space",
+            "inline",
+            "left",
+            "0_25"
+          ]
+        },
+        "0_5": {
+          "value": "0 0 0 0.25rem",
+          "comment": "Value equals 0 0 0 4px",
+          "original": {
+            "value": "0 0 0 {space.0_5.value}",
+            "comment": "Value equals 0 0 0 4px"
+          },
+          "name": "eds-space-inline-left-0-5",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "left",
+            "subitem": "0_5"
+          },
+          "path": [
+            "space",
+            "inline",
+            "left",
+            "0_5"
+          ]
+        },
+        "0_75": {
+          "value": "0 0 0 0.375rem",
+          "comment": "Value equals 0 0 0 6px",
+          "original": {
+            "value": "0 0 0 {space.0_75.value}",
+            "comment": "Value equals 0 0 0 6px"
+          },
+          "name": "eds-space-inline-left-0-75",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "left",
+            "subitem": "0_75"
+          },
+          "path": [
+            "space",
+            "inline",
+            "left",
+            "0_75"
+          ]
+        },
+        "1_5": {
+          "value": "0 0 0 0.75rem",
+          "comment": "Value equals 0 0 0 12px",
+          "original": {
+            "value": "0 0 0 {space.1_5.value}",
+            "comment": "Value equals 0 0 0 12px"
+          },
+          "name": "eds-space-inline-left-1-5",
+          "attributes": {
+            "category": "space",
+            "type": "inline",
+            "item": "left",
+            "subitem": "1_5"
+          },
+          "path": [
+            "space",
+            "inline",
+            "left",
+            "1_5"
+          ]
+        }
+      }
+    },
+    "inset": {
+      "equal": {
+        "1": {
+          "value": "0.5rem 0.5rem 0.5rem 0.5rem",
+          "comment": "Value equals 8px 8px 8px 8px",
+          "original": {
+            "value": "{space.1.value} {space.1.value} {space.1.value} {space.1.value}",
+            "comment": "Value equals 8px 8px 8px 8px"
+          },
+          "name": "eds-space-inset-equal-1",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "equal",
+            "subitem": "1"
+          },
+          "path": [
+            "space",
+            "inset",
+            "equal",
+            "1"
+          ]
+        },
+        "2": {
+          "value": "1rem 1rem 1rem 1rem",
+          "comment": "Value equals 16px 16px 16px 16px",
+          "original": {
+            "value": "{space.2.value} {space.2.value} {space.2.value} {space.2.value}",
+            "comment": "Value equals 16px 16px 16px 16px"
+          },
+          "name": "eds-space-inset-equal-2",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "equal",
+            "subitem": "2"
+          },
+          "path": [
+            "space",
+            "inset",
+            "equal",
+            "2"
+          ]
+        },
+        "3": {
+          "value": "1.5rem 1.5rem 1.5rem 1.5rem",
+          "comment": "Value equals 24px 24px 24px 24px",
+          "original": {
+            "value": "{space.3.value} {space.3.value} {space.3.value} {space.3.value}",
+            "comment": "Value equals 24px 24px 24px 24px"
+          },
+          "name": "eds-space-inset-equal-3",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "equal",
+            "subitem": "3"
+          },
+          "path": [
+            "space",
+            "inset",
+            "equal",
+            "3"
+          ]
+        },
+        "4": {
+          "value": "2rem 2rem 2rem 2rem",
+          "comment": "Value equals 32px 32px 32px 32px",
+          "original": {
+            "value": "{space.4.value} {space.4.value} {space.4.value} {space.4.value}",
+            "comment": "Value equals 32px 32px 32px 32px"
+          },
+          "name": "eds-space-inset-equal-4",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "equal",
+            "subitem": "4"
+          },
+          "path": [
+            "space",
+            "inset",
+            "equal",
+            "4"
+          ]
+        },
+        "8": {
+          "value": "4rem 4rem 4rem 4rem",
+          "comment": "Value equals 64px 64px 64px 64px",
+          "original": {
+            "value": "{space.8.value} {space.8.value} {space.8.value} {space.8.value}",
+            "comment": "Value equals 64px 64px 64px 64px"
+          },
+          "name": "eds-space-inset-equal-8",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "equal",
+            "subitem": "8"
+          },
+          "path": [
+            "space",
+            "inset",
+            "equal",
+            "8"
+          ]
+        },
+        "0_25": {
+          "value": "0.125rem 0.125rem 0.125rem 0.125rem",
+          "comment": "Value equals 2px 2px 2px 2px",
+          "original": {
+            "value": "{space.0_25.value} {space.0_25.value} {space.0_25.value} {space.0_25.value}",
+            "comment": "Value equals 2px 2px 2px 2px"
+          },
+          "name": "eds-space-inset-equal-0-25",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "equal",
+            "subitem": "0_25"
+          },
+          "path": [
+            "space",
+            "inset",
+            "equal",
+            "0_25"
+          ]
+        },
+        "0_5": {
+          "value": "0.25rem 0.25rem 0.25rem 0.25rem",
+          "comment": "Value equals 4px 4px 4px 4px",
+          "original": {
+            "value": "{space.0_5.value} {space.0_5.value} {space.0_5.value} {space.0_5.value}",
+            "comment": "Value equals 4px 4px 4px 4px"
+          },
+          "name": "eds-space-inset-equal-0-5",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "equal",
+            "subitem": "0_5"
+          },
+          "path": [
+            "space",
+            "inset",
+            "equal",
+            "0_5"
+          ]
+        },
+        "0_75": {
+          "value": "0.375rem 0.375rem 0.375rem 0.375rem",
+          "comment": "Value equals 6px 6px 6px 6px",
+          "original": {
+            "value": "{space.0_75.value} {space.0_75.value} {space.0_75.value} {space.0_75.value}",
+            "comment": "Value equals 6px 6px 6px 6px"
+          },
+          "name": "eds-space-inset-equal-0-75",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "equal",
+            "subitem": "0_75"
+          },
+          "path": [
+            "space",
+            "inset",
+            "equal",
+            "0_75"
+          ]
+        },
+        "1_5": {
+          "value": "0.75rem 0.75rem 0.75rem 0.75rem",
+          "comment": "Value equals 12px",
+          "original": {
+            "value": "{space.1_5.value} {space.1_5.value} {space.1_5.value} {space.1_5.value}",
+            "comment": "Value equals 12px"
+          },
+          "name": "eds-space-inset-equal-1-5",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "equal",
+            "subitem": "1_5"
+          },
+          "path": [
+            "space",
+            "inset",
+            "equal",
+            "1_5"
+          ]
+        }
+      },
+      "stretch": {
+        "xs": {
+          "value": "0.125rem 0.25rem 0.125rem 0.25rem",
+          "comment": "value equal 2px 4px 2px 4px",
+          "original": {
+            "value": "{space.0_25.value} {space.0_5.value} {space.0_25.value} {space.0_5.value}",
+            "comment": "value equal 2px 4px 2px 4px"
+          },
+          "name": "eds-space-inset-stretch-xs",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "stretch",
+            "subitem": "xs"
+          },
+          "path": [
+            "space",
+            "inset",
+            "stretch",
+            "xs"
+          ]
+        },
+        "sm": {
+          "value": "0.25rem  0.5rem 0.25rem 0.5rem",
+          "comment": "value equal 4px 8px 4px 8px",
+          "original": {
+            "value": "{space.0_5.value}  {space.1.value} {space.0_5.value} {space.1.value}",
+            "comment": "value equal 4px 8px 4px 8px"
+          },
+          "name": "eds-space-inset-stretch-sm",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "stretch",
+            "subitem": "sm"
+          },
+          "path": [
+            "space",
+            "inset",
+            "stretch",
+            "sm"
+          ]
+        },
+        "md": {
+          "value": "0.5rem 1rem 0.5rem 1rem",
+          "comment": "value equal 8px 16px 8px 16px",
+          "original": {
+            "value": "{space.1.value} {space.2.value} {space.1.value} {space.2.value}",
+            "comment": "value equal 8px 16px 8px 16px"
+          },
+          "name": "eds-space-inset-stretch-md",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "stretch",
+            "subitem": "md"
+          },
+          "path": [
+            "space",
+            "inset",
+            "stretch",
+            "md"
+          ]
+        },
+        "lg": {
+          "value": "1rem 2rem 1rem 2rem",
+          "comment": "value equal 16px 32px 16px 32px",
+          "original": {
+            "value": "{space.2.value} {space.4.value} {space.2.value} {space.4.value}",
+            "comment": "value equal 16px 32px 16px 32px"
+          },
+          "name": "eds-space-inset-stretch-lg",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "stretch",
+            "subitem": "lg"
+          },
+          "path": [
+            "space",
+            "inset",
+            "stretch",
+            "lg"
+          ]
+        },
+        "xlg": {
+          "value": "2rem 4rem 2rem 4rem",
+          "comment": "value equal 32px 64px 32px 64px",
+          "original": {
+            "value": "{space.4.value} {space.8.value} {space.4.value} {space.8.value}",
+            "comment": "value equal 32px 64px 32px 64px"
+          },
+          "name": "eds-space-inset-stretch-xlg",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "stretch",
+            "subitem": "xlg"
+          },
+          "path": [
+            "space",
+            "inset",
+            "stretch",
+            "xlg"
+          ]
+        },
+        "xs-f": {
+          "value": "100% 0.25rem 100% 0.25rem",
+          "comment": "value equal 2px 100% 2px 100%",
+          "original": {
+            "value": "{space.fluid.value} {space.0_5.value} {space.fluid.value} {space.0_5.value}",
+            "comment": "value equal 2px 100% 2px 100%"
+          },
+          "name": "eds-space-inset-stretch-xs-f",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "stretch",
+            "subitem": "xs-f"
+          },
+          "path": [
+            "space",
+            "inset",
+            "stretch",
+            "xs-f"
+          ]
+        },
+        "sm-f": {
+          "value": "0.25rem  100% 0.25rem 100%",
+          "comment": "value equal 4px 100% 4px 100%",
+          "original": {
+            "value": "{space.0_5.value}  {space.fluid.value} {space.0_5.value} {space.fluid.value}",
+            "comment": "value equal 4px 100% 4px 100%"
+          },
+          "name": "eds-space-inset-stretch-sm-f",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "stretch",
+            "subitem": "sm-f"
+          },
+          "path": [
+            "space",
+            "inset",
+            "stretch",
+            "sm-f"
+          ]
+        },
+        "md-f": {
+          "value": "0.5rem 100% 0.5rem 100%",
+          "comment": "value equal 8px 100% 8px 100%",
+          "original": {
+            "value": "{space.1.value} {space.fluid.value} {space.1.value} {space.fluid.value}",
+            "comment": "value equal 8px 100% 8px 100%"
+          },
+          "name": "eds-space-inset-stretch-md-f",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "stretch",
+            "subitem": "md-f"
+          },
+          "path": [
+            "space",
+            "inset",
+            "stretch",
+            "md-f"
+          ]
+        },
+        "lg-f": {
+          "value": "1rem 100% 1rem 100%",
+          "comment": "value equal 16px 100% 16px 100%",
+          "original": {
+            "value": "{space.2.value} {space.fluid.value} {space.2.value} {space.fluid.value}",
+            "comment": "value equal 16px 100% 16px 100%"
+          },
+          "name": "eds-space-inset-stretch-lg-f",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "stretch",
+            "subitem": "lg-f"
+          },
+          "path": [
+            "space",
+            "inset",
+            "stretch",
+            "lg-f"
+          ]
+        },
+        "xlg-f": {
+          "value": "2rem 100% 2rem 100%",
+          "comment": "value equal 32px 100%32px 100%",
+          "original": {
+            "value": "{space.4.value} {space.fluid.value} {space.4.value} {space.fluid.value}",
+            "comment": "value equal 32px 100%32px 100%"
+          },
+          "name": "eds-space-inset-stretch-xlg-f",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "stretch",
+            "subitem": "xlg-f"
+          },
+          "path": [
+            "space",
+            "inset",
+            "stretch",
+            "xlg-f"
+          ]
+        }
+      },
+      "squish": {
+        "xs": {
+          "value": "0.375rem 0.125rem 0.375rem 0.125rem",
+          "comment": "value equal 6px 4px 6px 4px",
+          "original": {
+            "value": "{space.0_75.value} {space.0_25.value} {space.0_75.value} {space.0_25.value}",
+            "comment": "value equal 6px 4px 6px 4px"
+          },
+          "name": "eds-space-inset-squish-xs",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "squish",
+            "subitem": "xs"
+          },
+          "path": [
+            "space",
+            "inset",
+            "squish",
+            "xs"
+          ]
+        },
+        "sm": {
+          "value": "0.75rem  0.5rem 0.75rem 0.5rem",
+          "comment": "value equal 12px 8px 12px 8px",
+          "original": {
+            "value": "{space.1_5.value}  {space.1.value} {space.1_5.value} {space.1.value}",
+            "comment": "value equal 12px 8px 12px 8px"
+          },
+          "name": "eds-space-inset-squish-sm",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "squish",
+            "subitem": "sm"
+          },
+          "path": [
+            "space",
+            "inset",
+            "squish",
+            "sm"
+          ]
+        },
+        "md": {
+          "value": "1.5rem 1rem 1.5rem 1rem",
+          "comment": "value equal 24px 16px 24px 16px",
+          "original": {
+            "value": "{space.3.value} {space.2.value} {space.3.value} {space.2.value}",
+            "comment": "value equal 24px 16px 24px 16px"
+          },
+          "name": "eds-space-inset-squish-md",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "squish",
+            "subitem": "md"
+          },
+          "path": [
+            "space",
+            "inset",
+            "squish",
+            "md"
+          ]
+        },
+        "lg": {
+          "value": "3rem 2rem 3rem 2rem",
+          "comment": "value equal 48px 32px 48px 32px",
+          "original": {
+            "value": "{space.6.value} {space.4.value} {space.6.value} {space.4.value}",
+            "comment": "value equal 48px 32px 48px 32px"
+          },
+          "name": "eds-space-inset-squish-lg",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "squish",
+            "subitem": "lg"
+          },
+          "path": [
+            "space",
+            "inset",
+            "squish",
+            "lg"
+          ]
+        },
+        "xlg": {
+          "value": "6rem 4rem 6rem 4rem",
+          "comment": "value equal 96px 64px 96px 64px",
+          "original": {
+            "value": "{space.12.value} {space.8.value} {space.12.value} {space.8.value}",
+            "comment": "value equal 96px 64px 96px 64px"
+          },
+          "name": "eds-space-inset-squish-xlg",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "squish",
+            "subitem": "xlg"
+          },
+          "path": [
+            "space",
+            "inset",
+            "squish",
+            "xlg"
+          ]
+        },
+        "xs-f": {
+          "value": "100% 0.125rem 100% 0.125rem",
+          "comment": "value equal 100% 4px 100% 4px",
+          "original": {
+            "value": "{space.fluid.value} {space.0_25.value} {space.fluid.value} {space.0_25.value}",
+            "comment": "value equal 100% 4px 100% 4px"
+          },
+          "name": "eds-space-inset-squish-xs-f",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "squish",
+            "subitem": "xs-f"
+          },
+          "path": [
+            "space",
+            "inset",
+            "squish",
+            "xs-f"
+          ]
+        },
+        "sm-f": {
+          "value": "100%  0.5rem 100% 0.5rem",
+          "comment": "value equal 100% 8px 100% 8px",
+          "original": {
+            "value": "{space.fluid.value}  {space.1.value} {space.fluid.value} {space.1.value}",
+            "comment": "value equal 100% 8px 100% 8px"
+          },
+          "name": "eds-space-inset-squish-sm-f",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "squish",
+            "subitem": "sm-f"
+          },
+          "path": [
+            "space",
+            "inset",
+            "squish",
+            "sm-f"
+          ]
+        },
+        "md-f": {
+          "value": "100% 1rem 100% 1rem",
+          "comment": "value equal 100% 16px 100% 16px",
+          "original": {
+            "value": "{space.fluid.value} {space.2.value} {space.fluid.value} {space.2.value}",
+            "comment": "value equal 100% 16px 100% 16px"
+          },
+          "name": "eds-space-inset-squish-md-f",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "squish",
+            "subitem": "md-f"
+          },
+          "path": [
+            "space",
+            "inset",
+            "squish",
+            "md-f"
+          ]
+        },
+        "lg-f": {
+          "value": "100% 2rem 100% 2rem",
+          "comment": "value equal 100% 32px 100% 32px",
+          "original": {
+            "value": "{space.fluid.value} {space.4.value} {space.fluid.value} {space.4.value}",
+            "comment": "value equal 100% 32px 100% 32px"
+          },
+          "name": "eds-space-inset-squish-lg-f",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "squish",
+            "subitem": "lg-f"
+          },
+          "path": [
+            "space",
+            "inset",
+            "squish",
+            "lg-f"
+          ]
+        },
+        "xlg-f": {
+          "value": "100% 4rem 100% 4rem",
+          "comment": "value equal 100% 64px 100% 64px",
+          "original": {
+            "value": "{space.fluid.value} {space.8.value} {space.fluid.value} {space.8.value}",
+            "comment": "value equal 100% 64px 100% 64px"
+          },
+          "name": "eds-space-inset-squish-xlg-f",
+          "attributes": {
+            "category": "space",
+            "type": "inset",
+            "item": "squish",
+            "subitem": "xlg-f"
+          },
+          "path": [
+            "space",
+            "inset",
+            "squish",
+            "xlg-f"
+          ]
+        }
+      }
+    },
+    "stack": {
+      "1": {
+        "value": "0 0 0.5rem 0",
+        "comment": "Value equals 0 0 8px 0",
+        "original": {
+          "value": "0 0 {space.1.value} 0",
+          "comment": "Value equals 0 0 8px 0"
+        },
+        "name": "eds-space-stack-1",
+        "attributes": {
+          "category": "space",
+          "type": "stack",
+          "item": "1"
+        },
+        "path": [
+          "space",
+          "stack",
+          "1"
+        ]
+      },
+      "2": {
+        "value": "0 0 1rem 0",
+        "comment": "Value equals 0 0 16px 0",
+        "original": {
+          "value": "0 0 {space.2.value} 0",
+          "comment": "Value equals 0 0 16px 0"
+        },
+        "name": "eds-space-stack-2",
+        "attributes": {
+          "category": "space",
+          "type": "stack",
+          "item": "2"
+        },
+        "path": [
+          "space",
+          "stack",
+          "2"
+        ]
+      },
+      "3": {
+        "value": "0 0 1.5rem 0",
+        "comment": "Value equals 0 0 24px 0",
+        "original": {
+          "value": "0 0 {space.3.value} 0",
+          "comment": "Value equals 0 0 24px 0"
+        },
+        "name": "eds-space-stack-3",
+        "attributes": {
+          "category": "space",
+          "type": "stack",
+          "item": "3"
+        },
+        "path": [
+          "space",
+          "stack",
+          "3"
+        ]
+      },
+      "4": {
+        "value": "0 0 2rem 0",
+        "comment": "Value equals 0 0 32px 0",
+        "original": {
+          "value": "0 0 {space.4.value} 0",
+          "comment": "Value equals 0 0 32px 0"
+        },
+        "name": "eds-space-stack-4",
+        "attributes": {
+          "category": "space",
+          "type": "stack",
+          "item": "4"
+        },
+        "path": [
+          "space",
+          "stack",
+          "4"
+        ]
+      },
+      "8": {
+        "value": "0 0 4rem 0",
+        "comment": "Value equals 0 0 64px 0",
+        "original": {
+          "value": "0 0 {space.8.value} 0",
+          "comment": "Value equals 0 0 64px 0"
+        },
+        "name": "eds-space-stack-8",
+        "attributes": {
+          "category": "space",
+          "type": "stack",
+          "item": "8"
+        },
+        "path": [
+          "space",
+          "stack",
+          "8"
+        ]
+      },
+      "0_25": {
+        "value": "0 0 0.125rem 0",
+        "comment": "Value equals 0 0 2px 0",
+        "original": {
+          "value": "0 0 {space.0_25.value} 0",
+          "comment": "Value equals 0 0 2px 0"
+        },
+        "name": "eds-space-stack-0-25",
+        "attributes": {
+          "category": "space",
+          "type": "stack",
+          "item": "0_25"
+        },
+        "path": [
+          "space",
+          "stack",
+          "0_25"
+        ]
+      },
+      "0_5": {
+        "value": "0 0 0.25rem 0",
+        "comment": "Value equals 0 0 4px 0",
+        "original": {
+          "value": "0 0 {space.0_5.value} 0",
+          "comment": "Value equals 0 0 4px 0"
+        },
+        "name": "eds-space-stack-0-5",
+        "attributes": {
+          "category": "space",
+          "type": "stack",
+          "item": "0_5"
+        },
+        "path": [
+          "space",
+          "stack",
+          "0_5"
+        ]
+      },
+      "0_75": {
+        "value": "0 0 0.375rem 0",
+        "comment": "Value equals 0 0 6px 0",
+        "original": {
+          "value": "0 0 {space.0_75.value} 0",
+          "comment": "Value equals 0 0 6px 0"
+        },
+        "name": "eds-space-stack-0-75",
+        "attributes": {
+          "category": "space",
+          "type": "stack",
+          "item": "0_75"
+        },
+        "path": [
+          "space",
+          "stack",
+          "0_75"
+        ]
+      },
+      "1_5": {
+        "value": "0 0 0.75rem 0",
+        "comment": "Value equals 0 0 12px 0",
+        "original": {
+          "value": "0 0 {space.1_5.value} 0",
+          "comment": "Value equals 0 0 12px 0"
+        },
+        "name": "eds-space-stack-1-5",
+        "attributes": {
+          "category": "space",
+          "type": "stack",
+          "item": "1_5"
+        },
+        "path": [
+          "space",
+          "stack",
+          "1_5"
+        ]
+      }
+    }
+  }
+}

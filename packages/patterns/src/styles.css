@@ -45,8 +45,9 @@
     background: var(--eds-status-success);
     border-radius: var(--eds-radius-pill);
     color: var(--eds-text-inverse);
-    font-size: 0.75rem;
-    font-weight: 700;
+    font-family: var(--eds-typography-detail-medium-font-family);
+    font-size: var(--eds-typography-detail-medium-font-size);
+    font-weight: var(--eds-typography-detail-medium-font-weight);
     inset: var(--eds-space-3) auto auto var(--eds-space-3);
     padding: var(--eds-space-1) var(--eds-space-2);
     position: absolute;
@@ -60,7 +61,7 @@
     color: var(--eds-blue-700);
     cursor: pointer;
     display: flex;
-    font-size: 1.5rem;
+    font-size: var(--eds-font-size-600);
     height: 44px;
     inset: var(--eds-space-3) var(--eds-space-3) auto auto;
     justify-content: center;
@@ -75,7 +76,13 @@
 
   .eds-vehicle-card__content { padding: var(--eds-space-4); }
   .eds-vehicle-card__price-row { align-items: baseline; display: flex; gap: var(--eds-space-2); }
-  .eds-vehicle-card__price { color: var(--eds-text-primary); font-family: var(--eds-font-family-data); font-size: 1.35rem; }
+  .eds-vehicle-card__price {
+    color: var(--eds-text-primary);
+    font-family: var(--eds-font-family-data);
+    font-size: var(--eds-typography-title-large-font-size);
+    font-weight: var(--eds-font-weight-bold);
+    line-height: var(--eds-typography-title-large-line-height);
+  }
 
   .eds-inventory-filter-bar {
     align-items: center;

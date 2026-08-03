@@ -1,7 +1,7 @@
 {
   "name": "Edmunds Design System",
   "version": "0.1.0",
-  "generatedAt": "2026-07-31T00:37:18.770Z",
+  "contentHash": "sha256:57c9aa439d4ed50a8236dcd379cd903e9a920efc9f1ea34f780419d6726ff6d9",
   "items": [
     {
       "kind": "doc",
@@ -86,10 +86,40 @@
         },
         {
           "title": "Modes",
-          "body": "Light is the default. Dark and high-contrast modes override semantic roles without changing component source."
+          "body": "Light is the current shipped mode. Dark and high-contrast remain planned and must not be advertised until complete semantic overrides exist."
         }
       ],
       "dense": "DTCG tokens generate CSS/TS/Sass/Figma. Apps use semantic --eds-* roles, not primitive colors. Modes override semantics."
+    },
+    {
+      "kind": "doc",
+      "id": "doc:typography",
+      "title": "Typography",
+      "category": "foundation",
+      "description": "The Edmunds type hierarchy shared by Figma, components, product code, and agents.",
+      "sections": [
+        {
+          "title": "Typeface",
+          "body": "Helvetica Neue is the canonical sans-serif family, with Helvetica, Arial, and the system sans-serif as fallbacks. Monospace is reserved for data and code."
+        },
+        {
+          "title": "Semantic roles",
+          "body": "Choose from Display, Headline, Title, Body, and Detail, each with large, medium, and small variants. Product code consumes a complete role rather than assembling arbitrary size, weight, and line-height values."
+        },
+        {
+          "title": "Hierarchy is separate from HTML",
+          "body": "Choose h1 through h6 for document structure and choose a typography role for visual hierarchy. Never select a heading level because of its default visual size."
+        },
+        {
+          "title": "Accessibility",
+          "body": "Body copy defaults to 16px with unitless line height. Text must survive browser zoom, user font substitution, and 200% text resizing without clipping or loss of content."
+        },
+        {
+          "title": "Agent rule",
+          "body": "Use semantic --eds-typography-* variables or the EDS Heading and Text components. Do not introduce arbitrary font sizes, weights, line heights, or letter spacing in product UI."
+        }
+      ],
+      "dense": "Typography: Helvetica Neue stack; roles display|headline|title|body|detail with large|medium|small variants. HTML semantics and visual role are independent. Use --eds-typography-* or Heading/Text; no arbitrary type values."
     },
     {
       "kind": "doc",
@@ -159,6 +189,10 @@
           "body": "Load Bootstrap and EDS in explicit layers before replacing controls. Verify a smoke page with Button, TextField, Card, and VehicleCard."
         },
         {
+          "title": "Use the Venom adapter",
+          "body": "When preserving existing Venom APIs, install @edmunds/eds-venom-adapter, import its styles after EDS core styles, and use EDSButton with the existing type, size, style, and icon props."
+        },
+        {
           "title": "Migrate in product slices",
           "body": "Apply tokens and shell, then replace shared controls and automotive compositions, then complete routes."
         },
@@ -220,6 +254,21 @@
           "default": "false"
         },
         {
+          "name": "startIcon",
+          "type": "ReactNode",
+          "description": "Optional content rendered before the label."
+        },
+        {
+          "name": "endIcon",
+          "type": "ReactNode",
+          "description": "Optional content rendered after the label."
+        },
+        {
+          "name": "children",
+          "type": "ReactNode",
+          "description": "Optional visible content override; label remains the accessible name."
+        },
+        {
           "name": "onAction",
           "type": "(event) => void | Promise<void>",
           "description": "Action callback with automatic async progress."
@@ -273,10 +322,72 @@
         "IconButton",
         "Link"
       ],
+      "source": {
+        "path": "packages/core/src/Button/Button.tsx",
+        "propsType": "ButtonProps"
+      },
       "figma": {
-        "componentKey": "pending:Button",
-        "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
-        "status": "pending"
+        "status": "adapter-mapped",
+        "fileKey": "T8rUSiQrbvY1TbW2VSyCj6",
+        "nodeId": "6001:19580",
+        "nodeUrl": "https://www.figma.com/design/T8rUSiQrbvY1TbW2VSyCj6/Buttons?node-id=6001-19580",
+        "target": {
+          "componentName": "EDSButton",
+          "importPath": "@edmunds/eds-venom-adapter/EDSButton",
+          "sourcePath": "packages/venom-adapter/src/EDSButton/EDSButton.tsx",
+          "properties": [
+            {
+              "figmaName": "Type",
+              "propName": "type",
+              "kind": "enum",
+              "mapping": {
+                "Primary 1": "primary-1",
+                "Primary 2": "primary-2",
+                "Secondary 1": "secondary-1",
+                "Secondary 2": "secondary-2"
+              }
+            },
+            {
+              "figmaName": "Size",
+              "propName": "size",
+              "kind": "enum",
+              "mapping": {
+                "Small": "small",
+                "Medium": "medium",
+                "Large": "large"
+              }
+            },
+            {
+              "figmaName": "Style",
+              "propName": "style",
+              "kind": "enum",
+              "mapping": {
+                "Squared": "squared",
+                "Rounded": "rounded",
+                "Circular": "circular"
+              }
+            },
+            {
+              "figmaName": "Fluid",
+              "propName": "isFluid",
+              "kind": "boolean"
+            },
+            {
+              "figmaName": "State",
+              "propName": "isDisabled",
+              "kind": "enum",
+              "mapping": {
+                "Default": false,
+                "Disabled": true
+              }
+            },
+            {
+              "figmaName": "Button Text",
+              "propName": "children",
+              "kind": "string"
+            }
+          ]
+        }
       },
       "dense": "Button action trigger. import @edmunds/eds-core/Button. label required; variants primary|secondary|tertiary|destructive; async onAction manages loading."
     },
@@ -321,6 +432,16 @@
           "type": "boolean",
           "description": "Visually hides but preserves the label.",
           "default": "false"
+        },
+        {
+          "name": "startContent",
+          "type": "ReactNode",
+          "description": "Optional content rendered before the input."
+        },
+        {
+          "name": "endContent",
+          "type": "ReactNode",
+          "description": "Optional content rendered after the input."
         },
         {
           "name": "size",
@@ -378,9 +499,11 @@
         "SearchInput",
         "Select"
       ],
+      "source": {
+        "path": "packages/core/src/TextField/TextField.tsx",
+        "propsType": "TextFieldProps"
+      },
       "figma": {
-        "componentKey": "pending:TextField",
-        "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
         "status": "pending"
       },
       "dense": "TextField labeled text input. import @edmunds/eds-core/TextField. label required; description and errorMessage wire aria-describedby."
@@ -424,10 +547,20 @@
           "required": true
         },
         {
+          "name": "trim",
+          "type": "string",
+          "description": "Vehicle trim and drivetrain label."
+        },
+        {
           "name": "price",
           "type": "number",
           "description": "Advertised price formatted as USD.",
           "required": true
+        },
+        {
+          "name": "monthlyPayment",
+          "type": "number",
+          "description": "Optional estimated monthly payment."
         },
         {
           "name": "mileage",
@@ -435,10 +568,40 @@
           "description": "Odometer reading formatted in miles."
         },
         {
+          "name": "imageUrl",
+          "type": "string",
+          "description": "Vehicle image URL."
+        },
+        {
+          "name": "imageAlt",
+          "type": "string",
+          "description": "Useful alternative text for the vehicle image."
+        },
+        {
+          "name": "dealLabel",
+          "type": "string",
+          "description": "Short deal-quality label."
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "description": "Dealer or inventory location."
+        },
+        {
           "name": "isSaved",
           "type": "boolean",
           "description": "Saved state exposed with aria-pressed.",
           "default": "false"
+        },
+        {
+          "name": "onSave",
+          "type": "() => void",
+          "description": "Called when the saved state is toggled."
+        },
+        {
+          "name": "onViewDetails",
+          "type": "() => void",
+          "description": "Called when the details action is activated."
         }
       ],
       "anatomy": [
@@ -492,9 +655,11 @@
         "Button",
         "InventoryFilterBar"
       ],
+      "source": {
+        "path": "packages/patterns/src/VehicleCard/VehicleCard.tsx",
+        "propsType": "VehicleCardProps"
+      },
       "figma": {
-        "componentKey": "pending:VehicleCard",
-        "nodeUrl": "https://www.figma.com/file/EDS/Edmunds-Design-System",
         "status": "pending"
       },
       "dense": "VehicleCard inventory result. import @edmunds/eds-patterns/VehicleCard. year/make/model/price required; save is aria-pressed; use in listing grids."
@@ -516,6 +681,429 @@
       "skeleton": "InventoryResultsPage\n├── page heading + saved-search action\n├── InventoryFilterBar\n├── optional status Alert\n└── results grid\n    └── VehicleCard × n",
       "maturity": "beta",
       "dense": "Inventory results template: heading, filter bar, optional alert, responsive VehicleCard grid."
+    }
+  ],
+  "sourceComponents": [
+    {
+      "id": "source-component:EDSButton",
+      "name": "EDSButton",
+      "source": "node-site-venom",
+      "sourcePath": "client/site-modules/edmunds-design-system/components/eds-button/eds-button.jsx",
+      "implementation": "React component backed by Reactstrap Button",
+      "adapter": "reactstrap",
+      "adapterPackage": "@edmunds/eds-venom-adapter",
+      "canonicalComponent": "@edmunds/eds-core/Button",
+      "props": [
+        {
+          "name": "children",
+          "type": "React.ReactNode",
+          "required": true
+        },
+        {
+          "name": "tag",
+          "type": "React.ElementType",
+          "default": "undefined"
+        },
+        {
+          "name": "type",
+          "type": "'primary-1' | 'secondary-1' | 'primary-2' | 'secondary-2'",
+          "default": "'primary-1'"
+        },
+        {
+          "name": "size",
+          "type": "'small' | 'medium' | 'large'",
+          "default": "'medium'"
+        },
+        {
+          "name": "style",
+          "type": "'squared' | 'rounded' | 'circular'",
+          "default": "'squared'"
+        },
+        {
+          "name": "iconName",
+          "type": "string",
+          "default": "null"
+        },
+        {
+          "name": "prefixIconName",
+          "type": "string",
+          "default": "null"
+        },
+        {
+          "name": "suffixIconName",
+          "type": "string",
+          "default": "null"
+        },
+        {
+          "name": "iconSource",
+          "type": "'edmunds' | 'material'",
+          "default": "'edmunds'"
+        },
+        {
+          "name": "iconStyle",
+          "type": "'filled' | 'outlined'",
+          "default": "'filled'"
+        },
+        {
+          "name": "iconPosition",
+          "type": "'left' | 'right'",
+          "default": "'left'"
+        },
+        {
+          "name": "isFluid",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "isDisabled",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "hideLabel",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "href",
+          "type": "string",
+          "default": "undefined"
+        },
+        {
+          "name": "onClick",
+          "type": "(...args: unknown[]) => unknown",
+          "default": "undefined"
+        },
+        {
+          "name": "className",
+          "type": "string",
+          "default": "''"
+        }
+      ],
+      "notes": [
+        "Renders an anchor when href is provided, otherwise a button.",
+        "Disabled anchors expose aria-disabled and data-disabled instead of native disabled behavior.",
+        "The public EDS contract owns the API; Reactstrap is an implementation detail.",
+        "Import @edmunds/eds-venom-adapter/styles.css after @edmunds/eds-core/styles.css for exact numbered-variant styling."
+      ],
+      "figma": {
+        "fileKey": "T8rUSiQrbvY1TbW2VSyCj6",
+        "nodeId": "6001:19580",
+        "nodeUrl": "https://www.figma.com/design/T8rUSiQrbvY1TbW2VSyCj6/Buttons?node-id=6001-19580",
+        "status": "mapped"
+      }
+    },
+    {
+      "id": "source-component:EDSTextInput",
+      "name": "EDSTextInput",
+      "source": "node-site-venom",
+      "sourcePath": "client/site-modules/edmunds-design-system/components/text-input/eds-text-input.jsx",
+      "implementation": "Controlled visual input with EDSLabel and status messaging",
+      "props": [
+        {
+          "name": "id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "labelText",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "isLabelNested",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "isLabelStrong",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "labelSize",
+          "type": "'base' | 'large'",
+          "default": "'base'"
+        },
+        {
+          "name": "showLabelOptionalText",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "showLabelRequiredText",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "showLabelRequiredSymbol",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "labelIconName",
+          "type": "PropTypes.oneOf(iconList)",
+          "default": "''"
+        },
+        {
+          "name": "prefixIconName",
+          "type": "PropTypes.oneOf(iconList)",
+          "default": "''"
+        },
+        {
+          "name": "suffixIconName",
+          "type": "PropTypes.oneOf(iconList)",
+          "default": "''"
+        },
+        {
+          "name": "suffixText",
+          "type": "string",
+          "default": "''"
+        },
+        {
+          "name": "inputText",
+          "type": "string",
+          "default": "''"
+        },
+        {
+          "name": "placeholderText",
+          "type": "string",
+          "default": "''"
+        },
+        {
+          "name": "warningText",
+          "type": "string",
+          "default": "''"
+        },
+        {
+          "name": "errorText",
+          "type": "string",
+          "default": "''"
+        },
+        {
+          "name": "informationalText",
+          "type": "string",
+          "default": "''"
+        },
+        {
+          "name": "size",
+          "type": "'small' | 'medium' | 'large'",
+          "default": "'medium'"
+        },
+        {
+          "name": "borderStyle",
+          "type": "'squared' | 'rounded'",
+          "default": "'squared'"
+        },
+        {
+          "name": "status",
+          "type": "'default' | 'disabled' | 'success' | 'error' | 'warning'",
+          "default": "'default'"
+        },
+        {
+          "name": "isFluid",
+          "type": "boolean",
+          "default": "true"
+        }
+      ],
+      "notes": [
+        "The status prop controls disabled, success, warning, and error presentation.",
+        "Nested labels change the effective input size to small.",
+        "Use the source contract when migrating Venom forms; the canonical EDS TextField API may differ."
+      ]
+    },
+    {
+      "id": "source-component:EDSDropdown",
+      "name": "EDSDropdown",
+      "source": "node-site-venom",
+      "sourcePath": "client/site-modules/edmunds-design-system/components/dropdown/eds-dropdown.jsx",
+      "implementation": "Native select with EDSLabel, status messaging, and rich option presentation",
+      "props": [
+        {
+          "name": "id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "labelText",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "isLabelNested",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "isLabelStrong",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "labelSize",
+          "type": "'base' | 'large'",
+          "default": "'base'"
+        },
+        {
+          "name": "showLabelOptionalText",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "showLabelRequiredText",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "showLabelRequiredSymbol",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "labelIconName",
+          "type": "PropTypes.oneOf(iconList)",
+          "default": "''"
+        },
+        {
+          "name": "prefixIconName",
+          "type": "PropTypes.oneOf(iconList)",
+          "default": "''"
+        },
+        {
+          "name": "options",
+          "type": "Array<object>",
+          "required": true
+        },
+        {
+          "name": "value",
+          "type": "string | number | boolean",
+          "default": "''"
+        },
+        {
+          "name": "placeholderText",
+          "type": "string",
+          "default": "''"
+        },
+        {
+          "name": "warningText",
+          "type": "string",
+          "default": "''"
+        },
+        {
+          "name": "errorText",
+          "type": "string",
+          "default": "''"
+        },
+        {
+          "name": "informationalText",
+          "type": "string",
+          "default": "''"
+        },
+        {
+          "name": "size",
+          "type": "'small' | 'medium' | 'large'",
+          "default": "'medium'"
+        },
+        {
+          "name": "borderStyle",
+          "type": "'squared' | 'rounded'",
+          "default": "'squared'"
+        },
+        {
+          "name": "status",
+          "type": "'default' | 'disabled' | 'success' | 'error' | 'warning'",
+          "default": "'default'"
+        },
+        {
+          "name": "isFluid",
+          "type": "boolean",
+          "default": "true"
+        },
+        {
+          "name": "onChange",
+          "type": "(...args: unknown[]) => unknown",
+          "default": "null"
+        },
+        {
+          "name": "isPlaceholderDisabled",
+          "type": "boolean",
+          "default": "true"
+        }
+      ],
+      "notes": [
+        "Options support primary, secondary, and highlighted display text while rendering a native select.",
+        "The selected option determines whether nested labels and compact sizing are used.",
+        "The control composes EDSLabel and EDSDropdownLabel internally."
+      ]
+    },
+    {
+      "id": "source-component:EDSLabel",
+      "name": "EDSLabel",
+      "source": "node-site-venom",
+      "sourcePath": "client/site-modules/edmunds-design-system/components/label/eds-label.jsx",
+      "implementation": "Native label with optional, required, nested, and icon affordances",
+      "props": [
+        {
+          "name": "text",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "isFor",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "isNested",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "isStrong",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "size",
+          "type": "'base' | 'large'",
+          "default": "'base'"
+        },
+        {
+          "name": "showOptionalText",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "showRequiredText",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "showRequiredSymbol",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "iconName",
+          "type": "PropTypes.oneOf(iconList)",
+          "default": "''"
+        },
+        {
+          "name": "inputGroupSize",
+          "type": "'small' | 'medium' | 'large'",
+          "default": "'medium'"
+        },
+        {
+          "name": "disabled",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "notes": [
+        "Always associate the label with a control through isFor.",
+        "Use one required indicator mode per field to avoid duplicate announcements.",
+        "Text input and dropdown source contracts compose this label."
+      ]
     }
   ]
 }

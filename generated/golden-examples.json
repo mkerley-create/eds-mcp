@@ -1,6 +1,6 @@
 {
   "version": "0.1.0",
-  "generatedAt": "2026-07-31T00:37:18.770Z",
+  "contentHash": "sha256:57c9aa439d4ed50a8236dcd379cd903e9a920efc9f1ea34f780419d6726ff6d9",
   "instruction": "Use these examples as the primary reference for EDS imports, prop names, and composition. Retrieve the full record through `eds component <Name>` or MCP get before implementation.",
   "components": [
     {

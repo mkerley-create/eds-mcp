@@ -1,0 +1,23 @@
+{
+  "source": "node-site-venom",
+  "remote": "git@gitlab.com:edmundscom/edmunds/node-site-venom.git",
+  "commit": "8ce36819f6170be24adf7fd312d826af53999bd1",
+  "contracts": [
+    {
+      "id": "source-component:EDSButton",
+      "sourcePath": "client/site-modules/edmunds-design-system/components/eds-button/eds-button.jsx"
+    },
+    {
+      "id": "source-component:EDSTextInput",
+      "sourcePath": "client/site-modules/edmunds-design-system/components/text-input/eds-text-input.jsx"
+    },
+    {
+      "id": "source-component:EDSDropdown",
+      "sourcePath": "client/site-modules/edmunds-design-system/components/dropdown/eds-dropdown.jsx"
+    },
+    {
+      "id": "source-component:EDSLabel",
+      "sourcePath": "client/site-modules/edmunds-design-system/components/label/eds-label.jsx"
+    }
+  ]
+}

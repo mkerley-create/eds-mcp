@@ -1,0 +1,17 @@
+{
+  "name": "@edmunds/eds-venom-adapter",
+  "version": "0.1.0",
+  "type": "module",
+  "sideEffects": ["**/*.css"],
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "@edmunds/eds-core": "workspace:*"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./EDSButton": "./src/EDSButton/index.ts",
+    "./styles.css": "./src/styles.css"
+  }
+}

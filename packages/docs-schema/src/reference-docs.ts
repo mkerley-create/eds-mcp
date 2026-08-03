@@ -65,9 +65,40 @@ export const tokensDoc = defineReferenceDoc({
   sections: [
     {title: 'Use semantic roles', body: 'Build product UI with surface, text, action, status, price, and border roles. Primitive ramps are inputs to the theme rather than app-level choices.'},
     {title: 'Generated outputs', body: 'One token source produces CSS custom properties, TypeScript, Bootstrap Sass variables, registry data, and Figma Variables.'},
-    {title: 'Modes', body: 'Light is the default. Dark and high-contrast modes override semantic roles without changing component source.'},
+    {title: 'Modes', body: 'Light is the current shipped mode. Dark and high-contrast remain planned and must not be advertised until complete semantic overrides exist.'},
   ],
   dense: 'DTCG tokens generate CSS/TS/Sass/Figma. Apps use semantic --eds-* roles, not primitive colors. Modes override semantics.',
+});
+
+export const typographyDoc = defineReferenceDoc({
+  kind: 'doc',
+  id: 'doc:typography',
+  title: 'Typography',
+  category: 'foundation',
+  description: 'The Edmunds type hierarchy shared by Figma, components, product code, and agents.',
+  sections: [
+    {
+      title: 'Typeface',
+      body: 'Helvetica Neue is the canonical sans-serif family, with Helvetica, Arial, and the system sans-serif as fallbacks. Monospace is reserved for data and code.',
+    },
+    {
+      title: 'Semantic roles',
+      body: 'Choose from Display, Headline, Title, Body, and Detail, each with large, medium, and small variants. Product code consumes a complete role rather than assembling arbitrary size, weight, and line-height values.',
+    },
+    {
+      title: 'Hierarchy is separate from HTML',
+      body: 'Choose h1 through h6 for document structure and choose a typography role for visual hierarchy. Never select a heading level because of its default visual size.',
+    },
+    {
+      title: 'Accessibility',
+      body: 'Body copy defaults to 16px with unitless line height. Text must survive browser zoom, user font substitution, and 200% text resizing without clipping or loss of content.',
+    },
+    {
+      title: 'Agent rule',
+      body: 'Use semantic --eds-typography-* variables or the EDS Heading and Text components. Do not introduce arbitrary font sizes, weights, line heights, or letter spacing in product UI.',
+    },
+  ],
+  dense: 'Typography: Helvetica Neue stack; roles display|headline|title|body|detail with large|medium|small variants. HTML semantics and visual role are independent. Use --eds-typography-* or Heading/Text; no arbitrary type values.',
 });
 
 export const accessibilityDoc = defineReferenceDoc({
@@ -109,6 +140,7 @@ export const migrationDoc = defineReferenceDoc({
   description: 'Introduce EDS one route at a time without changing product behavior.',
   sections: [
     {title: 'Layer first', body: 'Load Bootstrap and EDS in explicit layers before replacing controls. Verify a smoke page with Button, TextField, Card, and VehicleCard.'},
+    {title: 'Use the Venom adapter', body: 'When preserving existing Venom APIs, install @edmunds/eds-venom-adapter, import its styles after EDS core styles, and use EDSButton with the existing type, size, style, and icon props.'},
     {title: 'Migrate in product slices', body: 'Apply tokens and shell, then replace shared controls and automotive compositions, then complete routes.'},
     {title: 'Keep behavior intact', body: 'Do not mix the visual migration with changes to routing, data fetching, analytics, SEO, or business rules.'},
   ],
@@ -119,6 +151,7 @@ export const referenceDocs = [
   gettingStartedDoc,
   principlesDoc,
   tokensDoc,
+  typographyDoc,
   accessibilityDoc,
   workingWithAiDoc,
   migrationDoc,
